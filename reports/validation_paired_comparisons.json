@@ -1,0 +1,983 @@
+{
+  "comparisons": [
+    {
+      "first": [
+        "A2",
+        "opinion"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.002339680989583315,
+            0.05633544921875
+          ],
+          "difference": 0.022115071614583343,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.037382693544660374,
+            -0.0022450410121780534
+          ],
+          "difference": -0.01889383586339425,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            0.02355349060953671,
+            0.04518339124944354
+          ],
+          "difference": 0.034368440929490124,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            -0.01713829838507383,
+            0.015113871635610732
+          ],
+          "difference": -0.004275829949597104,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.04332549448019456,
+            0.010711621352613956
+          ],
+          "difference": -0.018171836366607214,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            0.005942876213655468,
+            0.09085127740508261
+          ],
+          "difference": 0.04358805353749415,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.024860080314896116,
+        "math_train_162": 0.02256885524178398,
+        "math_train_359": -0.051452928763730754,
+        "math_train_497": -0.018943191629585965
+      },
+      "reference": [
+        "I0",
+        "opinion"
+      ],
+      "rollout_metrics": {
+        "final_accuracy": {
+          "ci95": [
+            -0.09635416666666669,
+            0.018229166666666657
+          ],
+          "difference": -0.03841145833333334,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "final_wasserstein": {
+          "ci95": [
+            -0.008756001790364582,
+            0.09924062093098958
+          ],
+          "difference": 0.05181376139322917,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      }
+    },
+    {
+      "first": [
+        "A0",
+        "opinion"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.0018157958984374612,
+            0.055694580078125
+          ],
+          "difference": 0.021769205729166685,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.0353717504173565,
+            -0.002984978440988023
+          ],
+          "difference": -0.0163853427586362,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            0.018366563514423423,
+            0.045133100138612825
+          ],
+          "difference": 0.032537834187331,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            -0.030630929220461685,
+            0.0040157004830918275
+          ],
+          "difference": -0.016923762562974842,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.041030011663665704,
+            0.02025065557333522
+          ],
+          "difference": -0.010777090458704376,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            0.010336823333437828,
+            0.09805827270792492
+          ],
+          "difference": 0.04998090676576358,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.012592876509130768,
+        "math_train_162": 0.03119849960082388,
+        "math_train_359": -0.0512030308640761,
+        "math_train_497": -0.010510954062434519
+      },
+      "reference": [
+        "I0",
+        "opinion"
+      ],
+      "rollout_metrics": {
+        "final_accuracy": {
+          "ci95": [
+            -0.090509033203125,
+            0.019775390625
+          ],
+          "difference": -0.03125,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "final_wasserstein": {
+          "ci95": [
+            -0.02538045247395833,
+            0.09268697102864584
+          ],
+          "difference": 0.03899637858072917,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      }
+    },
+    {
+      "first": [
+        "A2",
+        "opinion"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.008453369140625028,
+            0.00773696899414061
+          ],
+          "difference": 0.0003458658854166574,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.007739885230491281,
+            0.0016825029890219223
+          ],
+          "difference": -0.00250849310475805,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.012522238927332924,
+            0.011953197549451303
+          ],
+          "difference": 0.0018306067421591243,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            0.0051890231253764185,
+            0.020020669297227484
+          ],
+          "difference": 0.012647932613377738,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.011308462246111872,
+            -0.0023448345145009666
+          ],
+          "difference": -0.007394745907902837,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.01733611593216755,
+            0.002153359583708765
+          ],
+          "difference": -0.006392853228269435,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.012267203805765348,
+        "math_train_162": -0.0086296443590399,
+        "math_train_359": -0.00024989789965465525,
+        "math_train_497": -0.008432237567151446
+      },
+      "per_seed_nll_difference": {
+        "42": -0.010398833103007377,
+        "43": -0.008198269180674345,
+        "44": -0.0035871354400267563
+      },
+      "reference": [
+        "A0",
+        "opinion"
+      ],
+      "rollout_metrics": {
+        "final_accuracy": {
+          "ci95": [
+            -0.031005859375000056,
+            0.010009765625000028
+          ],
+          "difference": -0.007161458333333343,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "final_wasserstein": {
+          "ci95": [
+            -0.01660200754801431,
+            0.03456624348958331
+          ],
+          "difference": 0.012817382812499997,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      }
+    },
+    {
+      "first": [
+        "A2",
+        "opinion"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.014099121093750028,
+            0.009582519531249972
+          ],
+          "difference": -0.0015055338541666852,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.007893359647257653,
+            0.009052931798159157
+          ],
+          "difference": -1.1042976349857903e-05,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.024443995682984443,
+            0.010276805019538149
+          ],
+          "difference": -0.003635844885511802,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            0.000283731654679098,
+            0.01817431161480082
+          ],
+          "difference": 0.009229021634739959,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.010430274456515086,
+            0.006227194336664382
+          ],
+          "difference": -0.002632861273106364,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.022801976449068784,
+            0.004463415795438602
+          ],
+          "difference": -0.007737763355819743,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.0008605610837454369,
+        "math_train_162": 0.01047974122061629,
+        "math_train_359": -0.013620178914104969,
+        "math_train_497": -0.0065304463151913406
+      },
+      "per_seed_nll_difference": {
+        "42": 0.002885313961366265,
+        "43": -0.003662916938168337,
+        "44": -0.007120980842517
+      },
+      "reference": [
+        "A1",
+        "opinion"
+      ],
+      "rollout_metrics": {
+        "final_accuracy": {
+          "ci95": [
+            -0.014404296875000056,
+            0.00423177083333337
+          ],
+          "difference": -0.004231770833333343,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "final_wasserstein": {
+          "ci95": [
+            -0.012456258138020846,
+            0.005582173665364613
+          ],
+          "difference": -0.0014775594075520822,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      }
+    },
+    {
+      "first": [
+        "A0",
+        "vote_counts"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.00569661458333337,
+            0.007029215494791685
+          ],
+          "difference": -1.017252604168517e-05,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.008798287889856052,
+            0.0037221720980668005
+          ],
+          "difference": -0.0017904422069747808,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.0072281014519835485,
+            0.006002249622735795
+          ],
+          "difference": -0.0012358731678637769,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            -0.005222043877862154,
+            0.005914176564496609
+          ],
+          "difference": 0.0009021592799863809,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.017242693121648514,
+            0.0024766362576127965
+          ],
+          "difference": -0.007383028432017859,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.006806213767138469,
+            0.008963876161822704
+          ],
+          "difference": -9.079806610579055e-06,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.021488384063272775,
+        "math_train_162": -0.00019712970239521566,
+        "math_train_359": 0.005150402217620809,
+        "math_train_497": -0.012997002180024253
+      },
+      "per_seed_nll_difference": {
+        "42": -0.007989593746026813,
+        "43": -0.011285743234161316,
+        "44": -0.0028737483158653987
+      },
+      "reference": [
+        "A0",
+        "opinion"
+      ]
+    },
+    {
+      "first": [
+        "A0",
+        "history"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.004638671874999972,
+            0.007975260416666657
+          ],
+          "difference": 0.002197265625,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.012494962395094664,
+            0.002306837186515004
+          ],
+          "difference": -0.0056224657240486475,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -4.2079468858258195e-05,
+            0.008830263814380845
+          ],
+          "difference": 0.004394092172761294,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            0.005621593605556391,
+            0.019476956402063178
+          ],
+          "difference": 0.011418857115970238,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.027296175820524432,
+            -0.0004893402108114911
+          ],
+          "difference": -0.015005308748045003,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.012499400490398799,
+            0.0006011363988260854
+          ],
+          "difference": -0.004510453986102808,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.03145733657907357,
+        "math_train_162": -0.01481269354487702,
+        "math_train_359": 0.005896922012491729,
+        "math_train_497": -0.01964812688072115
+      },
+      "per_seed_nll_difference": {
+        "42": -0.01861123455892244,
+        "43": -0.01955450805133907,
+        "44": -0.006850183633873463
+      },
+      "reference": [
+        "A0",
+        "opinion"
+      ],
+      "rollout_metrics": {
+        "final_accuracy": {
+          "ci95": [
+            -0.030110677083333315,
+            0.047483317057291446
+          ],
+          "difference": 0.007161458333333343,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "final_wasserstein": {
+          "ci95": [
+            -0.036563682556152326,
+            0.060043334960937486
+          ],
+          "difference": 0.013954162597656243,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      }
+    },
+    {
+      "first": [
+        "A0",
+        "existing_messages"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.022644042968750056,
+            -0.0026384989420573353
+          ],
+          "difference": -0.01265462239583337,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            0.0015745177597112359,
+            0.03629163442703369
+          ],
+          "difference": 0.018933076093372463,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.018654346040524072,
+            0.010278556564422645
+          ],
+          "difference": -0.005942858488871883,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            0.007105115596963391,
+            0.029939072093396274
+          ],
+          "difference": 0.019502833275329978,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.002702466587338165,
+            0.05450401986623454
+          ],
+          "difference": 0.02590077663944819,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.046907286089978406,
+            -0.01832520802980548
+          ],
+          "difference": -0.034257688756608506,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.003599935282242228,
+        "math_train_162": 0.039925193706931594,
+        "math_train_359": 0.06908284602553749,
+        "math_train_497": -0.0018049978924341015
+      },
+      "per_seed_nll_difference": {
+        "42": 0.023215363139255984,
+        "43": 0.026005102035238536,
+        "44": 0.02848186474385006
+      },
+      "reference": [
+        "A0",
+        "opinion"
+      ]
+    },
+    {
+      "first": [
+        "A2",
+        "vote_counts"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.0005587259928385416,
+            0.004597981770833315
+          ],
+          "difference": 0.0020243326822916574,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.005961918048202074,
+            0.00012981804230119312
+          ],
+          "difference": -0.0024829526754465737,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.0011073474990028747,
+            0.0036134183886131765
+          ],
+          "difference": 0.0008896070305897397,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            0.0022603040965066268,
+            0.01320168654226649
+          ],
+          "difference": 0.00771500198298708,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.010387812352597621,
+            0.007313545353555967
+          ],
+          "difference": -0.001732846094052519,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.007523483206537007,
+            0.00637412971189566
+          ],
+          "difference": -0.0005746767473206738,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.0018141207836113726,
+        "math_train_162": 0.010562867732281433,
+        "math_train_359": -0.013245709542259704,
+        "math_train_497": -0.002434421782620433
+      },
+      "per_seed_nll_difference": {
+        "42": 0.0006250325550452018,
+        "43": -0.0054939029239893244,
+        "44": -0.00032966791321342725
+      },
+      "reference": [
+        "A2",
+        "opinion"
+      ]
+    },
+    {
+      "first": [
+        "A2",
+        "history"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.0038248697916666574,
+            0.009775797526041657
+          ],
+          "difference": 0.001434326171875,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.008634238516361498,
+            0.0016873853020727277
+          ],
+          "difference": -0.0031553433322059864,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.003546063326619553,
+            0.012536723597151106
+          ],
+          "difference": 0.0025536023078786274,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            -0.0010875487142727458,
+            0.011271825895475096
+          ],
+          "difference": 0.005092138590601175,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.015490020251955741,
+            -0.005532993986072654
+          ],
+          "difference": -0.010511507119014198,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.011651342295809775,
+            0.01129253025649618
+          ],
+          "difference": -0.0015755055548127839,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.014846189195788867,
+        "math_train_162": -0.016133851308122615,
+        "math_train_359": -0.006256121752482358,
+        "math_train_497": -0.0048098662196629505
+      },
+      "per_seed_nll_difference": {
+        "42": -0.012943711647325884,
+        "43": -0.011262397461305085,
+        "44": -0.007328412248411631
+      },
+      "reference": [
+        "A2",
+        "opinion"
+      ],
+      "rollout_metrics": {
+        "final_accuracy": {
+          "ci95": [
+            -0.035424804687499985,
+            0.029052734375
+          ],
+          "difference": -0.0017903645833333287,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "final_wasserstein": {
+          "ci95": [
+            -0.043645222981770836,
+            0.05106875101725245
+          ],
+          "difference": 0.0033823649088541644,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      }
+    },
+    {
+      "first": [
+        "A2",
+        "existing_messages"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.027099609375000028,
+            -0.0045738220214843785
+          ],
+          "difference": -0.013671875,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            0.008556388968861225,
+            0.03725461830355612
+          ],
+          "difference": 0.021967382476027995,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.017614840054823444,
+            0.00640980157835701
+          ],
+          "difference": -0.005284816986326102,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            -0.004024327122153143,
+            0.022866391899706587
+          ],
+          "difference": 0.011648180589952761,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            0.003678255469583419,
+            0.05426360440675547
+          ],
+          "difference": 0.028970929938169444,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.046353695546728524,
+            -0.016745918763498825
+          ],
+          "difference": -0.03016844759315626,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": -0.004386190289048131,
+        "math_train_162": 0.04209459623284789,
+        "math_train_359": 0.06643261258066305,
+        "math_train_497": 0.011742701228214969
+      },
+      "per_seed_nll_difference": {
+        "42": 0.01600539715544791,
+        "43": 0.036059933810461686,
+        "44": 0.034847458848598745
+      },
+      "reference": [
+        "A2",
+        "opinion"
+      ]
+    },
+    {
+      "first": [
+        "A2",
+        "history"
+      ],
+      "metrics": {
+        "accuracy": {
+          "ci95": [
+            -0.005991617838541657,
+            0.0059814453124999445
+          ],
+          "difference": -0.0004170735677083426,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "brier": {
+          "ci95": [
+            -0.006142512305186695,
+            0.004829205442819494
+          ],
+          "difference": -4.1370712915388824e-05,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "fcba": {
+          "ci95": [
+            -0.008076917636875208,
+            0.007987084953124918
+          ],
+          "difference": -9.88312272354186e-06,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "flip_accuracy": {
+          "ci95": [
+            0.003995430374545722,
+            0.00932045912895577
+          ],
+          "difference": 0.006321214088008675,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "nll": {
+          "ci95": [
+            -0.011176871893457119,
+            0.0053878713326904635
+          ],
+          "difference": -0.002900944278872032,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "stay_accuracy": {
+          "ci95": [
+            -0.010835145662431715,
+            0.006522860378075784
+          ],
+          "difference": -0.0034579047969794108,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      },
+      "per_question_nll_difference": {
+        "math_train_133": 0.004343943577519355,
+        "math_train_162": -0.009950802122285496,
+        "math_train_359": -0.012402941664628742,
+        "math_train_497": 0.006406023093906754
+      },
+      "per_seed_nll_difference": {
+        "42": -0.00473131019141082,
+        "43": 9.384140935964069e-05,
+        "44": -0.004065364054564924
+      },
+      "reference": [
+        "A0",
+        "history"
+      ],
+      "rollout_metrics": {
+        "final_accuracy": {
+          "ci95": [
+            -0.08288167317708335,
+            0.029296874999999944
+          ],
+          "difference": -0.016113281250000014,
+          "paired_questions": 4,
+          "replicates": 1000
+        },
+        "final_wasserstein": {
+          "ci95": [
+            -0.06683349609375,
+            0.07178668975830037
+          ],
+          "difference": 0.002245585123697918,
+          "paired_questions": 4,
+          "replicates": 1000
+        }
+      }
+    }
+  ],
+  "method": "Average each question's metric over seeds, then resample paired questions; 1000 replicates",
+  "scope": "Descriptive validation comparisons; four questions; also used for early stopping"
+}

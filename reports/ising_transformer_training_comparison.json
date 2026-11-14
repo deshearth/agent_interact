@@ -1,0 +1,73 @@
+{
+  "computed_utc": "2026-11-08T22:34:56.703787+00:00",
+  "core_sha256": "92c500581c6d74e0d5effa4b89f9c402bb76f7800151ac6dbb3b3afcae939dda",
+  "device": "cpu",
+  "runs": [
+    {
+      "checkpoint_sha256": "87e762f054ca7561cee6693497a3388aafec0385ebfc843d01e2ff9c7969dc77",
+      "manifest_sha256": "5caf75f1fd2753d8947266253681994da7c0d895c75d83b3b550230f0fbc0316",
+      "model": "I0",
+      "parameters": 19,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035128Z-I0-opinion-s42-7d637e33",
+      "seed": 42,
+      "train_accuracy": 0.9084930419921875,
+      "train_error": 0.0915069580078125,
+      "train_nll": 0.1953858055770931,
+      "transitions": 131072
+    },
+    {
+      "checkpoint_sha256": "365a2489dcec63378a656e32c24800ff8c3a57250769b17f00a7ddbe12944526",
+      "manifest_sha256": "29bc98f1823dbb73377ed51b61f0ff63a8b4a9cece38cda9241c1dc57aa767d8",
+      "model": "A2",
+      "parameters": 135458,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035153Z-A2-opinion-s42-510b7c25",
+      "seed": 42,
+      "train_accuracy": 0.9175186157226562,
+      "train_error": 0.08248138427734375,
+      "train_nll": 0.1820805425264731,
+      "transitions": 131072
+    },
+    {
+      "checkpoint_sha256": "e5ad06ea8b7ac19480f19acdb96d607460f6a0f63d3bd1e6a2f061b28d679966",
+      "manifest_sha256": "5005ae95d98745a651a4e04d67cd3bd3d7b30c8d06df21796899e78ac5a73073",
+      "model": "A2",
+      "parameters": 135458,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035300Z-A2-opinion-s43-53e6a18c",
+      "seed": 43,
+      "train_accuracy": 0.92034912109375,
+      "train_error": 0.07965087890625,
+      "train_nll": 0.17480859673657845,
+      "transitions": 131072
+    },
+    {
+      "checkpoint_sha256": "154ef839dbc6cce96d258a94efcf62966682cbf7a539f912ba24dfb4d76b4ac1",
+      "manifest_sha256": "1a8c990e82d8679a702a83ce35d98ae69c02f6325098d484bc279c88c8c4365e",
+      "model": "A2",
+      "parameters": 135458,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035401Z-A2-opinion-s44-57e7a285",
+      "seed": 44,
+      "train_accuracy": 0.9180145263671875,
+      "train_error": 0.0819854736328125,
+      "train_nll": 0.1794316284151405,
+      "transitions": 131072
+    }
+  ],
+  "scope": "Read-only training-set evaluation of frozen selected Ising and A2/opinion checkpoints from the original GPT-data study. Identical training examples and context; no retraining, reselection or new heldout scoring. This is not the new 282146-parameter Llama experiment.",
+  "selection_sha256": "895b3bd9b1ef7588679f743f2b52ecf8086e298f11c144c0a9e96834a84ef1b6",
+  "summary": {
+    "A2": {
+      "train_accuracy": 0.9186274210611979,
+      "train_error": 0.08137257893880208,
+      "train_nll": 0.178773589226064
+    },
+    "I0": {
+      "train_accuracy": 0.9084930419921875,
+      "train_error": 0.0915069580078125,
+      "train_nll": 0.1953858055770931
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "cpu": {
+    "agents_per_snapshot": 32,
+    "batch_snapshots": 32,
+    "dtype": "float32",
+    "max_absolute_logit_difference_from_cpu": 0.0,
+    "mean_forward_backward_seconds": 0.005849391700030538,
+    "parameters": 135458
+  },
+  "mps": {
+    "agents_per_snapshot": 32,
+    "batch_snapshots": 32,
+    "dtype": "float32",
+    "max_absolute_logit_difference_from_cpu": 9.5367431640625e-07,
+    "mean_forward_backward_seconds": 0.003961670850185328,
+    "parameters": 135458
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "study": "mallm_pilot_v1",
+  "dataset": "Multi-Agent-LLMs/DEBATE",
+  "revision": "8a16e9fdd59412887ba270e87189500272a53ee3",
+  "configuration": "simple_nopersona_memory_simple_voting",
+  "source_file": "data/simple_nopersona_memory_simple_voting/simple_nopersona_memory_simple_voting.json",
+  "source_bytes": 194825140,
+  "source_sha256": "234ecb01d7954d80d1137670471d026d98092d61970ca349faaf16aacd30767c",
+  "data_root": "data/external/mallm/v1",
+  "run_root": "runs/external/mallm_pilot_v1",
+  "report_root": "reports/external/mallm_pilot_v1",
+  "split": {"seed": 20261109, "train_fraction": 0.6, "validation_fraction": 0.2},
+  "selection_reason": "One configuration chosen before outcome audit: simple responses, no personas, full memory, fixed-round simple voting. No selection based on apparent model gains."
+}

@@ -1,0 +1,5 @@
+exact_text_seen_in_fit_fraction,messages,nearest_question_centroid_accuracy,question_centroid_explained_fraction,question_stance_centroid_explained_fraction,role,unique_texts
+1.0,229376,1.0,0.839484220946587,0.8633643196845256,train,171524
+0.07815987723214286,114688,1.0,0.8378033595146024,0.8607338032747655,validation,87062
+0.08355712890625,114688,1.0,0.8396513478839975,0.862491615469961,familiar,86653
+0.0,114688,,,,unseen,85466

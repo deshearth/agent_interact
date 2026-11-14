@@ -1,0 +1,47 @@
+{
+  "computed_utc": "2026-11-08T22:37:10.768790+00:00",
+  "identical_input_conflicts": {
+    "conflicting_groups": 2756,
+    "empirical_deterministic_error_lower_bound": 0.0340728759765625,
+    "key": "question, graph, receiver, current receiver opinion and current opinions of its graph neighbors. All other model inputs are fixed within each key.",
+    "limitation": "An in-sample bound for this restricted input model, not an estimate of the source LLM Bayes error. Additional ungrouped equivalent inputs may raise the bound.",
+    "total_training_transitions": 131072,
+    "unavoidable_errors_within_groups": 4466,
+    "unique_groups": 37288
+  },
+  "runs": [
+    {
+      "checkpoint_sha256": "da3341fa95655d7bbfb2161fafa7a5d14a41fb48d45f2bbb3a14185b96351744",
+      "run": "runs/inductive_study/20261108T035153Z-A2-opinion-s42-510b7c25",
+      "seed": 42,
+      "selected_epoch": 2.0,
+      "terminal_epoch": 8,
+      "terminal_train_error": 0.07527923583984375,
+      "terminal_train_nll": 0.16058070637978883
+    },
+    {
+      "checkpoint_sha256": "fded6b79eb40599c9190b6be338ed2b0a77df3f384e2ecdf9ff23308eb1055b4",
+      "run": "runs/inductive_study/20261108T035300Z-A2-opinion-s43-53e6a18c",
+      "seed": 43,
+      "selected_epoch": 2.0,
+      "terminal_epoch": 8,
+      "terminal_train_error": 0.07485198974609375,
+      "terminal_train_nll": 0.16001940980202778
+    },
+    {
+      "checkpoint_sha256": "a61092c6e6d2ccbf60ba644b1f20fe5b69a3d613f5c1ae4d27fcfb174d969fed",
+      "run": "runs/inductive_study/20261108T035401Z-A2-opinion-s44-57e7a285",
+      "seed": 44,
+      "selected_epoch": 2.0,
+      "terminal_epoch": 8,
+      "terminal_train_error": 0.07384490966796875,
+      "terminal_train_nll": 0.1578126199260637
+    }
+  ],
+  "scope": "Read-only terminal checkpoint and repeated-input audit of the earlier GPT-data A2/opinion study; no fitting, reselection, source-model calls or new test evaluation.",
+  "selected_comparison_sha256": "5d2bf478935a69eccd6bcef5b7c006339aac44d5c4e3f721a276f0d6ed75008e",
+  "summary": {
+    "terminal_train_error_mean": 0.07465871175130208,
+    "terminal_train_nll_mean": 0.15947091203596012
+  }
+}

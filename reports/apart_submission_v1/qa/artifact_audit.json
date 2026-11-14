@@ -1,0 +1,112 @@
+{
+  "evidence_groups": 20,
+  "source_hashes_verified": 41,
+  "template_hash_verified": true,
+  "main_size_table_source_match": true,
+  "learning_curve_table_source_match": true,
+  "saved_primary_studies_assessment_unloaded": true,
+  "unsupported_report_font_glyphs": [],
+  "pdfs": {
+    "report": {
+      "pages": 14,
+      "references_page": 5,
+      "words_by_page": [
+        477,
+        454,
+        346,
+        594,
+        325,
+        534,
+        331,
+        335,
+        408,
+        504,
+        497,
+        460,
+        471,
+        392
+      ],
+      "out_of_page_characters": 0
+    },
+    "word_render": {
+      "pages": 14,
+      "references_page": 5,
+      "words_by_page": [
+        483,
+        455,
+        347,
+        599,
+        325,
+        539,
+        331,
+        335,
+        408,
+        504,
+        498,
+        460,
+        472,
+        394
+      ],
+      "out_of_page_characters": 0
+    }
+  },
+  "docx": {
+    "content_fragments_verified": 692,
+    "embedded_images": 2,
+    "author_metadata_empty": true,
+    "title_style_present": true,
+    "hyperlinks": 8
+  },
+  "abstract_words": 198,
+  "authors_omitted": true,
+  "source_generation_for_report": 0,
+  "new_training_for_report": false,
+  "artifact_sha256": {
+    "agent_interaction_report.pdf": "5ad6d3b49ad36f8ad92bb7b7bf7a3934e0a36d600546a61a82b8b9af0e2ed697",
+    "agent_interaction_report.docx": "6400556493ae3af52b9778573557d27f867db21bb8e27a4be34fbee4356b6a6a",
+    "report_content.json": "227daf26bc66ae20ad2c982b9f8b5a0d69843e375fb6941ddee4d69018fa36af",
+    "evidence_index.json": "695061a49dfa59899ccb9a0e94cba7f9e745b86e91d422a642699f2cd71e73b3",
+    "prepare_report.py": "d2fe2f6a421bfb539c3674bca811d18dcb1dfd27ed665e104969ff6ad6a979ea",
+    "render_report.py": "4917d56d521834c554a5079632f992f92a4f0979fffed7dab89dcb15a3b08b54",
+    "verify_report.py": "4f55c7ae83310aa56f09a2f7b8fa7224882b3fce6554648c107a8e993c5a3509",
+    "figures/pipeline.png": "2840bec3cb0abe47eec678fcf520c99360585f29eb89b67bc84cdfaeacc511d2",
+    "figures/learning_curve_main.png": "917a511d83fa64d51906f918ef68ad9ad5cc8b873f0782f1228d6d0f0463ad39"
+  },
+  "status": "passed",
+  "visual_review": {
+    "pdf_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "word_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "last_revision_page": 14,
+    "status": "passed"
+  }
+}

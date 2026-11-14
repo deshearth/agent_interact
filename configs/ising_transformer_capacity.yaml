@@ -1,0 +1,24 @@
+project: ising_transformer_capacity_v1
+output: runs/ising_transformer_capacity_v1
+reference_study: runs/inductive_study
+reference_config: configs/paper_binary_inductive.yaml
+reference_comparison: reports/ising_transformer_training_comparison.json
+reference_followup: reports/ising_transformer_training_followup.json
+training:
+  seeds: [42, 43, 44]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  epochs: 128
+  batch_size: 32
+  evaluation_batch_size: 256
+  evaluate_every_epochs: 4
+  weight_decay: 0.0
+  dropout: 0.0
+  gradient_clip: 1.0
+  cosine_minimum_fraction: 0.01
+  torch_threads: 4
+  aggregate_minutes: 95
+diagnostic:
+  imitation_mae_threshold: 0.005
+  imitation_kl_threshold: 0.0005
+  plateau_window_epochs: 32
+  plateau_nll_improvement: 0.0001

@@ -1,0 +1,153 @@
+{
+  "aggregation": "equal question weight, then equal weight across seeds 42/43/44",
+  "condition": "current opinions, prescribed graph and static context; no opinion history or text",
+  "created_utc": "2026-11-08T06:35:04.550815+00:00",
+  "execution": "Read-only CPU inference in eval mode; no retraining or checkpoint selection",
+  "implementation_sha256": "2135212c399011c48bdab30cb5a8020f7ef9f7cbdf80aa388942dac8b1f4bdae",
+  "model": "A2/opinion",
+  "runs": [
+    {
+      "accuracy": 0.9175186157226562,
+      "agent_transitions": 131072,
+      "aggregation": "equal weight per question; multiclass Brier is sum over two classes",
+      "brier": 0.11161973279058171,
+      "checkpoint": "selected",
+      "error": 0.08248138427734375,
+      "fcba": 0.8921158061794414,
+      "flip_accuracy": 0.8757023550197787,
+      "likelihood_clipping": "none; neural log_softmax and baseline log-sigmoid used",
+      "nll": 0.1820805425264731,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035153Z-A2-opinion-s42-510b7c25",
+      "seed": 42,
+      "stay_accuracy": 0.9274859782035518,
+      "step": 256
+    },
+    {
+      "accuracy": 0.9247207641601562,
+      "agent_transitions": 131072,
+      "aggregation": "equal weight per question; multiclass Brier is sum over two classes",
+      "brier": 0.10164722400758441,
+      "checkpoint": "terminal",
+      "error": 0.07527923583984375,
+      "fcba": 0.8931726889896685,
+      "flip_accuracy": 0.8648337174026705,
+      "likelihood_clipping": "none; neural log_softmax and baseline log-sigmoid used",
+      "nll": 0.16058070637978883,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035153Z-A2-opinion-s42-510b7c25",
+      "seed": 42,
+      "stay_accuracy": 0.9471397198098366,
+      "step": 1024
+    },
+    {
+      "accuracy": 0.92034912109375,
+      "agent_transitions": 131072,
+      "aggregation": "equal weight per question; multiclass Brier is sum over two classes",
+      "brier": 0.10762825676595822,
+      "checkpoint": "selected",
+      "error": 0.07965087890625,
+      "fcba": 0.8909029925155866,
+      "flip_accuracy": 0.8717568982191484,
+      "likelihood_clipping": "none; neural log_softmax and baseline log-sigmoid used",
+      "nll": 0.17480859673657845,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035300Z-A2-opinion-s43-53e6a18c",
+      "seed": 43,
+      "stay_accuracy": 0.9332786123235541,
+      "step": 256
+    },
+    {
+      "accuracy": 0.9251480102539062,
+      "agent_transitions": 131072,
+      "aggregation": "equal weight per question; multiclass Brier is sum over two classes",
+      "brier": 0.10176542873906394,
+      "checkpoint": "terminal",
+      "error": 0.07485198974609375,
+      "fcba": 0.8919643816911011,
+      "flip_accuracy": 0.8696147648409498,
+      "likelihood_clipping": "none; neural log_softmax and baseline log-sigmoid used",
+      "nll": 0.16001940980202778,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035300Z-A2-opinion-s43-53e6a18c",
+      "seed": 43,
+      "stay_accuracy": 0.9466264072662284,
+      "step": 1024
+    },
+    {
+      "accuracy": 0.9180145263671875,
+      "agent_transitions": 131072,
+      "aggregation": "equal weight per question; multiclass Brier is sum over two classes",
+      "brier": 0.11176902814585096,
+      "checkpoint": "selected",
+      "error": 0.0819854736328125,
+      "fcba": 0.8906901563898917,
+      "flip_accuracy": 0.8588606626806804,
+      "likelihood_clipping": "none; neural log_softmax and baseline log-sigmoid used",
+      "nll": 0.1794316284151405,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035401Z-A2-opinion-s44-57e7a285",
+      "seed": 44,
+      "stay_accuracy": 0.9388056971550073,
+      "step": 256
+    },
+    {
+      "accuracy": 0.9261550903320312,
+      "agent_transitions": 131072,
+      "aggregation": "equal weight per question; multiclass Brier is sum over two classes",
+      "brier": 0.10050677832681743,
+      "checkpoint": "terminal",
+      "error": 0.07384490966796875,
+      "fcba": 0.8967194312447481,
+      "flip_accuracy": 0.8741080834817985,
+      "likelihood_clipping": "none; neural log_softmax and baseline log-sigmoid used",
+      "nll": 0.1578126199260637,
+      "questions": 16,
+      "run": "runs/inductive_study/20261108T035401Z-A2-opinion-s44-57e7a285",
+      "seed": 44,
+      "stay_accuracy": 0.9444899593184952,
+      "step": 1024
+    }
+  ],
+  "source": "frozen inductive study",
+  "source_artifacts_unchanged": [
+    {
+      "hashes": {
+        "best.pt": "365a2489dcec63378a656e32c24800ff8c3a57250769b17f00a7ddbe12944526",
+        "checkpoint.pt": "da3341fa95655d7bbfb2161fafa7a5d14a41fb48d45f2bbb3a14185b96351744",
+        "manifest.json": "29bc98f1823dbb73377ed51b61f0ff63a8b4a9cece38cda9241c1dc57aa767d8"
+      },
+      "run": "runs/inductive_study/20261108T035153Z-A2-opinion-s42-510b7c25"
+    },
+    {
+      "hashes": {
+        "best.pt": "e5ad06ea8b7ac19480f19acdb96d607460f6a0f63d3bd1e6a2f061b28d679966",
+        "checkpoint.pt": "fded6b79eb40599c9190b6be338ed2b0a77df3f384e2ecdf9ff23308eb1055b4",
+        "manifest.json": "5005ae95d98745a651a4e04d67cd3bd3d7b30c8d06df21796899e78ac5a73073"
+      },
+      "run": "runs/inductive_study/20261108T035300Z-A2-opinion-s43-53e6a18c"
+    },
+    {
+      "hashes": {
+        "best.pt": "154ef839dbc6cce96d258a94efcf62966682cbf7a539f912ba24dfb4d76b4ac1",
+        "checkpoint.pt": "a61092c6e6d2ccbf60ba644b1f20fe5b69a3d613f5c1ae4d27fcfb174d969fed",
+        "manifest.json": "1a8c990e82d8679a702a83ce35d98ae69c02f6325098d484bc279c88c8c4365e"
+      },
+      "run": "runs/inductive_study/20261108T035401Z-A2-opinion-s44-57e7a285"
+    }
+  ],
+  "summary": {
+    "selected": {
+      "accuracy": 0.9186274210611979,
+      "error": 0.08137257893880208,
+      "nll": 0.178773589226064
+    },
+    "terminal": {
+      "accuracy": 0.9253412882486979,
+      "error": 0.07465871175130208,
+      "nll": 0.15947091203596012
+    }
+  },
+  "training_questions": 16,
+  "training_transitions_per_seed": 131072
+}

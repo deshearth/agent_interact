@@ -1,0 +1,292 @@
+{
+  "template_sha256": "dfd6265035b6e9e15c11b0ddccd986ee935359263ed4e2eca15e8623296af267",
+  "template_name": "Copy of Apart Research hackathon submission template.pdf",
+  "evidence": [
+    {
+      "id": "E01",
+      "study": "Original data, reproduction and frozen test",
+      "files": [
+        {
+          "path": "reports/data_audit_train_only_pca.md",
+          "sha256": "037c1cec736b11da8cbd88a9704543e4ef75b5db42625d760d2f0302cda65261"
+        },
+        {
+          "path": "reports/author_reproduction.md",
+          "sha256": "5802c8fb2bf86c64463681cb9c59c3af37928edfa6f3f7eb6b7d341f0312c7f2"
+        },
+        {
+          "path": "reports/inductive_validation_results.md",
+          "sha256": "3281f109a8313ea96878430b32b612f1a17887c8d2189bcc8377c1c837b2d216"
+        },
+        {
+          "path": "reports/inductive_test_results.md",
+          "sha256": "310748861d138c56e153e0e59140d952e9d6a8bfe53ca2e843684ebf4b662f44"
+        },
+        {
+          "path": "reports/history_availability_control.md",
+          "sha256": "dc7cb1d3a08e141c195adf0801aed2fccdbc6a4255ba310e36cb0e7e0dcc51b7"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "study": "Ising imitation and capacity",
+      "files": [
+        {
+          "path": "reports/ising_transformer_capacity.md",
+          "sha256": "7536bfb2f133996e0b452e9ec06f2e769b34552352efda3be64eeae089944adf"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "study": "Nested generalization and correction",
+      "files": [
+        {
+          "path": "reports/transformer_generalization.md",
+          "sha256": "da1a515551b3409951b3d03e8005c8d9d2ed073dd933e192d3187dae43acc862"
+        },
+        {
+          "path": "reports/ising_gap_diagnosis.md",
+          "sha256": "03ebb7f28b8cdac8e5b2916bbcdb642043ddd7646856cdf2b37ba99378aaadaf"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "study": "GPT size and micro sweeps",
+      "files": [
+        {
+          "path": "reports/transformer_size_sweep.md",
+          "sha256": "c7ab09f9aad315f645df6816802edf8e1325891ccb5f636155a2628ac02e2e0e"
+        },
+        {
+          "path": "reports/transformer_micro_sweep.md",
+          "sha256": "6e8a5aecca8e2e6b7218100a89cf8d17cd7aa3cfedd385e9c9215cd148fd1bbc"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "study": "Argument-response training and early curve",
+      "files": [
+        {
+          "path": "reports/argument_response_results.md",
+          "sha256": "e6e9605f963971d4250c3d28016b2bd8e0cf0541787edf9d8c65fbf2d2f16d79"
+        },
+        {
+          "path": "reports/argument_training_diagnosis.md",
+          "sha256": "0827c281ae40bd2c123d2faaa6cb146c6192bb39a9756f71a0d0cd926b5f4420"
+        },
+        {
+          "path": "reports/question_count_learning_curve.md",
+          "sha256": "3faef0f7bd6c3d8e68b34fc0e5dca4400cef05b7724c54cbe40967dc9272aa87"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "study": "Fusion and full question context",
+      "files": [
+        {
+          "path": "reports/argument_mechanisms.md",
+          "sha256": "75611728009b22da116c777cc870b4387dcc28a5678bad6192cb095b75fbdcfd"
+        },
+        {
+          "path": "reports/question_context.md",
+          "sha256": "b1a29d594abf1418bdb4f7d7f1fe287fecc621e49bf29ee9260a28ca46d499e4"
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "study": "Argument mechanism controls",
+      "files": [
+        {
+          "path": "reports/argument_investigation.md",
+          "sha256": "2f622f4b2eb53afd4cb35f61ce08f8189b6199dd10bd56de46ab66ef0c26a461"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "study": "Local source and interventions",
+      "files": [
+        {
+          "path": "reports/local_open_model_pilot.md",
+          "sha256": "5dd9928a91c6463f61aa96d8f2fbe9e2a4101a08fae5730e34cc9d8f632ed09a"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "study": "Llama argument predictor",
+      "files": [
+        {
+          "path": "reports/local_llama_transformer.md",
+          "sha256": "c2412adc3ea83201ee413c5ef85e3a66a5f8f1a2c6bd8e94ea96e77ccf085a5f"
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "study": "Llama error and probability diagnosis",
+      "files": [
+        {
+          "path": "reports/question_breadth_error_diagnosis.md",
+          "sha256": "1a8800284e691a62837a6a5451d4b4616c7aa501037c89158950c4887c4fcc0c"
+        },
+        {
+          "path": "runs/question_breadth_v1/development_results/summary.json",
+          "sha256": "6623023c7ef71d78cd8da7a441d58a773fad231c8acb7e1984b7a796ecc95997"
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "study": "Earlier probability-target curve",
+      "files": [
+        {
+          "path": "reports/llama_probability_learning_curve.md",
+          "sha256": "2e84d4854a970daaf40fce3775b8677ff7c806b8e8088e75c43d063a94665e80"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "study": "Formula distillation and pooled networks",
+      "files": [
+        {
+          "path": "reports/transformer_rule_distillation.md",
+          "sha256": "8e4427ecd921c4c464d9ca6e774e5b7d97187946d0a0fa216636d19a8e817834"
+        },
+        {
+          "path": "reports/pooled_state_comparison.md",
+          "sha256": "32c8c25d7c45448c5514c73efcd6b0a346afd30b8fdf1e9e55fa426227a9cc40"
+        }
+      ]
+    },
+    {
+      "id": "E13",
+      "study": "New-question selection and corpus",
+      "files": [
+        {
+          "path": "configs/question_breadth.yaml",
+          "sha256": "dc7db93ec5778e8bd25244114ab55f2a5e41b5273aeb3ae6bcc8c405afea7df1"
+        },
+        {
+          "path": "configs/question_breadth_320.yaml",
+          "sha256": "0055e191f413eefe0a0a578bddc8a9cdd607ab8e162f8716e34cd81b1b419bb6"
+        },
+        {
+          "path": "runs/question_breadth_320_v1/source_protocol.json",
+          "sha256": "87a36085b1fdcbc0a1cde5d29db2ffeb0e7d52874be191117b3355872ae2ccbc"
+        },
+        {
+          "path": "runs/question_breadth_320_v1/episode_index.json",
+          "sha256": "fe3838b9a66ce5a9c7dc019255bccd492516e2dd722432df4db4a4dd994b97f3"
+        }
+      ]
+    },
+    {
+      "id": "E14",
+      "study": "320/80 trained comparison",
+      "files": [
+        {
+          "path": "runs/question_breadth_320_train_v1/development_results/summary.json",
+          "sha256": "dea6b7e37b94758115ab1b0b7139d2a85474b2ad328e24119169288bc1d4be03"
+        }
+      ]
+    },
+    {
+      "id": "E15",
+      "study": "Six-size expanded sweep",
+      "files": [
+        {
+          "path": "runs/breadth_320_size_sweep_v1/results/summary.json",
+          "sha256": "34fb147054af01982576630ec764a79e7be6f6805d1c43e03159ea3360daf92d"
+        },
+        {
+          "path": "runs/breadth_320_size_sweep_v1/completion_audit.json",
+          "sha256": "e75e8a333989e1b0dd08781129ef03172d23439a6924953e93aa84997fa5c92a"
+        }
+      ]
+    },
+    {
+      "id": "E16",
+      "study": "Count \u00d7 size study",
+      "files": [
+        {
+          "path": "runs/breadth_320_learning_curve_v1/results/summary.json",
+          "sha256": "8f54f5822eb9bbf298601faf5764ff4ff473988914fa117e23b83cb9cac427c3"
+        },
+        {
+          "path": "runs/breadth_320_learning_curve_v1/completion_audit.json",
+          "sha256": "ba48b10b746753b0bb65404f1da8659db194fcbecac2481a368fde6ba7ad01ec"
+        },
+        {
+          "path": "configs/breadth_320_learning_curve.yaml",
+          "sha256": "53ded3ee8b268c00d118fa0904b1ec38e69e4c7b1edcc0daaacf44fc0f766d21"
+        }
+      ]
+    },
+    {
+      "id": "E17",
+      "study": "Paired fresh-graph transfer",
+      "files": [
+        {
+          "path": "reports/unseen_graph_generalization.md",
+          "sha256": "ec613676b850fc1857cd5ad26ba8041a41e530877f9947dfb6131dec2bf0dbfd"
+        },
+        {
+          "path": "runs/unseen_graph_320_v1/results.json",
+          "sha256": "27951e9e2ae50855e1cd5a979885eff9493de0ecfac1342341c7aa1bdb9b4b02"
+        }
+      ]
+    },
+    {
+      "id": "E18",
+      "study": "External audits and prediction",
+      "files": [
+        {
+          "path": "experiments/external/README.md",
+          "sha256": "992db93e8b05198ad52ebd58a937070a32ec01799ec4788ac9836b7722b0c4fd"
+        },
+        {
+          "path": "reports/external/coevolve_pilot_v1/results.md",
+          "sha256": "38b178e820b22c7be08220465f6763f6f4d17112552bddf35bf6d061069e2ec4"
+        },
+        {
+          "path": "reports/external/mallm_pilot_v1/audit.md",
+          "sha256": "5e3e161de4b0d1ed2caa7da657d95680f6bf5caae06958d0e99b47346cb165ee"
+        },
+        {
+          "path": "reports/external/mallm_critical_pilot_v1/audit.md",
+          "sha256": "85fc46dd61ae9d18d2e559b66a4c5e7a2fc9501dab82ec7ded01bdcf78ddf455"
+        }
+      ]
+    },
+    {
+      "id": "E19",
+      "study": "Completed in-context pilot",
+      "files": [
+        {
+          "path": "experiments/icl_existing_graph_v1/README.md",
+          "sha256": "8181e7fe2ff0a43b5652ce0675fac556689c51248d85ed3ac8d3449273e14280"
+        }
+      ]
+    },
+    {
+      "id": "E20",
+      "study": "Pending fresh-question ICL",
+      "files": [
+        {
+          "path": "experiments/icl_forecast_v1/README.md",
+          "sha256": "410ae1f13b4d370032c68a3afdcc500e15444c01467341d9fcbf2c422c4e1152"
+        }
+      ]
+    }
+  ],
+  "source_calls_for_report": 0,
+  "new_training_for_report": false
+}

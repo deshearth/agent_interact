@@ -1,0 +1,44 @@
+project: breadth_320_learning_curve_v1
+output: runs/breadth_320_learning_curve_v1/predictors
+data_reference: runs/question_breadth_320_train_v1/predictors
+size_reference: runs/breadth_320_size_sweep_v1
+question_metadata: runs/question_breadth_320_v1/selection.json
+baseline_config: configs/paper_binary_inductive.yaml
+counts: {train: 320, validation: 80, assessment: 40}
+curve:
+  training_question_counts: [40, 80, 160, 320]
+  subset_seeds: [82141, 82142, 82143]
+  balance_keys: [type, graph_id, origin, level]
+models:
+  nano: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16}
+  tiny: {d_model: 28, heads: 4, d_k: 4, d_v: 7, ffn_dim: 56}
+  wide: {d_model: 256, heads: 4, d_k: 32, d_v: 64, ffn_dim: 512}
+model_order: [nano, tiny, wide]
+expected_parameters: {nano: 818, tiny: 7370, wide: 533026}
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  output_penalties: [0.0, 0.001, 0.01]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 256
+  validation_every_steps: 512
+  max_steps: 32768
+  patience: 10
+  min_delta: 0.0001
+  gradient_clip: 1.0
+  torch_threads: 4
+  aggregate_minutes: 240
+  budget_policy: separately authorized learning-curve study; resumable four-hour execution windows, with fixed per-condition scientific update budgets
+  scaling_policy: scale max_steps and validation_every_steps linearly with training-question count; same maximum data passes and validation cadence in data passes
+evaluation:
+  primary: equal_question_mean_nll
+  metrics: [nll, error, brier_two_class]
+  bootstrap_seed: 82144
+  bootstrap_replicates: 5000
+  reference_model: nano
+  scope: exploratory learning curves on the same 80 development validation questions; no unseen-graph or assessment scoring
+  uncertainty: paired validation-question bootstrap after averaging seeds and subset paths; descriptive pointwise intervals, conditional on the selected subsets and tuned models, without correction for model selection or multiple comparisons
+  assessment_policy: do not generate, load, or score the 40 reserved assessment conversations

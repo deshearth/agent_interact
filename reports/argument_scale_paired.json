@@ -1,0 +1,86 @@
+[
+  {
+    "ci95": [
+      0.035137445187908234,
+      0.05939252556800162
+    ],
+    "difference": 0.04726498537795493,
+    "first": "full_arguments",
+    "first_scale": 32,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second": "full_arguments",
+    "second_scale": 1
+  },
+  {
+    "ci95": [
+      -0.01900431315104165,
+      -7.120768229162966e-05
+    ],
+    "difference": -0.010101318359374972,
+    "first": "full_arguments",
+    "first_scale": 32,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second": "full_arguments",
+    "second_scale": 1
+  },
+  {
+    "ci95": [
+      0.04622717492317613,
+      0.06098017678323891
+    ],
+    "difference": 0.05329354198102137,
+    "first": "full_arguments",
+    "first_scale": 32,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second": "stance_only",
+    "second_scale": 1
+  },
+  {
+    "ci95": [
+      -0.02266438802083337,
+      -0.0014241536458333148
+    ],
+    "difference": -0.012044270833333343,
+    "first": "full_arguments",
+    "first_scale": 32,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second": "stance_only",
+    "second_scale": 1
+  },
+  {
+    "ci95": [
+      -0.0031227563818898574,
+      -0.00025841784116456545
+    ],
+    "difference": -0.001435958607895499,
+    "first": "full_arguments",
+    "first_scale": 32,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second": "shuffled_arguments",
+    "second_scale": 32
+  },
+  {
+    "ci95": [
+      0.002174886067708297,
+      0.003560384114583315
+    ],
+    "difference": 0.002888997395833315,
+    "first": "full_arguments",
+    "first_scale": 32,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second": "shuffled_arguments",
+    "second_scale": 32
+  }
+]

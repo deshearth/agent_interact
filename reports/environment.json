@@ -1,0 +1,25 @@
+{
+  "architecture": "arm64",
+  "disk_free_bytes": 343160733696,
+  "executable": "/Users/melancholymirth/deshearthGit/github/agent_interact/.venv/bin/python",
+  "execution_location": "local Mac",
+  "hardware": "hw.memsize: 34359738368\nmachdep.cpu.brand_string: Apple M2 Max",
+  "hardware_query_error": null,
+  "mps_available": true,
+  "mps_built": true,
+  "mps_fallback_environment": null,
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "pyarrow": "26.0.1",
+    "pyyaml": "6.0.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.17.1",
+    "torch": "2.15.0"
+  },
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "recorded_utc": "2026-11-08T02:18:21.817290+00:00",
+  "system": "Darwin",
+  "torch": "2.15.0"
+}

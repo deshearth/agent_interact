@@ -1,0 +1,28 @@
+{
+  "all_neural_runs_stopped_by": [
+    "early_stopping"
+  ],
+  "all_prediction_keys_and_targets_identical": true,
+  "all_saved_scores_recomputed": true,
+  "autonomous_rollout_runs": 18,
+  "checkpoint_hashes_verified": true,
+  "code_sha256": "92c500581c6d74e0d5effa4b89f9c402bb76f7800151ac6dbb3b3afcae939dda",
+  "common_data_fingerprint": true,
+  "controlled_test_artifacts": [],
+  "encoded_test_episodes": [],
+  "neural_seeds": [
+    42,
+    43,
+    44
+  ],
+  "reference_observed_consensus_fraction": 0.046875,
+  "reference_observed_mean_switches": 3.115966796875,
+  "rollout_seconds_total": 26.026046496990602,
+  "runs": 30,
+  "train_questions": 16,
+  "training_seconds_total": 651.313252083004,
+  "validation_agent_transitions": 32768,
+  "validation_episodes": 128,
+  "validation_graphs": 8,
+  "validation_questions": 4
+}

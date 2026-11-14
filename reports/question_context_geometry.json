@@ -1,0 +1,55 @@
+{
+  "fit_questions": [
+    "math_train_146",
+    "math_train_309",
+    "math_train_316",
+    "math_train_331",
+    "math_train_357",
+    "math_train_402",
+    "math_train_413",
+    "math_train_435",
+    "math_train_440",
+    "math_train_45",
+    "math_train_482",
+    "math_train_54",
+    "math_train_65",
+    "math_train_77",
+    "math_train_79",
+    "math_train_80"
+  ],
+  "normalization": {
+    "full_embedding": {
+      "fitting_rms_l2": 1.0,
+      "unseen_rms_l2": 1.054160714149475
+    },
+    "pca3_matched": {
+      "fitting_rms_l2": 1.0,
+      "unseen_rms_l2": 0.4816131889820099
+    }
+  },
+  "pca3_rank": 3,
+  "pca3_training_variance_fraction": 0.3529773664373626,
+  "training_rank": 15,
+  "transformed_questions": [
+    "math_train_133",
+    "math_train_146",
+    "math_train_162",
+    "math_train_309",
+    "math_train_316",
+    "math_train_331",
+    "math_train_357",
+    "math_train_359",
+    "math_train_402",
+    "math_train_413",
+    "math_train_435",
+    "math_train_440",
+    "math_train_45",
+    "math_train_482",
+    "math_train_497",
+    "math_train_54",
+    "math_train_65",
+    "math_train_77",
+    "math_train_79",
+    "math_train_80"
+  ]
+}

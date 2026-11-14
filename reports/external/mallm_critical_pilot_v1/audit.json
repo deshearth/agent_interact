@@ -1,0 +1,51 @@
+{
+  "argument_comparison_feasible": false,
+  "assessment_outcome_diagnostics": false,
+  "configuration": "critical_expert_memory_simple_voting",
+  "created_utc": "2026-11-09T23:39:08.101170+00:00",
+  "derived_sha256": {
+    "messages.parquet": "7e772c71872eb95681c888bf8f110aff79bcf39b62913086e76dd58c17fda454",
+    "transitions.parquet": "63b585bca7558154a26599e0673ec12d6aa9564566ac19176bc1bb382b287506"
+  },
+  "development": {
+    "train": {
+      "copy_draft_error": 0.01486988847583643,
+      "disagreement_transitions": 23,
+      "draft_changes": 16,
+      "own_changes": 15,
+      "persistence_error": 0.013940520446096654,
+      "questions": 60,
+      "questions_with_draft_change": 3,
+      "questions_with_own_change": 4,
+      "transitions": 1076
+    },
+    "validation": {
+      "copy_draft_error": 0.005555555555555556,
+      "disagreement_transitions": 6,
+      "draft_changes": 2,
+      "own_changes": 6,
+      "persistence_error": 0.016666666666666666,
+      "questions": 20,
+      "questions_with_draft_change": 1,
+      "questions_with_own_change": 2,
+      "transitions": 360
+    }
+  },
+  "development_exclusions": {
+    "incomplete_visible_agent_states": 1,
+    "no_visible_previous_own_answer": 240,
+    "unparsed_target_own_or_draft": 3
+  },
+  "distinct_questions": 100,
+  "inherited_question_partitions": 6,
+  "input": "Only prior messages explicitly listed in memory_ids; current_draft is a genuine pre-response prompt field. No agreement flags or new response text.",
+  "raw_records": 100,
+  "source_sha256": "07ddbe57d66badbaa012a43673b753b0ee6ee95c5f22e9603dfa12e6e7dd7cc9",
+  "split_counts": {
+    "assessment": 20,
+    "train": 60,
+    "validation": 20
+  },
+  "split_sha256": "b81fbeb1a6c08e2613f6b8238e882095528ae9d4686a11f275b28aec9fc00dad",
+  "target": "Recorded solution on the next utterance, not a fresh independent opinion probe or majority-of-five target."
+}

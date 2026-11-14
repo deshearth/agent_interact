@@ -1,0 +1,37 @@
+project: unseen_graph_v1
+output: runs/unseen_graph_v1
+source_study: runs/question_breadth_v1
+questions: existing_20_validation_questions
+seen_graphs: [J0, J1, J2, J3, J4, J5, J6, J7]
+unseen_graphs: [Jf0, Jf1, Jf2, Jf3]
+assignment_seed: 918271
+questions_per_unseen_graph: 5
+initial_state: reuse_the_paired_seen_episode_initial_five_votes
+source:
+  model: pinned_Llama_3.1_8B_MLX_4bit
+  precision: float32
+  temperature: 0.7
+  agents: 32
+  updates: 8
+  votes: 5
+  replicas: 1
+  later_randomness: independent_request_ids_for_the_new_graph
+predictors:
+  transformer: original_frozen_818_parameter_refits
+  seeds: [142, 143, 144]
+  baseline: original_frozen_Ising_19
+  refit_or_tune: false
+collection:
+  workers: 4
+  partition: free-gpu
+  gpu_type: A30
+  walltime_hours: 48
+  collection_budget_hours: 47.5
+  benchmark_report: hpc3/results/benchmark_59409953/report.json
+evaluation:
+  bootstrap_seed: 918272
+  bootstrap_replicates: 5000
+  primary: equal_question_next_opinion_accuracy
+  secondary: [nll, expected_error, expected_nll, excess_expected_error]
+  auto_score_when_all_episodes_complete: true
+  assessment_questions_used: false

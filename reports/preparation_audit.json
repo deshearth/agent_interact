@@ -1,0 +1,48 @@
+{
+  "checks": {
+    "train/opinion": {
+      "episodes": 512,
+      "snapshots": 4096,
+      "incomplete_message_cache": false
+    },
+    "train/vote_counts": {
+      "episodes": 512,
+      "snapshots": 4096,
+      "incomplete_message_cache": false
+    },
+    "train/history": {
+      "episodes": 512,
+      "snapshots": 4096,
+      "incomplete_message_cache": false
+    },
+    "train/existing_messages": {
+      "episodes": 512,
+      "snapshots": 4096,
+      "incomplete_message_cache": false
+    },
+    "validation/opinion": {
+      "episodes": 128,
+      "snapshots": 1024,
+      "incomplete_message_cache": false
+    },
+    "validation/vote_counts": {
+      "episodes": 128,
+      "snapshots": 1024,
+      "incomplete_message_cache": false
+    },
+    "validation/history": {
+      "episodes": 128,
+      "snapshots": 1024,
+      "incomplete_message_cache": false
+    },
+    "validation/existing_messages": {
+      "episodes": 128,
+      "snapshots": 1024,
+      "incomplete_message_cache": false
+    }
+  },
+  "latest_cpu_smoke_variants": 12,
+  "controlled_test_evaluations": 0,
+  "code_sha256": "92c500581c6d74e0d5effa4b89f9c402bb76f7800151ac6dbb3b3afcae939dda",
+  "gpu_smoke_run": "runs/20261108T024521Z-A2-history-s42-fd2b022a"
+}

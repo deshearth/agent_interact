@@ -1,0 +1,482 @@
+{
+  "familiar/A2: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        -0.0009562174479166715,
+        0.0008239746093749794
+      ],
+      "difference": -0.00011189778645833565,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.0005757451205212347,
+        0.000513022448357092
+      ],
+      "difference": -3.623155892066611e-05,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "familiar/A2: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        0.0029093424479166505,
+        0.007792409261067699
+      ],
+      "difference": 0.005360921223958329,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.015538054126812934,
+        -0.006579381574472322
+      ],
+      "difference": -0.010690851060754292,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "familiar/full_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        -0.005178324381510399,
+        -0.0014325459798176965
+      ],
+      "difference": -0.0031636555989583218,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        0.008479727646282399,
+        0.015543316800766423
+      ],
+      "difference": 0.011949088108370476,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "familiar/separate: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        -0.0011393229166666438,
+        0.0005391438802083359
+      ],
+      "difference": -0.0002848307291666574,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.0007276830031373897,
+        0.0027933973738030094
+      ],
+      "difference": 0.000993308762888577,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "familiar/separate: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        -0.0013748168945312358,
+        0.005575561523437501
+      ],
+      "difference": 0.002197265625000007,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.005688883465492767,
+        0.007771120629497681
+      ],
+      "difference": 0.0012582370476161846,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "familiar/shuffled_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        -0.004740651448567713,
+        -0.0015556335449218622
+      ],
+      "difference": -0.00299072265625,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        0.007677674240964489,
+        0.014126258474383434
+      ],
+      "difference": 0.010919547786561233,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "train/A2: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        0.00011685689290363029,
+        0.0012310028076172057
+      ],
+      "difference": 0.0006612141927083356,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.0016394326765408634,
+        -0.000683571757704542
+      ],
+      "difference": -0.001174389542717722,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "train/A2: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        0.0012144724527994905,
+        0.006820678710937507
+      ],
+      "difference": 0.004023234049479171,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.013921285083592944,
+        -0.003127211138693103
+      ],
+      "difference": -0.008221345964319428,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "train/full_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        0.0008487701416015813,
+        0.0039423624674479315
+      ],
+      "difference": 0.002456665039062507,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.005422346251896331,
+        -9.857543993315746e-05
+      ],
+      "difference": -0.002743568374322083,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "train/separate: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        -0.0006561279296874864,
+        0.0010326385498047055
+      ],
+      "difference": 0.00023396809895834259,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.001127085517405993,
+        0.0010985519103950986
+      ],
+      "difference": -3.570409873645056e-05,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "train/separate: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        0.002726236979166692,
+        0.010147730509440117
+      ],
+      "difference": 0.006479899088541678,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.018309907180186106,
+        -0.004002100176397314
+      ],
+      "difference": -0.01096491433864151,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "train/shuffled_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        0.0009765625000000269,
+        0.004649861653645829
+      ],
+      "difference": 0.0028839111328125,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.0066859692275192265,
+        -0.0009317570559366926
+      ],
+      "difference": -0.0038822538183033543,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "unseen/A2: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        0.00010172526041665741,
+        0.007191975911458343
+      ],
+      "difference": 0.003306070963541685,
+      "paired_questions": 4,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.010385264153212642,
+        0.0004714643329259971
+      ],
+      "difference": -0.004985393227361051,
+      "paired_questions": 4,
+      "replicates": 1000
+    }
+  },
+  "unseen/A2: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        -0.018117777506510415,
+        -0.00201416015625
+      ],
+      "difference": -0.010040283203125,
+      "paired_questions": 4,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.019298328245647825,
+        0.020984213259217864
+      ],
+      "difference": 0.002182428293251739,
+      "paired_questions": 4,
+      "replicates": 1000
+    }
+  },
+  "unseen/full_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        -0.016107940673828106,
+        -0.0007324218749999722
+      ],
+      "difference": -0.009714762369791657,
+      "paired_questions": 4,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        0.012097590961087201,
+        0.04885631364399977
+      ],
+      "difference": 0.03367304015055807,
+      "paired_questions": 4,
+      "replicates": 1000
+    }
+  },
+  "unseen/separate: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        0.00022379557291665741,
+        0.009989420572916657
+      ],
+      "difference": 0.0048828125,
+      "paired_questions": 4,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.024205259287506664,
+        -0.001122352431470991
+      ],
+      "difference": -0.010231783601429512,
+      "paired_questions": 4,
+      "replicates": 1000
+    }
+  },
+  "unseen/separate: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        -0.03417612711588541,
+        -0.0030924479166666574
+      ],
+      "difference": -0.019755045572916657,
+      "paired_questions": 4,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.007200737284560624,
+        0.06935350336592094
+      ],
+      "difference": 0.03585546844380981,
+      "paired_questions": 4,
+      "replicates": 1000
+    }
+  },
+  "unseen/shuffled_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        -0.019409179687499944,
+        -0.003173828125
+      ],
+      "difference": -0.011291503906249972,
+      "paired_questions": 4,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        0.01426477690189537,
+        0.06477980630110261
+      ],
+      "difference": 0.03891943052462653,
+      "paired_questions": 4,
+      "replicates": 1000
+    }
+  },
+  "validation/A2: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        -4.069010416665134e-05,
+        0.0014549255371093565
+      ],
+      "difference": 0.0007222493489583287,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.0008819677258861303,
+        0.00025865794748349203
+      ],
+      "difference": -0.0003143986430237018,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "validation/A2: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        0.003275044759114588,
+        0.008250427246093754
+      ],
+      "difference": 0.005716959635416664,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.016438213479657834,
+        -0.005600878998914168
+      ],
+      "difference": -0.010707454814487389,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "validation/full_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        -0.005808512369791671,
+        -0.0021565755208333426
+      ],
+      "difference": -0.0038960774739583495,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        0.006403980448131508,
+        0.013998121821737064
+      ],
+      "difference": 0.01027015336497061,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "validation/separate: full minus shuffled_arguments": {
+    "accuracy": {
+      "ci95": [
+        -0.0014139811197917062,
+        0.0008649190266926917
+      ],
+      "difference": -0.00023396809895835646,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.0023522962835364407,
+        0.0010854033671794982
+      ],
+      "difference": -0.0007804559923864107,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "validation/separate: full minus stance_only": {
+    "accuracy": {
+      "ci95": [
+        -0.0007329305013020901,
+        0.004750823974609356
+      ],
+      "difference": 0.0018208821614583148,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        -0.008039817873749348,
+        0.006850443966629813
+      ],
+      "difference": -0.00043730144951677815,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "validation/shuffled_arguments: separate minus additive": {
+    "accuracy": {
+      "ci95": [
+        -0.004517110188802084,
+        -0.0012603759765624919
+      ],
+      "difference": -0.0029398600260416644,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll": {
+      "ci95": [
+        0.00769026636089057,
+        0.01363857856774479
+      ],
+      "difference": 0.010736210714333321,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  }
+}

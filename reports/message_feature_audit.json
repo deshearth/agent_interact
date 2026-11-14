@@ -1,0 +1,14 @@
+{
+  "complete_episodes": {
+    "train": 512,
+    "validation": 128
+  },
+  "feature_shape": [
+    8,
+    32,
+    770
+  ],
+  "all_finite": true,
+  "initial_inbox_zero": true,
+  "test_feature_episodes": 0
+}

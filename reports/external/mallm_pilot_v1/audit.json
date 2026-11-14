@@ -1,0 +1,48 @@
+{
+  "argument_comparison_feasible": false,
+  "assessment_outcome_diagnostics": false,
+  "configuration": "simple_nopersona_memory_simple_voting",
+  "created_utc": "2026-11-09T23:28:36.798252+00:00",
+  "derived_sha256": {
+    "messages.parquet": "d69020a01a73979c0a3d200bd7d95d7f72dffa99a85fc52d406858f0fa06b5a3",
+    "transitions.parquet": "d09964d09e417a1eecb04b797e3563e109292c11c82fd04d97532b67a68cbc23"
+  },
+  "development": {
+    "train": {
+      "copy_draft_error": 0.0,
+      "disagreement_transitions": 1,
+      "draft_changes": 0,
+      "own_changes": 1,
+      "persistence_error": 0.000925925925925926,
+      "questions": 60,
+      "questions_with_draft_change": 0,
+      "questions_with_own_change": 1,
+      "transitions": 1080
+    },
+    "validation": {
+      "copy_draft_error": 0.0,
+      "disagreement_transitions": 0,
+      "draft_changes": 0,
+      "own_changes": 0,
+      "persistence_error": 0.0,
+      "questions": 20,
+      "questions_with_draft_change": 0,
+      "questions_with_own_change": 0,
+      "transitions": 360
+    }
+  },
+  "development_exclusions": {
+    "no_visible_previous_own_answer": 240
+  },
+  "distinct_questions": 100,
+  "input": "Only prior messages explicitly listed in memory_ids; current_draft is a genuine pre-response prompt field. No agreement flags or new response text.",
+  "raw_records": 100,
+  "source_sha256": "10e4da33079066b8502b116904b44d4d5e6a613d55b164e596bef9d69aad8450",
+  "split_counts": {
+    "assessment": 20,
+    "train": 60,
+    "validation": 20
+  },
+  "split_sha256": "6ffcd03079725e9cdba03cb4014ef48d6af9865c2044f96514ae502783dc42aa",
+  "target": "Recorded solution on the next utterance, not a fresh independent opinion probe or majority-of-five target."
+}

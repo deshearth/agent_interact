@@ -1,0 +1,49 @@
+{
+  "artifacts": {
+    "hpc3/README.md": "e617ccd9594525a398b0632fad470366543e2851e80e602cab1be69ff9d2c3a6",
+    "hpc3/benchmark.sbatch": "b7c7607255ba9be8282de311ebc5eb47945c7856b76d1854312228ce8c464586",
+    "hpc3/bootstrap.sbatch": "2f1082730d7de573813f2e801b3b454803a8cfb01e8cb740c35fc4881382afdf",
+    "hpc3/collect.sbatch": "01f5a72e01bc341254bede33d759fc3a5059bb8446c521ef2b16d78a3a37e36c",
+    "hpc3/container.sh": "43b1733452f9789222dae61add621f5332d0bfe806824992dd096fc3f1bc3cb2",
+    "hpc3/environment.json": "f1e999920c89ee407d4d0bb664ee84df52150e6349041a37948072c59725268d",
+    "hpc3/requirements-cuda12.txt": "adf6edc007d84a25e10b37b9dd38dda66b38ba86fbd4e84f9606f3ad20ca3135",
+    "reports/hpc3_linux_dependency_resolution.json": "ff8afe27cf665e74aa2d05d062bff1d52d659c6deb18bfda8a4dd33ca30265e3",
+    "reports/hpc3_submission_checks.xml": "6452207a814b4022887baa18f2dd4b7f7451b8624e6638a50735daaab538ac4f",
+    "scripts/hpc3_breadth.py": "991a399666bc13bf41948860697dd09243dc9d76893b4ca5363fda04d93d9675",
+    "scripts/hpc3_prepare.py": "0f76a84db0854bb248b13ddad6f55f2c033185943f28fbbda20da57793958bfe",
+    "tests/test_hpc3_submission.py": "f20da488ea4a671f7d10d30b389e756bbddff65ea4eca4604a865d8b6c8fa614"
+  },
+  "connection_status": "SSH timed out; user is connecting to UCI VPN",
+  "frozen_source_files_verified": 15,
+  "full_reference_coverage": false,
+  "gpu": "A100:1",
+  "gpu_benchmark_run": false,
+  "local_collection": {
+    "deadline_utc": "2026-11-16T11:29:54.057835+00:00",
+    "group_id": "screen|breadth_math_10004|group16",
+    "new_samples_this_invocation": 115622,
+    "updated_utc": "2026-11-09T19:37:22.088159+00:00"
+  },
+  "package": {
+    "archive": "/Users/melancholymirth/deshearthGit/github/agent_interact/runs/hpc3_submission_v1/hpc3_benchmark.tar.gz",
+    "archive_bytes": 525243,
+    "archive_sha256": "555f09f94474605c3be3cb478341543460a9f91366f6dda1cdf2dcb7d643d391",
+    "directory": "/Users/melancholymirth/deshearthGit/github/agent_interact/runs/hpc3_submission_v1/hpc3_benchmark",
+    "files": 27,
+    "full_reference_coverage": false,
+    "mode": "benchmark"
+  },
+  "partition": "free-gpu",
+  "pinned_linux_wheels": 43,
+  "prepared_utc": "2026-11-09T19:37:23.087649+00:00",
+  "reference_groups": [
+    "opinion_no_inbox",
+    "message_no_inbox",
+    "independent_votes"
+  ],
+  "remaining_reference_work": "Re-export with actual train neighbor-inbox groups after screening finishes; production stays locked until then.",
+  "source_protocol_sha256": "f07dfee33685bd9b7c3d283c0ba082e4536511df078e689594c329986ed4fb67",
+  "status": "prepared_not_submitted",
+  "tests_passed": 21,
+  "username": "yifengc7"
+}

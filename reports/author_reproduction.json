@@ -1,0 +1,43 @@
+{
+  "metrics": {
+    "fresh_random": {
+      "one_step_accuracy_percent": 85.487060546875,
+      "one_step_fcba_percent": 84.9976248438317,
+      "rollout_accuracy_percent": 64.87548828125,
+      "rollout_fcba_percent": 65.91510269112729
+    },
+    "seen_random": {
+      "one_step_accuracy_percent": 86.73095703125,
+      "one_step_fcba_percent": 86.27160394162206,
+      "rollout_accuracy_percent": 67.398681640625,
+      "rollout_fcba_percent": 68.24389859998573
+    }
+  },
+  "preprocessing": "Author compact question PCA and persona PCA",
+  "run": "runs/20261108T023505Z-author-reproduction-864ed337",
+  "scope": "Author reproduction only; official 20 training questions; not controlled model selection",
+  "source_revision": "62bf0e7ddb94e6be936bed6a35aefea94e8d54a9",
+  "test_episodes": 640,
+  "training_episodes": 640,
+  "weights": [
+    -0.004840232273053829,
+    -0.08875072898276055,
+    -0.02456474147995266,
+    -0.06674743763600148,
+    0.33599996653674424,
+    0.1682383311975442,
+    -1.80303224387228,
+    0.4576514307610198,
+    -0.2736290670917979,
+    -0.6058979600630177,
+    -0.9284719651982909,
+    -1.371902584460922,
+    -0.5230650877676916,
+    -0.3034004764402995,
+    0.08069988959110376,
+    0.057869797163271175,
+    2.1047339455256093,
+    0.7506334753609792,
+    0.927971142944242
+  ]
+}

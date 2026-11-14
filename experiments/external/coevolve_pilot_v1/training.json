@@ -1,0 +1,22 @@
+{
+  "phase": "development_only",
+  "target": "native_next_categorical_belief",
+  "primary_metric": "equal_question_nll",
+  "neural_models": ["pooled_mlp", "tiny_attention"],
+  "seeds": [42, 43, 44],
+  "learning_rates": [0.001, 0.003],
+  "max_steps": 1536,
+  "batch_size": 256,
+  "evaluate_every": 128,
+  "patience": 4,
+  "min_delta": 0.0001,
+  "weight_decay": 0.001,
+  "dropout": 0.1,
+  "gradient_clip": 1.0,
+  "torch_threads": 1,
+  "logistic_C": [0.01, 0.1, 1.0, 10.0],
+  "assessment_policy": "No assessment prediction or metrics in this pilot. Validation selects checkpoints and rates; its scores are exploratory.",
+  "features": "Current own belief and model/role identity, current round, own degree, visible neighbor belief and model/role identities. No question ID/text, ground truth, future states, or source-model probability vectors.",
+  "baseline_policy": "Empirical Markov transitions; published-style local-composition logistic; local-composition plus receiver-identity logistic; full available role-by-belief aggregate logistic. Original signed binary Ising is not directly applied to these unsigned, three-category interactions.",
+  "neural_policy": "Both families receive the same available information. The pooled model receives exact role-by-belief counts/fractions, which fully describe the visible multiset in this protocol. Four-head, width-eight attention is adapted from the original architecture, with native labels and unsigned edges; actual parameter count is reported."
+}

@@ -1,0 +1,506 @@
+[
+  {
+    "ci95": [
+      -0.10725456467705438,
+      -0.062459299073559765
+    ],
+    "difference": -0.08485693187530706,
+    "first_condition": "stance_only",
+    "first_n": 16,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.026336669921875007,
+      -0.004563331604003916
+    ],
+    "difference": -0.016939798990885418,
+    "first_condition": "stance_only",
+    "first_n": 16,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      0.0045633316040038785,
+      0.026336669921875
+    ],
+    "difference": 0.016939798990885407,
+    "first_condition": "stance_only",
+    "first_n": 16,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.07391138812696288,
+      -0.04644664005866084
+    ],
+    "difference": -0.06232887722558509,
+    "first_condition": "stance_only",
+    "first_n": 8,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.021794637044270843,
+      -0.00598907470703125
+    ],
+    "difference": -0.014483133951822921,
+    "first_condition": "stance_only",
+    "first_n": 8,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      0.00598907470703125,
+      0.021794637044270787
+    ],
+    "difference": 0.014483133951822907,
+    "first_condition": "stance_only",
+    "first_n": 8,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.016942860726517323,
+      -0.003513742568095099
+    ],
+    "difference": -0.010561074614223571,
+    "first_condition": "stance_only",
+    "first_n": 12,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      -0.005406697591145832,
+      -0.002568562825520839
+    ],
+    "difference": -0.004114786783854171,
+    "first_condition": "stance_only",
+    "first_n": 12,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      0.002568562825520787,
+      0.00540669759114587
+    ],
+    "difference": 0.004114786783854157,
+    "first_condition": "stance_only",
+    "first_n": 12,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      -0.03259842134321113,
+      0.003672837160830139
+    ],
+    "difference": -0.011966980035498405,
+    "first_condition": "stance_only",
+    "first_n": 16,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.00201161702473957,
+      0.005770365397135421
+    ],
+    "difference": 0.001658121744791673,
+    "first_condition": "stance_only",
+    "first_n": 16,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.00577036539713538,
+      0.002011617024739537
+    ],
+    "difference": -0.0016581217447916574,
+    "first_condition": "stance_only",
+    "first_n": 16,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.10108850873037172,
+      -0.0679770606085301
+    ],
+    "difference": -0.08483184062129813,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.026613871256510418,
+      -0.008008321126302082
+    ],
+    "difference": -0.017344156901041664,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      0.008008321126302065,
+      0.02661387125651038
+    ],
+    "difference": 0.01734415690104163,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.08051885274996665,
+      -0.04494573283391748
+    ],
+    "difference": -0.06269542853037849,
+    "first_condition": "full_arguments",
+    "first_n": 8,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.023473103841145836,
+      -0.004277547200520829
+    ],
+    "difference": -0.013875325520833332,
+    "first_condition": "full_arguments",
+    "first_n": 8,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      0.004277547200520815,
+      0.02347310384114576
+    ],
+    "difference": 0.013875325520833287,
+    "first_condition": "full_arguments",
+    "first_n": 8,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.008956100031930786,
+      -0.0034261369167933164
+    ],
+    "difference": -0.006192634341385811,
+    "first_condition": "full_arguments",
+    "first_n": 12,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      -0.004786173502604161,
+      0.0003749211629231693
+    ],
+    "difference": -0.0016428629557291678,
+    "first_condition": "full_arguments",
+    "first_n": 12,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      -0.0003749211629231584,
+      0.004786173502604213
+    ],
+    "difference": 0.001642862955729213,
+    "first_condition": "full_arguments",
+    "first_n": 12,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      -0.025967219353259907,
+      -0.0026319346957719564
+    ],
+    "difference": -0.01594377774953383,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.004603068033854157,
+      0.0009511311848958287
+    ],
+    "difference": -0.0018259684244791644,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.0009511311848958703,
+      0.00460306803385413
+    ],
+    "difference": 0.0018259684244791297,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "full_arguments",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.0029960027931871247,
+      0.015002933491302134
+    ],
+    "difference": 0.006003465349057505,
+    "first_condition": "full_arguments",
+    "first_n": 4,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.0007375081380208426,
+      0.005432128906249993
+    ],
+    "difference": 0.0023473103841145752,
+    "first_condition": "full_arguments",
+    "first_n": 4,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      -0.00543212890625,
+      0.0007375081380208148
+    ],
+    "difference": -0.0023473103841145926,
+    "first_condition": "full_arguments",
+    "first_n": 4,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 4
+  },
+  {
+    "ci95": [
+      0.0025030939545573725,
+      0.008766551458721308
+    ],
+    "difference": 0.005636914044264106,
+    "first_condition": "full_arguments",
+    "first_n": 8,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      0.0013352076212565013,
+      0.004572550455729171
+    ],
+    "difference": 0.0029551188151041644,
+    "first_condition": "full_arguments",
+    "first_n": 8,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      -0.004572550455729185,
+      -0.0013352076212565867
+    ],
+    "difference": -0.002955118815104213,
+    "first_condition": "full_arguments",
+    "first_n": 8,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 8
+  },
+  {
+    "ci95": [
+      0.0037381812408789905,
+      0.015944428777100526
+    ],
+    "difference": 0.010005354317101867,
+    "first_condition": "full_arguments",
+    "first_n": 12,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      0.00391654968261719,
+      0.006927490234375
+    ],
+    "difference": 0.005427042643229168,
+    "first_condition": "full_arguments",
+    "first_n": 12,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.006927490234375,
+      -0.003916549682617178
+    ],
+    "difference": -0.005427042643229157,
+    "first_condition": "full_arguments",
+    "first_n": 12,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 12
+  },
+  {
+    "ci95": [
+      -0.0003951000004285606,
+      0.013346594753663947
+    ],
+    "difference": 0.006028556603066441,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 16
+  },
+  {
+    "ci95": [
+      -0.0025883992513020854,
+      0.005167643229166668
+    ],
+    "difference": 0.0019429524739583304,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "error_rate",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 16
+  },
+  {
+    "ci95": [
+      -0.005167643229166685,
+      0.0025883992513020325
+    ],
+    "difference": -0.0019429524739583703,
+    "first_condition": "full_arguments",
+    "first_n": 16,
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "second_condition": "stance_only",
+    "second_n": 16
+  }
+]

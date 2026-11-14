@@ -1,0 +1,7 @@
+{
+  "source": "runs/breadth_320_learning_curve_v1/results/summary.json",
+  "source_sha256": "8f54f5822eb9bbf298601faf5764ff4ff473988914fa117e23b83cb9cac427c3",
+  "plot_code_sha256": "c838a951579bf8549e892907886941a61e85093e96d4deee2287f1feb65dcab3",
+  "figure": "reports/breadth_320_learning_curve.png",
+  "figure_sha256": "066590adb2be68d506e0ac8c851b04a2d6837aee1c6e32da02e3361ca8c72b10"
+}

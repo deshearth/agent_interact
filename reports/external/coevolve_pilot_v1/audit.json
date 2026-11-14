@@ -1,0 +1,56 @@
+{
+  "arrays_sha256": "bf6f0dcb6b4f2eec25dbf96d351efb07ec187b3f67318193d02c367e855f7ee6",
+  "assessment_outcome_diagnostics": false,
+  "created_utc": "2026-11-09T23:30:07.656820+00:00",
+  "development": {
+    "train": {
+      "agent_transitions": 11520,
+      "changes": 1326,
+      "graph_snapshots": 240,
+      "neighbor_majority_error": 0.14982638888888888,
+      "persistence_error": 0.11510416666666666,
+      "questions": 12,
+      "questions_with_change": 12,
+      "target_counts": [
+        4604,
+        6322,
+        594
+      ]
+    },
+    "validation": {
+      "agent_transitions": 3840,
+      "changes": 126,
+      "graph_snapshots": 80,
+      "neighbor_majority_error": 0.049479166666666664,
+      "persistence_error": 0.0328125,
+      "questions": 4,
+      "questions_with_change": 4,
+      "target_counts": [
+        2845,
+        906,
+        89
+      ]
+    }
+  },
+  "distinct_statements": 20,
+  "graphs": [
+    "erdos-renyi-01",
+    "watts-strogatz-01"
+  ],
+  "input_policy": "Current categorical belief, model/role identity and neighbor belief/role composition. No ground truth, question ID, future states or confidence probabilities enter predictor features.",
+  "labels": [
+    "true",
+    "false",
+    "neither"
+  ],
+  "raw_runs": 40,
+  "scenario": "experts",
+  "scope": "40 runs on two prespecified graph realizations. Does not reproduce the full-paper graph cohort. Whole-statement split generalizes to new statements within this source population.",
+  "split_counts": {
+    "assessment": 4,
+    "train": 12,
+    "validation": 4
+  },
+  "split_sha256": "5cdee66aa1561b4db937eefb743c496e7b4c379be1038a226400dfcf711e1e90",
+  "vocabulary_sha256": "80d17abfdd5201198a4366e74124bda666291b3f47d0b1c3c4af9e1ea8668704"
+}

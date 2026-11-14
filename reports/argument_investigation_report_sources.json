@@ -1,0 +1,20 @@
+{
+  "inputs": {
+    "reports/argument_investigation_integrity.json": "9e65aa10b2e47f0ea540964ab39f37f4c80b1ce252a34acd1ebd46d83641ac60",
+    "reports/argument_investigation_paired.json": "8774e1f6234ec910e725ae7834e22cec05ce36b0db63a2c129e3f21c1ea90bf7",
+    "reports/argument_investigation_summary.csv": "820b6a1c9752b58b116dbb409d0528b79b70e2dfd8ede49be76af6b947d90b31",
+    "runs/argument_investigation_20261108/completion_audit.json": "8b49ef869035bca2c6535eb579043d2968e962dbaa81f49655ff1990da68aafc",
+    "runs/argument_investigation_20261108/controlled_probe_draft/manifest.json": "b2616f28e2f944d289ad7baf69a42173683adac830ac15ebc37b7801860b91fa",
+    "runs/argument_investigation_20261108/controlled_probe_uncertain/analysis_plan.json": "974f04a1d74caf116455de6dc0fbf667babdf45489a5f22411c98fcbf32b7f24",
+    "runs/argument_investigation_20261108/controlled_probe_uncertain/manifest.json": "4f5aa03e9e39ec78b2eefc4af0e336b4d34b7a0169b3e137a0979f00e9dde0a5",
+    "runs/argument_investigation_20261108/input_trace/trace.json": "3bafaa2e3fbeea3cc0c17f5e0ea66cebec27f7bbba664297b74cc2de69200b49",
+    "runs/argument_investigation_20261108/quality_predictor_probe/complete.json": "23dc318fa2bbd7d70c733979012a969b9873929a87e48831d8c51e84618927ff",
+    "runs/argument_investigation_20261108/quality_uncertain_probe/complete.json": "834d04c172ced5fcaec8f70d3d46817ab2730e049ddf89af1d10863cce61747d",
+    "runs/argument_investigation_20261108/session.json": "f4a20df08a60582cd6ec819b8d7c25b99c1d8aae996ece3c5d9e450c6f43a951",
+    "runs/argument_investigation_20261108/stratified_diagnostic/complete.json": "b57fadd97e40c90df423d4b40fd9875853b46bc0ebff2f45c0b7557ca985e4c9",
+    "runs/argument_investigation_20261108/terminal_fit_audit/summary.csv": "7aa4a219e81624a30be858d5fefcb2492ce57b339f522814634fd02fed1a16fd"
+  },
+  "investigation_status": "complete",
+  "report_sha256": "2f622f4b2eb53afd4cb35f61ce08f8189b6199dd10bd56de46ab66ef0c26a461",
+  "writer_sha256": "50c56e5e5faa5db40478d81e8b79e23ecec89e74c1c2bc1984984a8403f95eb2"
+}

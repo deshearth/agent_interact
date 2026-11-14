@@ -1,0 +1,1514 @@
+[
+  {
+    "ci95": [
+      -0.004935761390437041,
+      0.015684599333188526
+    ],
+    "difference": 0.007279331132497541,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.013203938802083315,
+      -0.005226389567057311
+    ],
+    "difference": -0.00921630859375,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.007703832424971379,
+      0.01647676502295295
+    ],
+    "difference": 0.012102442800765782,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.015493527556118686,
+      -0.0015665851215290578
+    ],
+    "difference": -0.007743941880873073,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.009906768051990034,
+      -0.0017900276052449926
+    ],
+    "difference": -0.005250908233794482,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.019864703797293798,
+      -0.007929566541940393
+    ],
+    "difference": -0.012491613007986985,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.005688157888648328,
+      0.01801693494792095
+    ],
+    "difference": 0.008422425916697299,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.013109492334713924,
+      -0.006804517964106499
+    ],
+    "difference": -0.009963911965592154,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.009187358545057766,
+      0.01666498269918624
+    ],
+    "difference": 0.0129399200766907,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.016842514666639663,
+      -0.006947884846309033
+    ],
+    "difference": -0.010904312570857139,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0137392600620804,
+      -0.003228199073513029
+    ],
+    "difference": -0.007234794014756074,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.018703465242941503,
+      -0.008946736334926257
+    ],
+    "difference": -0.012712403878658046,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0056879872430197695,
+      0.018017276239178065
+    ],
+    "difference": 0.008422596562325857,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.013109578847929959,
+      -0.006804517964106499
+    ],
+    "difference": -0.009963955222200171,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.009187358545057766,
+      0.01666507525237288
+    ],
+    "difference": 0.01293996635328402,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.016842514666639663,
+      -0.006947905620700359
+    ],
+    "difference": -0.010904333877925165,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0137392600620804,
+      -0.003228199073513029
+    ],
+    "difference": -0.007234794014756074,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.018703465242941503,
+      -0.00894681175698812
+    ],
+    "difference": -0.012712481234618933,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0015618456100315037,
+      -0.0003414665333652603
+    ],
+    "difference": -0.0009781596054672867,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      0.0006205240885417129,
+      0.0008443196614583148
+    ],
+    "difference": 0.0007324218750000278,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0009342786448380408,
+      -0.0004638395051588251
+    ],
+    "difference": -0.0007234435259579897,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.00014920245681820932,
+      0.001303984584858281
+    ],
+    "difference": 0.0005602511777836328,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      0.00048169556840080285,
+      0.0022644927536231707
+    ],
+    "difference": 0.0015384588534249344,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.00048293207570257457,
+      0.0004912378573129761
+    ],
+    "difference": -7.826905677882356e-06,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0015315461526542173,
+      -0.0003194627038633213
+    ],
+    "difference": -0.0009834928773594098,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      0.00044025021965791934,
+      0.0010225398028541055
+    ],
+    "difference": 0.000783836209798966,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0010021231157400987,
+      -0.0003837667353520334
+    ],
+    "difference": -0.0006998181696615639,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.001610699803288318,
+      0.0013198574075121705
+    ],
+    "difference": 1.2725022467630076e-05,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.00039306581090511883,
+      0.0025310158839095265
+    ],
+    "difference": 0.0014182276012370543,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0003921631216535215,
+      0.0004415542710340947
+    ],
+    "difference": 5.6174621074600584e-05,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0015316023915129262,
+      -0.0003194627038633213
+    ],
+    "difference": -0.0009835209967887643,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      0.0004402770685870826,
+      0.0010225398028541055
+    ],
+    "difference": 0.0007838451594420204,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0010021231157400987,
+      -0.0003837740706880456
+    ],
+    "difference": -0.0006998255049975761,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.00161068634619288,
+      0.0013198574075121705
+    ],
+    "difference": 1.2729508166109404e-05,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.00039306581090511883,
+      0.0025310158839095265
+    ],
+    "difference": 0.0014182276012370543,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0003921631216535215,
+      0.0004415993953445496
+    ],
+    "difference": 5.618966251141888e-05,
+    "first": "full_arguments",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -6.132495531074412e-05,
+      0.001741356065228225
+    ],
+    "difference": 0.0006037566874471101,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0014851888020833703,
+      0.00020345052083331483
+    ],
+    "difference": -0.0005900065104166852,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -4.3113202328720623e-05,
+      0.0011163038080449564
+    ],
+    "difference": 0.0004006656398656064,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0018415893673112693,
+      -1.8951997875216176e-05
+    ],
+    "difference": -0.0008142347637907221,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.001657530158331283,
+      -0.00013586956521738358
+    ],
+    "difference": -0.0007487660914244354,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.001540271308070107,
+      0.0006042484555002781
+    ],
+    "difference": -0.00046801142628491443,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -7.008493610694343e-05,
+      0.001931973862566036
+    ],
+    "difference": 0.000668967430908704,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.001648027087961107,
+      0.00022630396031930733
+    ],
+    "difference": -0.0006571553222660953,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -4.8458434638382064e-05,
+      0.0012382810302413033
+    ],
+    "difference": 0.00044495204010089676,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.002199197390452018,
+      -9.937893327227609e-05
+    ],
+    "difference": -0.0010259230783840334,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.001885604428463028,
+      -0.0001622849724114972
+    ],
+    "difference": -0.0008532449899180672,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0016716761739351549,
+      0.0006663275759757337
+    ],
+    "difference": -0.0005026742989797106,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -7.008328896566798e-05,
+      0.001931973862566036
+    ],
+    "difference": 0.0006689691202843712,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0016480330543898192,
+      0.00022629202746188293
+    ],
+    "difference": -0.0006571612886948075,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -4.8457556451025896e-05,
+      0.0012382814693349814
+    ],
+    "difference": 0.00044495247919457484,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0021991985118766377,
+      -9.937893327227609e-05
+    ],
+    "difference": -0.0010259241998086532,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.001885604428463028,
+      -0.0001622849724114972
+    ],
+    "difference": -0.0008532449899180672,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0016716761739351549,
+      0.000666314683315572
+    ],
+    "difference": -0.0005026807453097915,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A0",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0003951000004285606,
+      0.013346594753663947
+    ],
+    "difference": 0.006028556603066441,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.005167643229166685,
+      0.0025883992513020325
+    ],
+    "difference": -0.0019429524739583703,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0026985491662411733,
+      0.006277316642927272
+    ],
+    "difference": 0.0021804042243627163,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0014393508708585023,
+      0.0032787259513808453
+    ],
+    "difference": 0.0009196875402611715,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.005926800224990703,
+      0.012581619579635994
+    ],
+    "difference": 0.009254209902313348,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.01707949772086431,
+      -0.0012404697698187924
+    ],
+    "difference": -0.010021579587489532,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.00032258679763261743,
+      0.01365499514990065
+    ],
+    "difference": 0.006695773593037108,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.006750886187518623,
+      0.001307255807191777
+    ],
+    "difference": -0.003079984077072634,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0018450920739319996,
+      0.006839548187473128
+    ],
+    "difference": 0.0028461796357476914,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.00493770726698791,
+      0.0019108550205569896
+    ],
+    "difference": -0.0011725352300903102,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.005220140294689091,
+      0.01159096988485006
+    ],
+    "difference": 0.007555076754568318,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.018530195683939238,
+      -0.001234806396892551
+    ],
+    "difference": -0.010780143605130577,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.00032246557764282146,
+      0.01365499514990065
+    ],
+    "difference": 0.006695733186373842,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.006750886187518623,
+      0.0013073497784437235
+    ],
+    "difference": -0.003079952753321985,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.00184519997943599,
+      0.006839548187473128
+    ],
+    "difference": 0.0028461436672463612,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.004937675306385911,
+      0.0019108550205569896
+    ],
+    "difference": -0.0011725245765563108,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      0.005220140294689091,
+      0.01159096988485006
+    ],
+    "difference": 0.007555076754568318,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.018530195683939238,
+      -0.0012346903629512622
+    ],
+    "difference": -0.010780104927150147,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "stance_only"
+  },
+  {
+    "ci95": [
+      -0.0017452022274883627,
+      0.0004947722294839779
+    ],
+    "difference": -0.0005281495582929591,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0005091349283854261,
+      0.0006612141927083148
+    ],
+    "difference": -3.0517578125027756e-05,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0012745671890823165,
+      0.0004278712895737641
+    ],
+    "difference": -0.0003502436271684492,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0005326400625731142,
+      0.0004293718284429371
+    ],
+    "difference": -0.00017072924803387957,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0012232760551963429,
+      0.0018419619669933773
+    ],
+    "difference": 2.79447633296237e-05,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0003297982215661466,
+      9.578102612062267e-05
+    ],
+    "difference": -0.00016347625131102328,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0019045991102116522,
+      0.0004818192004182667
+    ],
+    "difference": -0.000579380472336459,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.00038447292936705235,
+      0.0006555667013116717
+    ],
+    "difference": -1.2544397620384284e-05,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0014011593966732107,
+      0.0004333997253400043
+    ],
+    "difference": -0.0003850685603333896,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0005056563669495473,
+      0.0006792204446619543
+    ],
+    "difference": 8.67820388562035e-05,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0009673763391547796,
+      0.0018341449711678781
+    ],
+    "difference": 0.0002241937404018346,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.000505251208397367,
+      -0.00011720988931729348
+    ],
+    "difference": -0.0002815972073835493,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0019045991102116522,
+      0.0004818147856236951
+    ],
+    "difference": -0.0005793819439346495,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.00038447591258133906,
+      0.0006555652097045284
+    ],
+    "difference": -1.254588922752764e-05,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0014011593966732107,
+      0.0004334117734496809
+    ],
+    "difference": -0.00038506454429683076,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0005056563669495473,
+      0.0006792215660866296
+    ],
+    "difference": 8.678259956854117e-05,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0009673763391547796,
+      0.0018341449711678781
+    ],
+    "difference": 0.0002241937404018346,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0005052490596206549,
+      -0.00011720988931729348
+    ],
+    "difference": -0.0002815950586068372,
+    "first": "full_arguments",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "shuffled_arguments"
+  },
+  {
+    "ci95": [
+      -0.0003947266636020664,
+      0.0016791122325523489
+    ],
+    "difference": 0.0003689794506048505,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0004781087239582871,
+      0.000714365641276113
+    ],
+    "difference": 0.00019327799479171293,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.00025153109357860124,
+      0.0012382283047567902
+    ],
+    "difference": 0.00028346155304650317,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0006479163469937654,
+      0.0006870521154503974
+    ],
+    "difference": 9.292642959934927e-05,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0011584518266093136,
+      0.0006012814016527201
+    ],
+    "difference": -6.818551777368342e-05,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -4.453429999590197e-05,
+      0.0011129051992358014
+    ],
+    "difference": 0.00045438332652966706,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "all",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.00044373811375118057,
+      0.0018613357435570965
+    ],
+    "difference": 0.0004066292294283777,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0005281976536318234,
+      0.0008030293468985196
+    ],
+    "difference": 0.0002191434190386421,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.00028190484734625314,
+      0.0013728088648182583
+    ],
+    "difference": 0.0003129675998752336,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0007189083267452601,
+      0.0007713074899082517
+    ],
+    "difference": 0.00012649002857992309,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0012870454849424062,
+      0.0007796272451698893
+    ],
+    "difference": -2.919156611277951e-05,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -5.009717828297067e-05,
+      0.0012421471099084726
+    ],
+    "difference": 0.0005027917481744693,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "matched_substitution",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.00044373811375118057,
+      0.0018613357435570965
+    ],
+    "difference": 0.00040662876706061557,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "nll",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0005281976536318234,
+      0.0008030293468985196
+    ],
+    "difference": 0.00021914043582427212,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0002819054436511924,
+      0.0013728088648182583
+    ],
+    "difference": 0.0003129669882804241,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "brier",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0007189100088822176,
+      0.0007713074899082517
+    ],
+    "difference": 0.00012648834644296558,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "fcba",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -0.0012870454849424062,
+      0.0007796272451698893
+    ],
+    "difference": -2.919156611277951e-05,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "flip_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  },
+  {
+    "ci95": [
+      -5.011007094318787e-05,
+      0.0012421408247366168
+    ],
+    "difference": 0.0005027853018443607,
+    "first": "full_arguments_substituted_at_evaluation",
+    "kind": "A2",
+    "metric": "stay_accuracy",
+    "paired_questions": 4,
+    "replicates": 1000,
+    "scope": "different_text",
+    "second": "full_arguments"
+  }
+]

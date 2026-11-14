@@ -1,0 +1,129 @@
+{
+  "agents": 32,
+  "context_provenance": "Author question PCA artifact; fitting provenance not independently verified. Not claimed inductive.",
+  "duplicates": 0,
+  "episodes": 1720,
+  "episodes_sha256": "37a7689be4e60428b702e4994549d1ab0523ea092f67b89f72903a60598624dd",
+  "graphs": 20,
+  "historical_protocol": "GPT-4o-mini has recipient-specific sampled messages; edge records retained.",
+  "index_sha256": "735bc1726dec16891303686131b0ac9344adbb8c4bb3e3175dfdf030d3e5406c",
+  "invalid_majority_states": 0,
+  "invalid_message_rounds": 0,
+  "invalid_policy": "All models exclude a snapshot if any agent has an invalid opinion in the current/target or available 2-snapshot history. Invalid votes excluded from counts; valid count retained.",
+  "main_episodes": 1600,
+  "message_timing": "At cutoff t use messages_history[t-1], empty at t=0; messages_history[t] excluded.",
+  "metadata_join_coverage": 1.0,
+  "missing_raw_episodes": [],
+  "orientation": "Source J[sender,receiver] transposed to J[receiver,sender]; all observed source matrices symmetric.",
+  "questions": {
+    "test": 20,
+    "train": 16,
+    "validation": 4
+  },
+  "raw_vote_parse_failures": 0,
+  "roles": [
+    {
+      "episodes": 320,
+      "family": "random",
+      "graph_role": "fit_graph",
+      "message_eligible_snapshots": 2560,
+      "question_split": "test",
+      "valid_agent_transitions": 81920,
+      "valid_snapshots": 2560
+    },
+    {
+      "episodes": 120,
+      "family": "lowrank",
+      "graph_role": "heldout_family",
+      "message_eligible_snapshots": 960,
+      "question_split": "test",
+      "valid_agent_transitions": 30720,
+      "valid_snapshots": 960
+    },
+    {
+      "episodes": 80,
+      "family": "square",
+      "graph_role": "heldout_family",
+      "message_eligible_snapshots": 640,
+      "question_split": "test",
+      "valid_agent_transitions": 20480,
+      "valid_snapshots": 640
+    },
+    {
+      "episodes": 80,
+      "family": "triangular",
+      "graph_role": "heldout_family",
+      "message_eligible_snapshots": 640,
+      "question_split": "test",
+      "valid_agent_transitions": 20480,
+      "valid_snapshots": 640
+    },
+    {
+      "episodes": 320,
+      "family": "random",
+      "graph_role": "heldout_random",
+      "message_eligible_snapshots": 2560,
+      "question_split": "test",
+      "valid_agent_transitions": 81920,
+      "valid_snapshots": 2560
+    },
+    {
+      "episodes": 512,
+      "family": "random",
+      "graph_role": "fit_graph",
+      "message_eligible_snapshots": 4096,
+      "question_split": "train",
+      "valid_agent_transitions": 131072,
+      "valid_snapshots": 4096
+    },
+    {
+      "episodes": 64,
+      "family": "square",
+      "graph_role": "heldout_family",
+      "message_eligible_snapshots": 512,
+      "question_split": "train",
+      "valid_agent_transitions": 16384,
+      "valid_snapshots": 512
+    },
+    {
+      "episodes": 64,
+      "family": "triangular",
+      "graph_role": "heldout_family",
+      "message_eligible_snapshots": 512,
+      "question_split": "train",
+      "valid_agent_transitions": 16384,
+      "valid_snapshots": 512
+    },
+    {
+      "episodes": 128,
+      "family": "random",
+      "graph_role": "fit_graph",
+      "message_eligible_snapshots": 1024,
+      "question_split": "validation",
+      "valid_agent_transitions": 32768,
+      "valid_snapshots": 1024
+    },
+    {
+      "episodes": 16,
+      "family": "square",
+      "graph_role": "heldout_family",
+      "message_eligible_snapshots": 128,
+      "question_split": "validation",
+      "valid_agent_transitions": 4096,
+      "valid_snapshots": 128
+    },
+    {
+      "episodes": 16,
+      "family": "triangular",
+      "graph_role": "heldout_family",
+      "message_eligible_snapshots": 128,
+      "question_split": "validation",
+      "valid_agent_transitions": 4096,
+      "valid_snapshots": 128
+    }
+  ],
+  "source_revision": "62bf0e7ddb94e6be936bed6a35aefea94e8d54a9",
+  "split_manifest_sha256": "1fb518d163887bb5cc305afa43c5e55636aab5a27aa5e42237137ced20106c14",
+  "supplemental_episodes": 120,
+  "updates": 8
+}

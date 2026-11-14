@@ -1,0 +1,70 @@
+{
+  "all_draw_ids_unique_and_no_same_prompt_seed_reuse": true,
+  "audit_code_sha256": "ed6c31ddf81c28d116d23ea26091be582a9eab167cfa1272d52935cb37f40cca",
+  "checks": {
+    "reports/argument_intervention_checks.xml": {
+      "passed": 16,
+      "sha256": "9a6a5ed44ccda16e5d833c55d784bf8dc0a5f4e25ba3d2468442dc62739ff603"
+    },
+    "reports/argument_intervention_parent_checks.xml": {
+      "passed": 5,
+      "sha256": "51b442bbfcb309ab8dd89d3a260d332d584f3bb9ba5bd1c6d8cad1b4ba34d66a"
+    },
+    "reports/local_source_checks.xml": {
+      "passed": 14,
+      "sha256": "931eca5f448c1b286dee709d65e613f82006a980738ead4633da0dad9ad94afd"
+    }
+  },
+  "completed_utc": "2026-11-08T21:04:47.879372+00:00",
+  "cross_prompt_seed_collisions": 0,
+  "deadline_utc": "2026-11-08T21:17:35+00:00",
+  "direct_validity_grading_prompts": 72,
+  "elapsed_minutes": 107.21465620000001,
+  "frozen_core_sha256": "92c500581c6d74e0d5effa4b89f9c402bb76f7800151ac6dbb3b3afcae939dda",
+  "frozen_previous_fit_artifacts_verified": 54,
+  "local_source_responses_including_benchmark": 11708,
+  "new_agent_transitions": 512,
+  "new_complete_conversations": 8,
+  "new_predictor_fits": 0,
+  "new_test_scores": 0,
+  "paid_api_calls": 0,
+  "paired_rationale_ablation_contexts": 512,
+  "posthoc_quality_audit_sha256": "54dbb5b22a4101a1eb7108b6c77750fd5fe900375b848008d2d405ef88fc90aa",
+  "report_artifacts": {
+    "reports/local_open_model_pilot.md": "5dd9928a91c6463f61aa96d8f2fbe9e2a4101a08fae5730e34cc9d8f632ed09a",
+    "reports/local_open_model_pilot.pdf": "e4b09d898dfad262bb5d561402087d96fc1dd074e32b928e434cb43ddd5e03a4",
+    "reports/local_open_model_pilot.png": "29981b1b47b9c8b4e4e84ba5d5bb7871fb76cb2ab16e7cfdb51fa28aeab3e1cc"
+  },
+  "single_message_intervention_contexts": 24,
+  "stages": {
+    "conversations": {
+      "analysis_sha256": "d1fca2a5d48a89378b37cb6aad28316e805d94079eadcf87fe45a6949df9d4c5",
+      "collection_sha256": "3ee00cdf90346beeee1be8db0a7613b50444cb147e2e323432e4e6b4910e145b",
+      "completed_utc": "2026-11-08T20:39:40.224514+00:00"
+    },
+    "direct_argument_grading": {
+      "analysis_sha256": "76b6e3841623dd6f936c8e469d74397b08b2a66bcfd0b640ea3c367ff7bf70c9",
+      "collection_sha256": "2922be464f5e26caafc6f228672613c89c6e98ca867116ba5e9f26e6e5c8877f",
+      "completed_utc": "2026-11-08T20:42:35.621504+00:00"
+    },
+    "intervention": {
+      "analysis_sha256": "592b31f618862d11ea1afe71946154de72abb86c170e307e2507c340b8010f02",
+      "collection_sha256": "9a8ad23b2c5458cc7a5fc2a83c8d0c4bd56f55f0734647045630a81c581b4f14",
+      "completed_utc": "2026-11-08T19:46:07.667205+00:00"
+    },
+    "rationale_ablation": {
+      "analysis_sha256": "4555a760bfb47f8d11be6f0922fbedc33173dd2b681aff8b0f390443b4db2a97",
+      "collection_sha256": "56038edf1ba02db56ef99db99dc67b865a84d5ccec1e019c9a72b1356d224847",
+      "completed_utc": "2026-11-08T20:56:25.134158+00:00"
+    },
+    "word_argument_grading": {
+      "analysis_sha256": "451d98f15a1ab18c1dfd1ae8df2412c15cd1e845c9b0fa356bd343d6786f9497",
+      "collection_sha256": "2b304fcc3ae82e1f1339e80a7cbc26b8a983e0e6b7270827c626b697da6d0fef",
+      "completed_utc": "2026-11-08T20:59:47.915518+00:00"
+    }
+  },
+  "started_utc": "2026-11-08T19:17:35+00:00",
+  "status": "complete",
+  "teacher_pairs_manifest_sha256": "e7196480612bbfd74483792bdc9142a05cea2bcb0110e250d9cca4e5dd1d4a5a",
+  "word_validity_grading_prompts": 72
+}

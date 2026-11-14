@@ -1,0 +1,27 @@
+project: transformer_rule_distillation_v1
+output: runs/transformer_rule_distillation_v1
+source: runs/transformer_micro_sweep_v1
+source_config: configs/transformer_micro_sweep.yaml
+teacher: nano
+teacher_parameters: 818
+families: [ising_own, pooled, contextual, quadratic]
+fitting:
+  objective: equal_question_soft_target_binary_cross_entropy
+  ridge: 0.0001
+  intercept_penalized: false
+  standardization: training_inputs_only
+  optimizer: L-BFGS-B
+  max_iterations: 1000
+  gradient_tolerance: 0.00000001
+  function_tolerance: 0.000000000001
+  maximum_final_gradient: 0.000005
+  cpu_threads: 1
+  session_minutes: 90
+evaluation:
+  bootstrap_seed: 67412
+  bootstrap_replicates: 3000
+  probability_reproduction_tolerance: 0.00005
+  reference_questions: previously_studied_twenty_GPT_development_questions
+  new_assessment_questions_allowed: false
+  independent_source_model_calls: 0
+  selection: none; report every family and every frozen teacher seed

@@ -1,0 +1,12 @@
+{
+  "study": "coevolve_pilot_v1",
+  "repository": "carlomarxdk/coevolve-sim",
+  "revision": "b5ca480ccf292d0fa6a531475abbf47433f3a342",
+  "scenario": "experts",
+  "graph_folders": ["erdos-renyi-01", "watts-strogatz-01"],
+  "data_root": "data/external/coevolve/v1",
+  "run_root": "runs/external/coevolve_pilot_v1",
+  "report_root": "reports/external/coevolve_pilot_v1",
+  "split": {"seed": 20261109, "train_fraction": 0.6, "validation_fraction": 0.2, "forced_train": ["false_0"]},
+  "selection_reason": "Bounded schema-and-prediction pilot: specialist models with matched roles; one numbered graph from each family, selected before outcome comparisons. This is not a replication of all 32 graphs."
+}

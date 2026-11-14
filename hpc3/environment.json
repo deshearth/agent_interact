@@ -1,0 +1,16 @@
+{
+  "container_reference": "docker://python@sha256:06bb5357fbe87fed6fd7793c8c525ba09417bb23361b161511bb2993e8f0a7e3",
+  "container_tag_for_humans": "python:3.11.14-bookworm (linux/amd64)",
+  "container_metadata_url": "https://hub.docker.com/v2/repositories/library/python/tags/3.11.14-bookworm",
+  "metadata_checked_utc": "2026-11-09",
+  "python": "3.11.14",
+  "mlx": "0.32.4",
+  "mlx_lm": "0.32.2",
+  "cuda_backend": "mlx-cuda-12==0.32.4",
+  "cuda_runtime_headers": "nvidia-cuda-runtime-cu12==12.9.79",
+  "mlx_enable_tf32": "0",
+  "default_gpu": "A100:1",
+  "default_partition": "free-gpu",
+  "gpu_requirement": "MLX CUDA requires SM >=7.5; V100 is unsuitable. The benchmark must verify driver/JIT compatibility on the assigned node.",
+  "container_reason": "MLX requires glibc >=2.35; HPC3 Rocky Linux 9 uses an older glibc. Debian Bookworm supplies glibc 2.36. CUDA runtime headers and libraries are installed into the container's external Python environment, without sudo or fakeroot."
+}

@@ -1,0 +1,7 @@
+{
+  "source": "runs/breadth_320_size_sweep_v1/results/summary.json",
+  "source_sha256": "34fb147054af01982576630ec764a79e7be6f6805d1c43e03159ea3360daf92d",
+  "plot_code_sha256": "74416dbaed514698a0be132f63b05522608c98d1842d983cb5d2b423019dd54c",
+  "figure": "reports/breadth_320_size_sweep.png",
+  "figure_sha256": "b37642b2fa7c6fb867b9bceb130460496485a60f6ea45a82de035438888d9581"
+}

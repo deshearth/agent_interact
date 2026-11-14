@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-11-08T04:45:37.642002+00:00",
+  "device": "mps",
+  "elapsed_seconds": 26.24450416599575,
+  "feature_metadata_sha256": "1ba8ee4fafaa38980eeb16d1316e8b3c12d388d6e071cf8b1055e0d138fa39d6",
+  "frozen_run_artifacts_unchanged": true,
+  "frozen_run_scores_reproduced": true,
+  "gradient_paths_nonzero": true,
+  "no_optimizer_steps_or_test_scoring": true,
+  "representation_geometry": "20,000 sampled different-text matched pairs per partition, seed 48216; no target labels used",
+  "runs": {
+    "A2-full_arguments-s42": {
+      "best.pt": "2b339346513a1477a547d110482cedeba077be1549998356e19f8f70a3aa63ac",
+      "checkpoint.pt": "58915212730b4d0c971f7fb056df9879310d0b5e2a39efd5d38e05a472bdf619",
+      "history.json": "96aef660fae5ac3db09cc5fa187f620b991007135fb6c454ea892da22884c423",
+      "manifest_sha256": "e9e1efd9a020f34b356584d22f3941c1f060f2052926c1f353e62d64ff3c50e6",
+      "validation_metrics.json": "b66c577f17eda21151a4c833dfd88fb5d1c068565488558b39ae09f8c1699a4f",
+      "validation_predictions.parquet": "8b73b3181d3a64cd9eb79877883541b0c21e3fa21673adab626bf4609966d337",
+      "validation_substitution_metrics.json": "8bc77f38b2359defc29fae8f0a847ad5c0ceeb43e88e8db9e3f2a1b8de14d84c",
+      "validation_substitution_predictions.parquet": "1ae83bb5ac6ce6b5137285020d43286c577405b6db37502de067109b853623bf"
+    },
+    "A2-full_arguments-s43": {
+      "best.pt": "8557e390ceb5042408e82dedeb52b2765980b276f112cc7a5b5d415454f466ca",
+      "checkpoint.pt": "21955575d35c98f553f6b3d9d01e77a25d48fd6918b5ca21928a2941adf3810d",
+      "history.json": "2ecabda1dd56a162e1b2b3d6d6d23f8dfc154a1c4615afbc8c73b761512368b0",
+      "manifest_sha256": "a723aa1f0b2faf84902e4ac4d1b3205486dc43fc71159b53fab3de7b5b253cb5",
+      "validation_metrics.json": "a95937c5787dbe44f4e3f84f515c543dd81cad0e3e8d3e0f3e90b164cd0eca38",
+      "validation_predictions.parquet": "aabcb82b6e20d1345718c068a94abc49635ece494ec61f7e4d2ed91b536f9a63",
+      "validation_substitution_metrics.json": "b7cd7e8b11de613ba8b0f3165f9eb39595f4fcf7bcf15e19b585133c3f4b6f0c",
+      "validation_substitution_predictions.parquet": "937aa13579c3b5f4615e2b57095eff0415059b993e2159566f8c63093210e3ea"
+    },
+    "A2-full_arguments-s44": {
+      "best.pt": "39abc73fbcc363345500454fd4d93b09fcebc63fff37472c3b1778e75aa661d9",
+      "checkpoint.pt": "8ba02a6187052f0c4c1084337ac2a8e9405e7f7bce1edc46d95b0c72876b4eba",
+      "history.json": "43ef7afca1ff3e72cf539809d0bd8c7de77daf8285792eb9d8b1bd7d4c193343",
+      "manifest_sha256": "b316355a43fca07ba575e0aa2c6682b92d04bca12f438011df05397bd96631b1",
+      "validation_metrics.json": "a938ead530f2c37631fa1e3d312d452cb4e53d8885c6cca8b33ecafd77483d3b",
+      "validation_predictions.parquet": "a6da2f31d947c60281fbc86000ba151f522b824b472e953ef22a3b7d36a5b3dd",
+      "validation_substitution_metrics.json": "8b2816048e83162fccda995f158fd0f4a5f258c757a2ce663767476ac602e009",
+      "validation_substitution_predictions.parquet": "a70be4edac396df493de5785d5ff2c7ea21b9c732f9dea2a955f886538a3d624"
+    },
+    "A2-stance_only-s42": {
+      "best.pt": "d01127a7f2bb6fab03d008f1dd221ecdb0e812882b02eecb008c993bf6575519",
+      "checkpoint.pt": "6fbfd65806dccfe11432798ea05bcc5ceeaba42ef38c26d10cadd0f027ee6151",
+      "history.json": "6bc6d2e2b30ddb5abfbc71f4b047826ee63cdf5f0fd646287a87d36e5d00f882",
+      "manifest_sha256": "669081c5f68d4043f9a7554b8b8c4e9124e8d2d7ad7d42e71a30b29e014637b8",
+      "validation_metrics.json": "fbe77ec6a3c4d0348831ff3ac8503244cb46553960f10f970c59a6ecdc2a699f",
+      "validation_predictions.parquet": "b13a9cb4cc43beb03abe57259b7bcc77701b7c7d160bed63a2b2cd5c37ab15eb"
+    },
+    "A2-stance_only-s43": {
+      "best.pt": "475eab07d84b68d48bc1997bb63e66bd814aa02b80c3ca3494f007b0afabc078",
+      "checkpoint.pt": "3880969d147cbb4728ac99da42939e1d09b29330c244eca5b1f074fb8fa39728",
+      "history.json": "33fff38f9e76fbadd4bc6875cc0d47433bc9fefea8f5ad7cb229fb655671a722",
+      "manifest_sha256": "6e3a002cc4c11dc3d435a330ee572719f4e984671b9e6a16728f71d8f1ad64b3",
+      "validation_metrics.json": "6044388080bf7ba9aedcebce5bf1b8afcfdab09731e7b73b04409eb0f96b9c79",
+      "validation_predictions.parquet": "4c5cbe8f45bd21e4c0317a1dd866ddd6df0c3ac991dbe538288cba410ee0b344"
+    },
+    "A2-stance_only-s44": {
+      "best.pt": "2a59409a42e31ad9f2bcab6772a6fc00606a2f9136fb5bb923d8267aad5b6aca",
+      "checkpoint.pt": "805153d1b5a34216ed5efc154800c35732a6e6c662cf5a3fd4aaf085e193c3dd",
+      "history.json": "1624efb4a6298c98ff55f063d027600671b6955a0e9a2eac692faca052dbc378",
+      "manifest_sha256": "72864aa199478176e73e5a587044d7d110642fa64a5b36f1a680b2415adc588c",
+      "validation_metrics.json": "a979e6f3132b8b134150500d64ef91d0b414e7ca9bb51f838c9e469308c04f7b",
+      "validation_predictions.parquet": "ec925be33040722aa0861b678427a1fa68f4dd70209447c02fb138e62c9d89c4"
+    }
+  },
+  "scope": "Post-hoc descriptive analysis on the existing 16/4 development questions",
+  "script_sha256": "96d1b1932e6dc1d2d23c969f5ca963023a615f3fd3bf31b5db7416ca7b8b4ca7",
+  "study_implementation_sha256": "c3198c55c2b514ddc23d899c832b8f3ea8d39d72bfdcb46e3b10493b3df98ddd",
+  "study_protocol_sha256": "5748955f69178ee38948ec97d89207baaa92f6677fa4313f6506349b8890e1e1",
+  "zero_text_caveat": "Deleting text from a text-trained model is a distribution shift, not a fair replacement for the separately trained stance-only baseline"
+}

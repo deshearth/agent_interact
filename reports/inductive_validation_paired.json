@@ -1,0 +1,785 @@
+[
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.00636800130208337,
+          0.03920491536458337
+        ],
+        "difference": 0.01324462890625,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.02144239296810378,
+          0.0026193082900081363
+        ],
+        "difference": -0.010096946145330712,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.013951957011099414,
+          0.058645289604699224
+        ],
+        "difference": 0.03476994159014901,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.00741970006167017,
+          0.008225500345065612
+        ],
+        "difference": -0.0003439860950916751,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.02410998902200335,
+          0.016857856357818557
+        ],
+        "difference": -0.005255720627064163,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.005656469864099658,
+          0.06477745523131581
+        ],
+        "difference": 0.025704425912443346,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.11710611979166663,
+          0.052327473958333315
+        ],
+        "difference": -0.021321614583333315,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.06301371256510417,
+          0.06742350260416667
+        ],
+        "difference": 0.00220489501953125,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.01165771484375,
+          0.0030197143554686963
+        ],
+        "difference": -0.003061930338541685,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -5.9366430389243274e-05,
+          0.0057554341144085
+        ],
+        "difference": 0.0028480338420096285,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.025925822358759593,
+          0.01468730639033643
+        ],
+        "difference": -0.002963130398985936,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.001857145849040731,
+          0.0205107048792936
+        ],
+        "difference": 0.009306671942555772,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.02007848593709778,
+          0.00609068727122046
+        ],
+        "difference": -0.0062222115482809814,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.018912622935621626,
+          -0.002377772439978748
+        ],
+        "difference": -0.009699189482021336,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.016438802083333343,
+          -0.002327473958333354
+        ],
+        "difference": -0.009521484375,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.029490152994791657,
+          0.013593037923177072
+        ],
+        "difference": -0.0033137003580729144,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.016611735026041657,
+          0.00535074869791663
+        ],
+        "difference": -0.0034383138020833426,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.002252876822829751,
+          0.009510622627838378
+        ],
+        "difference": 0.001986154844873151,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.03041283915064466,
+          0.013036788764202945
+        ],
+        "difference": -0.0038992319025204225,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0009656350602568198,
+          0.022544149930422874
+        ],
+        "difference": 0.013917276480186508,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0038053621109289393,
+          -0.00034771075704399107
+        ],
+        "difference": -0.0023295914856245117,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.028149701781157305,
+          -0.006264644495231564
+        ],
+        "difference": -0.01428995223789184,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.02408854166666663,
+          0.005533854166666685
+        ],
+        "difference": -0.009277343749999972,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.007008870442708329,
+          0.020874023437499993
+        ],
+        "difference": 0.006932576497395832,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.00010147094726564375,
+          0.005706787109375
+        ],
+        "difference": 0.0025329589843750278,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.007054665027430268,
+          -0.0040356488810719265
+        ],
+        "difference": -0.005545156954251097,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.00457321855590459,
+          0.006480184025709407
+        ],
+        "difference": 0.00022731330322117715,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0012972308488611861,
+          0.008568334499918367
+        ],
+        "difference": 0.004930039054155982,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.028757483153575236,
+          -0.008868836608716776
+        ],
+        "difference": -0.019448442962783488,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.00324745021696099,
+          0.007619715250291953
+        ],
+        "difference": 0.001551947053438557,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.01692708333333337,
+          0.021402994791666602
+        ],
+        "difference": -0.0019531250000000278,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.014500935872395829,
+          0.0008951822916666574
+        ],
+        "difference": -0.006459554036458329,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.006937662760416685,
+          0.0019836425781249722
+        ],
+        "difference": -0.003397623697916685,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.006256850557453425,
+          0.006000699072354121
+        ],
+        "difference": 0.000990176666572938,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.007207748101656253,
+          -0.0025816447860926017
+        ],
+        "difference": -0.005084802859521759,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.008300023536263856,
+          0.0016971723063993194
+        ],
+        "difference": -0.0033014256149322685,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.028715423051547298,
+          0.003792857888889792
+        ],
+        "difference": -0.012611934659190638,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.010528916112793607,
+          0.002783508726423245
+        ],
+        "difference": -0.003872703693185181,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.05086263020833337,
+          0.06201171875
+        ],
+        "difference": -0.012125651041666685,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.055814107259114586,
+          0.10902913411458331
+        ],
+        "difference": 0.04123687744140625,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0020449320475260414,
+          0.005086263020833343
+        ],
+        "difference": 0.0008443196614583426,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.003993266178184955,
+          0.0006502500130795008
+        ],
+        "difference": -0.0016715080825527272,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0052221518682720736,
+          0.008614208966964687
+        ],
+        "difference": 0.00011234449779845557,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.002688718949086011,
+          0.004341673996816481
+        ],
+        "difference": 0.00021605497783849792,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.00943549394667307,
+          -0.0005118349042431917
+        ],
+        "difference": -0.00502005099460591,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0047967497489121436,
+          0.009648017925957597
+        ],
+        "difference": 0.0012268579446156336,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.024422200520833305,
+          -0.00398763020833337
+        ],
+        "difference": -0.014241536458333343,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.003150939941406243,
+          0.005376180013020829
+        ],
+        "difference": 0.0010706583658854144,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0038258870442708513,
+          0.012888590494791657
+        ],
+        "difference": 0.0032348632812499722,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.01611854578994295,
+          0.002288572268499864
+        ],
+        "difference": -0.005481918000897208,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.007523943044317582,
+          0.021501511611482726
+        ],
+        "difference": 0.004019680155545963,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.007390885482114501,
+          0.0007758880828203918
+        ],
+        "difference": -0.0025540070611297927,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.016131854194033415,
+          0.0019561600581609467
+        ],
+        "difference": -0.00656835720772974,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.005249253971377682,
+          0.024557860145447225
+        ],
+        "difference": 0.007168380628565785,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.013867187500000017,
+          0.028076171875
+        ],
+        "difference": 0.004964192708333315,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.025502268473307315,
+          0.03848775227864583
+        ],
+        "difference": 0.016649881998697907,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0006306966145833148,
+          0.002747853597005263
+        ],
+        "difference": 0.0016886393229166852,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.006736224788939062,
+          -0.0010155923773126144
+        ],
+        "difference": -0.00387364887169837,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0021340249412552803,
+          0.0018365910282810202
+        ],
+        "difference": 0.00011496880542272159,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0009738627795928823,
+          0.008494345946764598
+        ],
+        "difference": 0.0047139840763174845,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.023522294223313315,
+          -0.0046940540786550855
+        ],
+        "difference": -0.014428391968177579,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0020926632015011437,
+          0.001928181247623902
+        ],
+        "difference": 0.0003250891088229235,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          0.001302083333333287,
+          0.027272542317708315
+        ],
+        "difference": 0.012288411458333315,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.016810099283854157,
+          0.0017496744791666713
+        ],
+        "difference": -0.007530212402343743,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.017852783203125,
+          0.0010749816894531465
+        ],
+        "difference": -0.006632486979166657,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0030970098709957664,
+          0.018801167069551948
+        ],
+        "difference": 0.006472094667470146,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.028574826680293597,
+          0.002983817520173959
+        ],
+        "difference": -0.009104483015067721,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.006840525855981938,
+          0.004346958028335683
+        ],
+        "difference": -0.0007474185538024758,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.01861683189299469,
+          0.0053916733853961035
+        ],
+        "difference": -0.006043577451460898,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.025460595108201506,
+          -0.0005438990355012274
+        ],
+        "difference": -0.011041084321750966,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "validation/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.05029296875,
+          0.03301391601562487
+        ],
+        "difference": -0.01708984375,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.029925028483072894,
+          0.07202148437499999
+        ],
+        "difference": 0.024586995442708336,
+        "paired_questions": 4,
+        "replicates": 1000
+      }
+    }
+  }
+]

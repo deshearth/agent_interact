@@ -1,0 +1,11 @@
+{
+  "complete_episodes": 640,
+  "device": "mps",
+  "elapsed_seconds": 362.87208991700027,
+  "encoder_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "frozen_parameters": 22713216,
+  "message_texts_checked": 401672,
+  "partition": "development",
+  "requested_episodes": 640,
+  "truncated_texts": 12
+}

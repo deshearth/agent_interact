@@ -1,0 +1,130 @@
+{
+  "encoding_complete_sha256": "a0a36e9e198ad6c90284ea51c933120c1865a96f8d85334c8d78ae82ba6b5184",
+  "features_sha256": "1ba8ee4fafaa38980eeb16d1316e8b3c12d388d6e071cf8b1055e0d138fa39d6",
+  "method_sha256": "81d442d6b01a1aa0406de64120025dc0ebe6c2151b50241f2ef857591258b896",
+  "variants": {
+    "message_only": {
+      "fit_only_centroids": true,
+      "interpretation": "Variance explained is not mutual information or evidence that remaining dimensions lack reasoning.",
+      "rows": [
+        {
+          "exact_text_seen_in_fit_fraction": 1.0,
+          "messages": 229376,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.8381640174810726,
+          "question_stance_centroid_explained_fraction": 0.8623964753745283,
+          "role": "train",
+          "unique_texts": 171524
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.07815987723214286,
+          "messages": 114688,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.8366780248632887,
+          "question_stance_centroid_explained_fraction": 0.8599584966132969,
+          "role": "validation",
+          "unique_texts": 87062
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.08355712890625,
+          "messages": 114688,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.8383925538401493,
+          "question_stance_centroid_explained_fraction": 0.8615900774171246,
+          "role": "familiar",
+          "unique_texts": 86653
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.0,
+          "messages": 114688,
+          "role": "unseen",
+          "unique_texts": 85466
+        }
+      ],
+      "target_labels_used": false,
+      "weighting": "message occurrence weighted, including repeated text"
+    },
+    "original": {
+      "fit_only_centroids": true,
+      "interpretation": "Variance explained is not mutual information or evidence that remaining dimensions lack reasoning.",
+      "rows": [
+        {
+          "exact_text_seen_in_fit_fraction": 1.0,
+          "messages": 229376,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.839484220946587,
+          "question_stance_centroid_explained_fraction": 0.8633643196845256,
+          "role": "train",
+          "unique_texts": 171524
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.07815987723214286,
+          "messages": 114688,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.8378033595146024,
+          "question_stance_centroid_explained_fraction": 0.8607338032747655,
+          "role": "validation",
+          "unique_texts": 87062
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.08355712890625,
+          "messages": 114688,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.8396513478839975,
+          "question_stance_centroid_explained_fraction": 0.862491615469961,
+          "role": "familiar",
+          "unique_texts": 86653
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.0,
+          "messages": 114688,
+          "role": "unseen",
+          "unique_texts": 85466
+        }
+      ],
+      "target_labels_used": false,
+      "weighting": "message occurrence weighted, including repeated text"
+    },
+    "question_conditioned": {
+      "fit_only_centroids": true,
+      "interpretation": "Variance explained is not mutual information or evidence that remaining dimensions lack reasoning.",
+      "rows": [
+        {
+          "exact_text_seen_in_fit_fraction": 1.0,
+          "messages": 229376,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.9020540133647957,
+          "question_stance_centroid_explained_fraction": 0.9079657714368428,
+          "role": "train",
+          "unique_texts": 171524
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.07815987723214286,
+          "messages": 114688,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.9003693218572242,
+          "question_stance_centroid_explained_fraction": 0.9060392126294619,
+          "role": "validation",
+          "unique_texts": 87062
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.08355712890625,
+          "messages": 114688,
+          "nearest_question_centroid_accuracy": 1.0,
+          "question_centroid_explained_fraction": 0.9023905410237867,
+          "question_stance_centroid_explained_fraction": 0.9080138346148434,
+          "role": "familiar",
+          "unique_texts": 86653
+        },
+        {
+          "exact_text_seen_in_fit_fraction": 0.0,
+          "messages": 114688,
+          "role": "unseen",
+          "unique_texts": 85466
+        }
+      ],
+      "target_labels_used": false,
+      "weighting": "message occurrence weighted, including repeated text"
+    }
+  }
+}

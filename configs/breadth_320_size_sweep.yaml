@@ -1,0 +1,47 @@
+project: breadth_320_size_sweep_v1
+output: runs/breadth_320_size_sweep_v1/predictors
+reference: runs/question_breadth_320_train_v1/predictors
+unseen_source: runs/unseen_graph_v1
+unseen_reference: runs/unseen_graph_320_v1
+counts: {train: 320, validation: 80, assessment: 40}
+models:
+  pico: {d_model: 4, heads: 4, d_k: 1, d_v: 1, ffn_dim: 8}
+  nano: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16}
+  tiny: {d_model: 28, heads: 4, d_k: 4, d_v: 7, ffn_dim: 56}
+  small: {d_model: 64, heads: 4, d_k: 8, d_v: 16, ffn_dim: 128}
+  full: {d_model: 128, heads: 4, d_k: 16, d_v: 32, ffn_dim: 256}
+  wide: {d_model: 256, heads: 4, d_k: 32, d_v: 64, ffn_dim: 512}
+model_order: [pico, nano, tiny, small, full, wide]
+new_models: [pico, tiny, small, full, wide]
+reused_model: nano
+expected_parameters: {pico: 314, nano: 818, tiny: 7370, small: 34978, full: 135458, wide: 533026}
+inputs: current opinions, signed graph, and identical frozen 16-dimensional question/persona context
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  output_penalties: [0.0, 0.001, 0.01]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 256
+  validation_every_steps: 512
+  max_steps: 32768
+  patience: 10
+  min_delta: 0.0001
+  gradient_clip: 1.0
+  torch_threads: 4
+  aggregate_minutes: 240
+  budget_policy: separate authorized width study; identical per-model scientific budgets to the 320-question reference, with resumable four-hour execution windows
+evaluation:
+  primary: equal_question_mean_nll
+  secondary: [error, brier_two_class]
+  bootstrap_seed: 81944
+  bootstrap_replicates: 5000
+  unseen_questions: 20
+  unseen_graphs: 4
+  compare_against: [nano, I0]
+  terminal_diagnostic: score the terminal checkpoint of each size's selected tuning candidate after all settings and refits freeze; do not use it for selection
+  unseen_policy: score all frozen refits on the same 20-question, four-unseen-graph cohort only after every new refit completes
+  assessment_policy: no generation, loading, or scoring of the 40 reserved assessment conversations
+  interpretation: exploratory reused development data and graphs; parameter size changes widths within one four-head attention block, not input information

@@ -1,0 +1,20 @@
+{
+  "all_frozen_manifests_and_checkpoints_verified": true,
+  "all_saved_scores_recomputed": true,
+  "fit_seconds": 199.18125053999393,
+  "frozen_protocol_sha256": "a96170550c930eceaf7ff74741437c9344da37034e1c5a9fd2acf15545e04080",
+  "identical_prediction_keys_and_targets": true,
+  "identical_rollout_initializations_targets_and_order": true,
+  "implementation": {
+    "core_sha256": "92c500581c6d74e0d5effa4b89f9c402bb76f7800151ac6dbb3b3afcae939dda",
+    "driver_sha256": "73ade9d953354bab0b2b3add3a478acabb54d64c86d4ce87f56cceb517cd638e"
+  },
+  "partition": "test",
+  "prediction_rows_per_run": 268288,
+  "protocol_sha256": "4b2f5e360107056c49fc2df920e90fe46ab7f5313bcd58ff221c04e39c60f528",
+  "rollout_seconds": 306.3069482889914,
+  "runs": 24,
+  "sampled_rollouts_per_initialization": 32,
+  "selection_sha256": "895b3bd9b1ef7588679f743f2b52ecf8086e298f11c144c0a9e96834a84ef1b6",
+  "study_elapsed_seconds": 575.751185166002
+}

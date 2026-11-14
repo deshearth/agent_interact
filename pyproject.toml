@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mac-agent-dynamics"
+version = "0.1.0"
+description = "Controlled state and update-rule experiments for interacting language-model agents"
+requires-python = ">=3.11"
+dependencies = ["numpy", "torch", "scipy", "scikit-learn", "pyyaml", "pandas", "pyarrow", "matplotlib"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+messages = ["sentence-transformers", "huggingface-hub"]
+
+[project.scripts]
+mac-agents = "mac_agents.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

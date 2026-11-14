@@ -1,0 +1,15 @@
+{
+  "study": "mallm_critical_pilot_v1",
+  "dataset": "Multi-Agent-LLMs/DEBATE",
+  "revision": "8a16e9fdd59412887ba270e87189500272a53ee3",
+  "configuration": "critical_expert_memory_simple_voting",
+  "source_file": "data/critical_expert_memory_simple_voting/critical_expert_memory_simple_voting.json",
+  "source_bytes": 418653819,
+  "source_sha256": "88cc6e7aa99bab4da3d13ef61475e9c86346d1f7f9c98c5a24a754a7773b4b30",
+  "data_root": "data/external/mallm_critical/v1",
+  "run_root": "runs/external/mallm_critical_pilot_v1",
+  "report_root": "reports/external/mallm_critical_pilot_v1",
+  "split_source": "runs/external/mallm_pilot_v1/split.json",
+  "split": {"seed": 20261109, "train_fraction": 0.6, "validation_fraction": 0.2},
+  "selection_reason": "Second feasibility audit after the simple/no-persona configuration had zero development departures from its supplied draft. Critical responses and expert personas are chosen before inspecting this configuration's outcomes. Shared questions inherit their original partition; new questions receive a metadata-only split. Different question pools mean this is not a causal comparison of discussion protocols. No search for favorable predictor performance."
+}

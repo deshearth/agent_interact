@@ -1,0 +1,63 @@
+{
+  "adapter_sha256": "64730a4225265f2fa0b3ec280c4c9cc1a6d886afc1e9f9d22f065f71ceaa9845",
+  "control_rollouts_performed": false,
+  "data_and_prediction_keys_verified": true,
+  "diagnostics": {
+    "A0": {
+      "availability_nll": 0.2767812665232588,
+      "fraction_of_original_history_nll_gain_at_initialization": 0.7905887609134502,
+      "fraction_of_original_history_nll_gain_recovered_by_availability_control": 0.4520229765581832,
+      "full_history_minus_availability_nll": {
+        "ci95": [
+          -0.029168834498451757,
+          0.0048593461235966195
+        ],
+        "difference": -0.00822256442357916,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "history_nll": 0.26855870209967964,
+      "opinion_nll": 0.28356401084772465,
+      "per_question_full_history_minus_availability_nll": {
+        "math_train_133": 0.0016031488511112357,
+        "math_train_162": -0.03942616228163942,
+        "math_train_359": 0.007252314379087466,
+        "math_train_497": -0.0023195586428759185
+      },
+      "per_seed_full_history_minus_availability_nll": {
+        "42": -0.004713744321190205,
+        "43": -0.01434253865390378,
+        "44": -0.005611410295643493
+      }
+    },
+    "A2": {
+      "availability_nll": 0.2705553192898969,
+      "fraction_of_original_history_nll_gain_at_initialization": 0.9379438514541947,
+      "fraction_of_original_history_nll_gain_recovered_by_availability_control": 0.5340761877780484,
+      "full_history_minus_availability_nll": {
+        "ci95": [
+          -0.009650193665539028,
+          -0.00120301894140043
+        ],
+        "difference": -0.004897561469089304,
+        "paired_questions": 4,
+        "replicates": 1000
+      },
+      "history_nll": 0.26565775782080764,
+      "opinion_nll": 0.2761692649398218,
+      "per_question_full_history_minus_availability_nll": {
+        "math_train_133": -0.004077709874567403,
+        "math_train_162": -0.00024478863034477216,
+        "math_train_359": -0.011666513645355536,
+        "math_train_497": -0.0036012337260895033
+      },
+      "per_seed_full_history_minus_availability_nll": {
+        "42": -0.0028477542944660428,
+        "43": -0.0061864949140417735,
+        "44": -0.005658435198760081
+      }
+    }
+  },
+  "fit_seconds": 64.21007571000519,
+  "runs": 6
+}

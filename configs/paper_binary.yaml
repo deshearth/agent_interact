@@ -1,0 +1,47 @@
+project: mac_agent_dynamics
+seed: 42
+device: auto
+dtype: float32
+data:
+  root: data
+  source_model: gpt-4o-mini
+  mode: objective
+  repository: batu-el/physics-of-agents
+  revision: 62bf0e7ddb94e6be936bed6a35aefea94e8d54a9
+  split_seed: 1729
+  validation_questions: 4
+  context: author_pca
+  invalid_policy: exclude_snapshot_with_any_invalid_input_or_target
+state:
+  condition: opinion
+  history_window: 2
+  message_timing: existing_inbox
+  forecast_boundary: after_opinion_before_messages
+  encoder: sentence-transformers/all-MiniLM-L6-v2
+  message_dim: 384
+model:
+  kind: A2
+  d_model: 128
+  heads: 4
+  d_k: 16
+  d_v: 32
+  ffn_dim: 256
+  dropout: 0.1
+  max_parameters: 1000000
+training:
+  batch_size: 32
+  epochs: 50
+  max_steps: 5000
+  learning_rate: 0.0003
+  weight_decay: 0.001
+  gradient_clip: 1.0
+  patience: 6
+  min_delta: 0.0001
+  wall_minutes: 120
+  torch_threads: 4
+evaluation:
+  rollouts: 32
+  bootstrap_replicates: 1000
+  seed: 7241
+  consensus_fraction: 1.0
+  test_requires_freeze: true

@@ -1,0 +1,5483 @@
+[
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0067868041992187435,
+          0.02933837890624998
+        ],
+        "difference": 0.018208821614583325,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.011145321211533395,
+          -0.0018568852146705495
+        ],
+        "difference": -0.006616152354999573,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.00023583951711183995,
+          0.036028501520975684
+        ],
+        "difference": 0.021000456899097998,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0049020591019199415,
+          0.006370060749163414
+        ],
+        "difference": 0.0005267056264471493,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.01808487004473695,
+          -0.007299999379531084
+        ],
+        "difference": -0.012923555080316895,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.01241481300528719,
+          0.044658707549725986
+        ],
+        "difference": 0.02882436565920407,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.04196695963541668,
+          0.036057942708333304
+        ],
+        "difference": -0.002994791666666671,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.007813669840494787,
+          0.03323285420735677
+        ],
+        "difference": 0.013671875,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.002003784179687505,
+          0.012765808105468759
+        ],
+        "difference": 0.00489501953125,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.010288569121451305,
+          -0.000615418626722307
+        ],
+        "difference": -0.005260458596075226,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.009913667547288231,
+          0.004266181775083931
+        ],
+        "difference": -0.0025256572708080016,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.012874014999334904,
+          0.023046611155268546
+        ],
+        "difference": 0.01728406736675139,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.018954992506906257,
+          -0.005272383690832549
+        ],
+        "difference": -0.011144753256740593,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.011744491246242198,
+          0.008569061652483348
+        ],
+        "difference": -0.002411821308381512,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          9.277343749998917e-05,
+          0.017873535156249974
+        ],
+        "difference": 0.008886718749999984,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.019725367228190106,
+          0.004908396402994794
+        ],
+        "difference": -0.006855265299479166,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.005290323893229188,
+          0.015063985188802077
+        ],
+        "difference": 0.003995768229166652,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.010477934615025598,
+          0.002235087682495546
+        ],
+        "difference": -0.003973498263974843,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.013518768533931368,
+          0.0035974857255292947
+        ],
+        "difference": -0.004299396899423264,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.011413930538323451,
+          0.02279345863408011
+        ],
+        "difference": 0.0168654447967227,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.01499657912539917,
+          0.00027384348333196675
+        ],
+        "difference": -0.006901003210085454,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.017061216901016155,
+          0.008644463615849113
+        ],
+        "difference": -0.004561954888072988,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.0010742187499999944,
+          0.018298339843749983
+        ],
+        "difference": 0.008919270833333331,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.020141499837239583,
+          0.0050666809082031295
+        ],
+        "difference": -0.007254028320312501,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.002876586914062509,
+          0.0087822469075521
+        ],
+        "difference": 0.005733235677083342,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.008809661750297517,
+          -0.0025525836961830515
+        ],
+        "difference": -0.005449152174751814,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0013093584578512515,
+          0.007878991969081916
+        ],
+        "difference": 0.004617326387925507,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0011084932083206068,
+          0.006037715130140265
+        ],
+        "difference": 0.0036659897042181032,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.01770760141500136,
+          -0.005591895296968406
+        ],
+        "difference": -0.01082617649296012,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.0028294847335710543,
+          0.011411011137731509
+        ],
+        "difference": 0.00688211541022612,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.014747721354166656,
+          0.008790690104166679
+        ],
+        "difference": -0.0038411458333333206,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.007773183186848962,
+          0.0015783437093098967
+        ],
+        "difference": -0.002960205078125001,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.004858296712239594,
+          0.01997599283854167
+        ],
+        "difference": 0.012064615885416675,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.017668302951075243,
+          -0.005935639645407991
+        ],
+        "difference": -0.01143161194571505,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.002217560082508169,
+          0.015145637981333874
+        ],
+        "difference": 0.006096446094583913,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.004166437018916982,
+          0.004491370346788034
+        ],
+        "difference": -0.00016869126285448677,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0313302696233828,
+          -0.011118333726635203
+        ],
+        "difference": -0.02026010615304668,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.009523039623831659,
+          0.02836365094554938
+        ],
+        "difference": 0.018543613006569794,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.025913085937500014,
+          0.03170735677083332
+        ],
+        "difference": 0.0014973958333333148,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.03414423624674479,
+          0.04430707295735676
+        ],
+        "difference": 0.005791219075520833,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0028558349609374887,
+          0.009354756673177079
+        ],
+        "difference": 0.006046549479166663,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.008197083974411384,
+          -0.002681580783338212
+        ],
+        "difference": -0.005292030565277575,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0028156687176919175,
+          0.0159541904862057
+        ],
+        "difference": 0.009040532679770364,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0014329648249198886,
+          0.00497177230333373
+        ],
+        "difference": 0.0016737823112761064,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.008973482834459567,
+          -0.002509207671156534
+        ],
+        "difference": -0.005624711310123115,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.004725867718923498,
+          0.013065774347631927
+        ],
+        "difference": 0.008652780121235664,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.012795410156250004,
+          0.0005208333333333483
+        ],
+        "difference": -0.006445312499999986,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.0007262166341145903,
+          0.00502738952636719
+        ],
+        "difference": 0.0021657307942708343,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.002327270507812515,
+          0.015210164388020827
+        ],
+        "difference": 0.008435058593750011,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.020454720253424336,
+          -0.004514532585809395
+        ],
+        "difference": -0.012149386471941368,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.003623201703143673,
+          0.024455388799571324
+        ],
+        "difference": 0.013049878930063697,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.010734359646940096,
+          0.0011890062771326912
+        ],
+        "difference": -0.0045931886409821075,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.02709237536246416,
+          -0.004403544308486386
+        ],
+        "difference": -0.015641547175534256,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.007850523883125397,
+          0.02575599774300183
+        ],
+        "difference": 0.016175241278841734,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.005794270833333337,
+          0.009995117187499996
+        ],
+        "difference": 0.0022135416666666575,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.014002838134765622,
+          0.01662587483723958
+        ],
+        "difference": 0.001812744140624998,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.003317057291666659,
+          0.0018966674804687406
+        ],
+        "difference": -0.0003133138020833204,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0013313331658825508,
+          0.0010506393190025296
+        ],
+        "difference": -0.00015712160947423947,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0101722065494195,
+          0.00047481447428178344
+        ],
+        "difference": -0.004423206291844855,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0005276523035593234,
+          0.004539934550031416
+        ],
+        "difference": 0.001992207392941997,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.009482732492991041,
+          -0.0019092410465528142
+        ],
+        "difference": -0.0052014651828370066,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.00585732443428002,
+          0.0016704058315299354
+        ],
+        "difference": -0.0017706647110095452,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.009082845052083321,
+          0.014131673177083335
+        ],
+        "difference": 0.0026041666666666657,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.00923029581705729,
+          -0.0010309346516927116
+        ],
+        "difference": -0.005125935872395835,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.005969746907552067,
+          0.013665771484374988
+        ],
+        "difference": 0.003629557291666663,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.008660825453635666,
+          0.009470029270530688
+        ],
+        "difference": 0.0007177745262263197,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.01847619802402131,
+          0.002409497729867827
+        ],
+        "difference": -0.006953432835479783,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0011449113716981924,
+          0.010591692156115308
+        ],
+        "difference": 0.004424497378127621,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.021070090785447766,
+          0.007744889025870628
+        ],
+        "difference": -0.004618558977512422,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.009621724288752576,
+          0.014516974401603436
+        ],
+        "difference": 0.002368371727728058,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/fit_graph/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.024999999999999994,
+          0.02395914713541666
+        ],
+        "difference": -0.0007161458333333426,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.02269048055013021,
+          0.030170694986979166
+        ],
+        "difference": 0.003978474934895835,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0016387261284722063,
+          0.0004774305555555247
+        ],
+        "difference": -0.0005208333333333592,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0034041293908267946,
+          -0.0006356797409943152
+        ],
+        "difference": -0.0018526333744058247,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.00023344025964069457,
+          0.026939963512440407
+        ],
+        "difference": 0.009999843297320843,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0005407758422669961,
+          0.004097630887196763
+        ],
+        "difference": 0.0016348044609545641,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.04580938361384204,
+          -0.022674278715022193
+        ],
+        "difference": -0.03229047702781341,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.002652090021093251,
+          0.0001702824312072173
+        ],
+        "difference": -0.001362702075410449,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.029602864583333298,
+          0.03186631944444444
+        ],
+        "difference": -0.002083333333333304,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.014898952907986112,
+          0.04319037543402776
+        ],
+        "difference": 0.014054361979166662,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0008029513888889173,
+          0.0032668728298610675
+        ],
+        "difference": 0.002061631944444442,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004488034740606672,
+          -0.000710343475830608
+        ],
+        "difference": -0.0025383764301117008,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0012551052607186418,
+          0.004681826361397564
+        ],
+        "difference": 0.0030323277868843034,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0010583600752953786,
+          0.007173750786468975
+        ],
+        "difference": 0.0044741649500834365,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.006397996751248373,
+          0.0008730562038557172
+        ],
+        "difference": -0.0026284342240330714,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0018786933916727152,
+          0.0009767817415071035
+        ],
+        "difference": -0.0003988655423535437,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.010329861111111062,
+          0.04792317708333334
+        ],
+        "difference": 0.018923611111111138,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.02451707628038195,
+          0.01698174370659723
+        ],
+        "difference": -0.0012559678819444476,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0010630967881944471,
+          0.0035050455729166248
+        ],
+        "difference": 0.002235243055555536,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004457792039939077,
+          -0.0009715426782103006
+        ],
+        "difference": -0.002781821616082349,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.002099186727952407,
+          0.010334091803020485
+        ],
+        "difference": 0.00558708025607324,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0006323995093618458,
+          0.008629314101299529
+        ],
+        "difference": 0.004536664001901625,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0068489421760625025,
+          0.0014117534701697304
+        ],
+        "difference": -0.0028091009250412443,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0017716108209339236,
+          0.0011087122159685726
+        ],
+        "difference": -0.0004040574850893708,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          0.010848524305555596,
+          0.08828993055555552
+        ],
+        "difference": 0.04991319444444446,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.07193372938368056,
+          -0.011046888563368055
+        ],
+        "difference": -0.039130316840277776,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0018014865451388793,
+          -0.0004665798611110822
+        ],
+        "difference": -0.0011393229166666407,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0003210008717381268,
+          0.0016312551643800886
+        ],
+        "difference": 0.0008020930131064557,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.010544806184396856,
+          -0.0001366431161552087
+        ],
+        "difference": -0.0038384702734877594,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.007059611190889368,
+          0.00011123156545698391
+        ],
+        "difference": -0.0027211774550808033,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.012458564598684923,
+          -0.0005114864931381639
+        ],
+        "difference": -0.005682907421668109,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0018131982713759393,
+          -0.0002236021620117606
+        ],
+        "difference": -0.001042419839839892,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.0744075520833334,
+          -0.02212673611111118
+        ],
+        "difference": -0.04644097222222227,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          0.01338127983940971,
+          0.04317003038194443
+        ],
+        "difference": 0.027785915798611106,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0007275390624999678,
+          0.0008032226562500176
+        ],
+        "difference": 1.0850694444475284e-05,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0024385875439883542,
+          0.0006025741379002732
+        ],
+        "difference": -0.0007823963310446914,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0016383437650969342,
+          0.0024216486038453663
+        ],
+        "difference": 0.0003249855489877884,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.006976233991196683,
+          0.0020918542778479397
+        ],
+        "difference": -0.0015295362747168694,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.013784536402897984,
+          0.0015292309038555754
+        ],
+        "difference": -0.005108350125015848,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0011378233352863922,
+          0.0012407986803244732
+        ],
+        "difference": -0.0001565284378653886,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.011458333333333293,
+          0.03142361111111112
+        ],
+        "difference": 0.009722222222222243,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.019707438151041673,
+          0.02686815049913194
+        ],
+        "difference": 0.0033555772569444434,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0009551323784722054,
+          0.00010850694444446418
+        ],
+        "difference": -0.000390625,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -1.4787653204084735e-05,
+          0.0008429403661558113
+        ],
+        "difference": 0.00044850915185976406,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0011297972946890916,
+          0.0073515695331024585
+        ],
+        "difference": 0.002133021580169314,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.004617379201096559,
+          0.00032287488836541905
+        ],
+        "difference": -0.001764163750766945,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.00039238275189585573,
+          0.0010421026661376963
+        ],
+        "difference": 0.00042062843619987135,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0010874800517411446,
+          0.0004229967255305778
+        ],
+        "difference": -0.00032714780763120065,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.05026258680555555,
+          0.011983506944444427
+        ],
+        "difference": -0.01588541666666669,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          0.0014347330729166513,
+          0.031019354926215277
+        ],
+        "difference": 0.015953233506944435,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.000683593750000033,
+          0.002105577256944522
+        ],
+        "difference": 0.0013780381944444864,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.003806685154274063,
+          -0.002103798109265238
+        ],
+        "difference": -0.0029877920229162917,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0007721363658081409,
+          0.003276100593121603
+        ],
+        "difference": 0.0018726055449233558,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0013630211897716657,
+          0.004491348389454675
+        ],
+        "difference": 0.0029135684373872038,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.010884836045772135,
+          -0.004867222497800612
+        ],
+        "difference": -0.008234255370930069,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.000529045879271576,
+          0.0016293384714556266
+        ],
+        "difference": 0.00046447592998156707,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.010082465277777708,
+          0.04079861111111115
+        ],
+        "difference": 0.014670138888888951,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.028535020616319455,
+          -0.0022019449869791646
+        ],
+        "difference": -0.017366536458333342,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0013783094618055535,
+          5.425347222771165e-07
+        ],
+        "difference": -0.0007486979166666408,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.00040685200774334777,
+          0.0009266158051602285
+        ],
+        "difference": 0.00035358386124669167,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.01786126272657654,
+          0.0007013216524725857
+        ],
+        "difference": -0.005971491853657074,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.003356755094855049,
+          0.0017713192870036963
+        ],
+        "difference": -0.0009570137043138583,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.012254188789646079,
+          -0.0013640476577750976
+        ],
+        "difference": -0.006103535857867981,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.001337666714112155,
+          -2.0399524275868772e-06
+        ],
+        "difference": -0.0007152720322086914,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.05269314236111115,
+          -0.005811631944444469
+        ],
+        "difference": -0.03055555555555558,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.0009209526909722345,
+          0.023632676866319438
+        ],
+        "difference": 0.01183268229166667,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0022035047743055544,
+          -0.0005748155381944372
+        ],
+        "difference": -0.0013671875000000112,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          0.00013380359411065823,
+          0.0038687065521693202
+        ],
+        "difference": 0.0022053956918716,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.004172365824708349,
+          0.0011004743338074968
+        ],
+        "difference": -0.0015476199959355674,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.009973738154889512,
+          -0.0007260730006806962
+        ],
+        "difference": -0.004443104712104073,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.008082975392798853,
+          0.011532330711552404
+        ],
+        "difference": 0.003125905245914222,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.002095393884365471,
+          0.0008194437051631495
+        ],
+        "difference": -0.0006210043678469557,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/lowrank",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.02803819444444452,
+          0.016927083333333336
+        ],
+        "difference": -0.004947916666666707,
+        "paired_questions": 10,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          0.0032995605468750114,
+          0.039418606228298604
+        ],
+        "difference": 0.02072211371527779,
+        "paired_questions": 10,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0055668131510416665,
+          0.004250895182291664
+        ],
+        "difference": -0.0005371093750000056,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0017479472518145361,
+          0.0042553348383479565
+        ],
+        "difference": 0.0012820632248481101,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.025223134307227817,
+          0.0027448274589636753
+        ],
+        "difference": -0.009482213548553853,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.016285127107911197,
+          0.006999120528942345
+        ],
+        "difference": -0.004470111433293955,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.03469775680204723,
+          0.002415839331484797
+        ],
+        "difference": -0.013079878671939249,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0034147843771788235,
+          0.007216876930090025
+        ],
+        "difference": 0.0018566775401626823,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.059270833333333314,
+          0.1040657552083333
+        ],
+        "difference": 0.025651041666666673,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.038550211588541675,
+          0.05610809326171875
+        ],
+        "difference": 0.00845540364583333,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.00258870442708335,
+          0.0014815266927083349
+        ],
+        "difference": -0.0005696614583333371,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.001390020441600853,
+          0.0018197625536010705
+        ],
+        "difference": 0.00017604641490855336,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0018286109552538832,
+          0.006893929353970732
+        ],
+        "difference": 0.0019999012938330175,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          1.0582305394352583e-05,
+          0.009619847401372967
+        ],
+        "difference": 0.004403622171506532,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.008652993323716884,
+          0.0022465882782226982
+        ],
+        "difference": -0.002459297698950986,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.006815347738193591,
+          6.338864250454966e-06
+        ],
+        "difference": -0.003283972535148405,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.022666015625000004,
+          0.035166015624999984
+        ],
+        "difference": 0.0044270833333333315,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.032418314615885416,
+          0.01972757975260415
+        ],
+        "difference": -0.007910156250000005,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0020833333333333316,
+          0.0010750325520833379
+        ],
+        "difference": -0.00042317708333333703,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0009781067745052,
+          0.0011969675034559618
+        ],
+        "difference": 9.789978026799525e-05,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.002469780958981541,
+          0.0017915561170929232
+        ],
+        "difference": -0.0001762470507221947,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0025744370301243307,
+          0.007262133590078742
+        ],
+        "difference": 0.0022980507165470563,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0042899052066856245,
+          0.0017613947980827558
+        ],
+        "difference": -0.0008166362650986949,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.006823079651536846,
+          0.00031622300531641346
+        ],
+        "difference": -0.0027544313706781122,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.017060546874999992,
+          0.019013671874999992
+        ],
+        "difference": 0.0015625,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.02543863932291667,
+          0.01325703938802083
+        ],
+        "difference": -0.00641276041666667,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.004965006510416671,
+          0.0014973958333333428
+        ],
+        "difference": -0.001871744791666663,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0023121883167944103,
+          0.002871732596505779
+        ],
+        "difference": 0.00048618755001050476,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0018959049912511737,
+          0.02207561299750111
+        ],
+        "difference": 0.008491857690868482,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.014917017336233306,
+          0.008448634328803935
+        ],
+        "difference": -0.003117832164833817,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.00945144793457876,
+          0.0018641066566090804
+        ],
+        "difference": -0.0033497030273783473,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0052519123883793635,
+          0.0008182499120193053
+        ],
+        "difference": -0.002320703127221868,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.05208333333333333,
+          0.0316634114583333
+        ],
+        "difference": -0.011588541666666674,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.028228149414062494,
+          0.04961263020833333
+        ],
+        "difference": 0.011950683593749997,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.006641031901041683,
+          0.00390625
+        ],
+        "difference": -0.001416015625,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004753701604233578,
+          0.002404568993407583
+        ],
+        "difference": -0.0011492140117401908,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0016817883036013724,
+          0.022272420456574068
+        ],
+        "difference": 0.009229119103662003,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.016261688281924296,
+          0.010961240694062048
+        ],
+        "difference": -0.002321114650765693,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0151785079138598,
+          0.0009213395477002706
+        ],
+        "difference": -0.006714876792036742,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.006623923725595559,
+          0.005703735304250361
+        ],
+        "difference": -0.0002639068128670374,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.10691731770833329,
+          0.06942708333333332
+        ],
+        "difference": -0.018880208333333336,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.05445220947265626,
+          0.08552836100260411
+        ],
+        "difference": 0.015441894531249995,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.001172281901041672,
+          0.0006184895833333264
+        ],
+        "difference": -0.00034179687500000556,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          0.001060406767273934,
+          0.0023258435405479074
+        ],
+        "difference": 0.0017001061336961941,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0022057886511096278,
+          0.003216226706696824
+        ],
+        "difference": 0.0002646251690968493,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.001623810667337414,
+          0.0030183354715966363
+        ],
+        "difference": 0.00041025737553125884,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          0.001479553231026048,
+          0.003269459783453832
+        ],
+        "difference": 0.002351002344695984,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0014998014670603026,
+          0.0006288507807092224
+        ],
+        "difference": -0.00047339702443388587,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.002083333333333318,
+          0.018619791666666663
+        ],
+        "difference": 0.008333333333333337,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.0026704915364583574,
+          0.01225697835286457
+        ],
+        "difference": 0.005187988281249988,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0016605631510416884,
+          0.0012699381510416336
+        ],
+        "difference": -0.00021158854166668516,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0011307797804396558,
+          0.0009893952342197277
+        ],
+        "difference": -0.00018655948646632245,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0005169444431330879,
+          0.003929963906922577
+        ],
+        "difference": 0.0015746768616139105,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0007312109740267578,
+          0.0064914443846890825
+        ],
+        "difference": 0.0036752811096307514,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0020691914557135743,
+          0.004712034807369681
+        ],
+        "difference": 0.0009187129253585141,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.004060579569243625,
+          -0.0007163796221015769
+        ],
+        "difference": -0.0024217940813894335,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.015631510416666657,
+          0.020973307291666674
+        ],
+        "difference": 0.0028645833333333483,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.021846008300781254,
+          0.02143402099609371
+        ],
+        "difference": -0.0009358723958333419,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.004492187499999972,
+          0.0016296386718750002
+        ],
+        "difference": -0.0015299479166666573,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.00407647212899899,
+          0.0012406246977488405
+        ],
+        "difference": -0.0012139185836856894,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0010954684487699457,
+          0.02032996733328927
+        ],
+        "difference": 0.008227232521771632,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.013640103139076085,
+          0.006460845849674299
+        ],
+        "difference": -0.003528089540365076,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.011756793162132954,
+          -0.00036533308753646925
+        ],
+        "difference": -0.005700705372074332,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.004983440468771716,
+          0.0014786233807484752
+        ],
+        "difference": -0.0018473061027879823,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.06809895833333333,
+          0.028535156249999978
+        ],
+        "difference": -0.019921875000000012,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.036355082194010416,
+          0.048884989420572914
+        ],
+        "difference": 0.0067626953125000085,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.006071370442708318,
+          0.003906656901041672
+        ],
+        "difference": -0.0012044270833333147,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004163922951407637,
+          0.0021774440588664154
+        ],
+        "difference": -0.0009626545252738684,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.002218408187635072,
+          0.019265296302457262
+        ],
+        "difference": 0.0076544422420480925,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.018415934405252483,
+          0.0062205256409967906
+        ],
+        "difference": -0.0059963957603964444,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.018126910549747906,
+          0.0007860812313547144
+        ],
+        "difference": -0.007633589717395259,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.003415551055199348,
+          0.008063650601563558
+        ],
+        "difference": 0.002157887268522396,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.09896158854166669,
+          0.05666992187499997
+        ],
+        "difference": -0.021744791666666676,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.034652099609374994,
+          0.06775482177734371
+        ],
+        "difference": 0.016377766927083332,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.007652180989583331,
+          0.006561279296875005
+        ],
+        "difference": -0.0006998697916666575,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.001357922241631156,
+          0.006187692538001113
+        ],
+        "difference": 0.002502227197451969,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.021662054842742622,
+          0.01497430988831967
+        ],
+        "difference": -0.004398734490491524,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.022007184885125937,
+          0.038831904651680745
+        ],
+        "difference": 0.0066526784898709975,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.06274995024966554,
+          -0.008440552127491072
+        ],
+        "difference": -0.033717021976747495,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0046159619041385765,
+          0.00445531823901355
+        ],
+        "difference": -4.930077459722182e-05,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.10891276041666667,
+          0.16654296875000002
+        ],
+        "difference": 0.037500000000000006,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.04750966389973958,
+          0.07938568115234372
+        ],
+        "difference": 0.017565917968750004,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.004574381510416654,
+          0.002150065104166666
+        ],
+        "difference": -0.0010904947916666574,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0029312631101535945,
+          0.001685464206702974
+        ],
+        "difference": -0.0006651154151909276,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.003843986177342501,
+          0.01695778629241996
+        ],
+        "difference": 0.0063911422410462436,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.003232402935857846,
+          0.03733486496928814
+        ],
+        "difference": 0.01615673988700634,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.010096481384693053,
+          0.0004656066220878518
+        ],
+        "difference": -0.004204148901501038,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.007985836689588006,
+          1.42317416711926e-05
+        ],
+        "difference": -0.0037730793756506286,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.048050130208333326,
+          0.07448242187500002
+        ],
+        "difference": 0.00846354166666668,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.03088094075520832,
+          0.0374908447265625
+        ],
+        "difference": 0.0026855468750000082,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0064457194010416555,
+          0.0005057779947916839
+        ],
+        "difference": -0.0030598958333333203,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.003449731695448199,
+          0.0020296728728631482
+        ],
+        "difference": -0.0007292636889513069,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.00725732352421343,
+          0.01239418453392111
+        ],
+        "difference": 0.0019567963230915806,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.017134731812801833,
+          0.01599875805369885
+        ],
+        "difference": -0.0003349437864602456,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.005196975239252407,
+          0.0009913637421520086
+        ],
+        "difference": -0.002028736390586046,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.007360441894353218,
+          -0.00011269319455050873
+        ],
+        "difference": -0.0036431645779086697,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.058994140624999976,
+          0.061223958333333314
+        ],
+        "difference": -0.0020833333333333285,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.035425109863281255,
+          0.02891825358072916
+        ],
+        "difference": -0.0036295572916666676,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.006250406901041672,
+          0.0015791829427083182
+        ],
+        "difference": -0.0022786458333333426,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.001936649453980241,
+          0.0038833799527079587
+        ],
+        "difference": 0.0011761914141151853,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.015622012142738912,
+          0.0007308186089471549
+        ],
+        "difference": -0.006233658131052489,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.04260368952768908,
+          -0.0010462064155179161
+        ],
+        "difference": -0.02075697333485791,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.010037153491163856,
+          0.0017307861028035205
+        ],
+        "difference": -0.0038268020641680743,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0030064130426724427,
+          0.002888715631897442
+        ],
+        "difference": -0.00010113804199143872,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.07995768229166668,
+          0.025654296874999993
+        ],
+        "difference": -0.027604166666666673,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.02253977457682292,
+          0.060293579101562494
+        ],
+        "difference": 0.02098388671875,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.011524658203125001,
+          0.004280598958333326
+        ],
+        "difference": -0.0033528645833333258,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.007320098804260437,
+          0.002812424973466118
+        ],
+        "difference": -0.002303726813012879,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.02182169151804465,
+          0.01570513950189759
+        ],
+        "difference": -0.002476887138297368,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.04710535587336417,
+          0.009077932936620337
+        ],
+        "difference": -0.018109406356378442,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.02212661901425045,
+          -0.0032457823946084735
+        ],
+        "difference": -0.012232291801075237,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.005450426273447596,
+          0.006226424607314585
+        ],
+        "difference": 0.00042596813027128143,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.14533854166666665,
+          0.14925455729166662
+        ],
+        "difference": -0.00234375,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.07804300944010414,
+          0.10551706949869787
+        ],
+        "difference": 0.014375813802083342,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0003096516927083735,
+          0.0016276041666666633
+        ],
+        "difference": 0.0006022135416666518,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          0.001357001785229991,
+          0.003565409494727752
+        ],
+        "difference": 0.002416178238926964,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0026052109651260743,
+          0.004318844328964426
+        ],
+        "difference": 0.0005438235770753475,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.006410663382362719,
+          0.00922810032049717
+        ],
+        "difference": 0.0008430277698700028,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          0.002480158330801856,
+          0.005371904356733972
+        ],
+        "difference": 0.003839100577296979,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.0005394445592389883,
+          0.0022418911582748353
+        ],
+        "difference": 0.0013864886879540073,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.033209635416666675,
+          0.03489908854166668
+        ],
+        "difference": -0.0010416666666666601,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.004111633300781243,
+          0.03226999918619789
+        ],
+        "difference": 0.01429443359375,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.002393391927083328,
+          0.0023763020833333483
+        ],
+        "difference": -6.510416666665187e-05,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.003319716832869826,
+          -0.00041961393419596873
+        ],
+        "difference": -0.001994666457274083,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0019373985385062868,
+          0.007656638216828772
+        ],
+        "difference": 0.003034888419023235,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0012139887088411206,
+          0.015759461807072134
+        ],
+        "difference": 0.007312044549588978,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.005828949220163364,
+          0.0014887426474701098
+        ],
+        "difference": -0.002506387750915451,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0032350076656893177,
+          0.0005647329635841321
+        ],
+        "difference": -0.001417116540729607,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.030224609374999992,
+          0.06472330729166666
+        ],
+        "difference": 0.018359374999999994,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.04485087076822916,
+          0.012777404785156226
+        ],
+        "difference": -0.01724446614583333,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.006903483072916668,
+          0.0013838704427083458
+        ],
+        "difference": -0.0028808593749999945,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004593328476385692,
+          0.0016746781010175966
+        ],
+        "difference": -0.0012399868248117788,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.019416767483376767,
+          0.0017710773118257577
+        ],
+        "difference": -0.006777481708127836,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.05041496439280601,
+          0.0025865829837615944
+        ],
+        "difference": -0.021600001104727914,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.01334461697738047,
+          -0.002217333150897454
+        ],
+        "difference": -0.007665902641465054,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.004475467954272042,
+          0.0016665022789594066
+        ],
+        "difference": -0.001487626729945446,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.09897460937500005,
+          0.05222005208333332
+        ],
+        "difference": -0.026562500000000024,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.04797719319661458,
+          0.05811055501302084
+        ],
+        "difference": 0.006689453124999999,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.011090494791666666,
+          0.004736735026041676
+        ],
+        "difference": -0.003287760416666674,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004571335075726785,
+          0.0040657743338357874
+        ],
+        "difference": -0.0003090603557387963,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.02216176293180103,
+          0.011609793330591105
+        ],
+        "difference": -0.005511775557320603,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.05358522001171891,
+          0.0010125532999068721
+        ],
+        "difference": -0.025421450905967417,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.021541637861384633,
+          -0.0002925088241008933
+        ],
+        "difference": -0.009725904050159787,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.004358919866520747,
+          0.007983546424620893
+        ],
+        "difference": 0.0018430846710008886,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.14225911458333332,
+          0.11421549479166666
+        ],
+        "difference": -0.02070312499999999,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.04976287841796874,
+          0.10662445068359372
+        ],
+        "difference": 0.03162027994791667,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.005089314778645839,
+          0.03254221598307292
+        ],
+        "difference": 0.018562825520833336,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.01194688542204134,
+          5.178850732636073e-06
+        ],
+        "difference": -0.00620618290447327,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.01490764811845984,
+          0.027416267213138203
+        ],
+        "difference": 0.010463206586373624,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.016383695744950834,
+          0.002984104798197959
+        ],
+        "difference": -0.00607063460501156,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.020050140214839432,
+          -0.004772303218354088
+        ],
+        "difference": -0.012686415167647302,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.013357148049025946,
+          0.055826392506878486
+        ],
+        "difference": 0.03378563782506775,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.040959472656249996,
+          0.047860514322916665
+        ],
+        "difference": 0.006477864583333335,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.011424306233723957,
+          0.0319946034749349
+        ],
+        "difference": 0.010520426432291667,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.009153035481770832,
+          0.010762634277343754
+        ],
+        "difference": -0.00011393229166666297,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004798637979084012,
+          0.004920180332149772
+        ],
+        "difference": 0.0002945569870924002,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.02299815059210823,
+          -0.0016742033200356908
+        ],
+        "difference": -0.01165642236637911,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.00790402670476962,
+          0.022086223000029572
+        ],
+        "difference": 0.014576827633784631,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.012356779087628531,
+          0.00334339989978632
+        ],
+        "difference": -0.003729259874912394,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.021635999999364688,
+          0.005577744270070779
+        ],
+        "difference": -0.009181510511992664,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.017287597656250007,
+          0.01683105468750001
+        ],
+        "difference": -0.00022786458333333702,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.0160895029703776,
+          0.007306569417317715
+        ],
+        "difference": -0.00442708333333333,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.009330952962239559,
+          0.015991312662760434
+        ],
+        "difference": 0.002038574218750017,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.008006422387811489,
+          0.005455648035403893
+        ],
+        "difference": -0.0009729450636139336,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.022207906655387865,
+          0.0006787275648250129
+        ],
+        "difference": -0.009836062789102757,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.017673075967952034,
+          0.03338827440171589
+        ],
+        "difference": 0.02470409348272344,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.011226629455792383,
+          0.00504033918982642
+        ],
+        "difference": -0.002635995765364879,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.027306626370592564,
+          0.006342579307760554
+        ],
+        "difference": -0.0121221906874243,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.014455566406250033,
+          0.012793782552083332
+        ],
+        "difference": -0.0010091145833333425,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.012947794596354166,
+          0.009437789916992187
+        ],
+        "difference": -0.001849365234375,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.004454447428385421,
+          0.009489339192708317
+        ],
+        "difference": 0.006774902343749989,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.011148269549052021,
+          -0.005318338944143102
+        ],
+        "difference": -0.008027396853319158,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.004347400342217413,
+          0.02063930229499089
+        ],
+        "difference": 0.010634133389715495,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0036941073803619384,
+          0.012371649260694315
+        ],
+        "difference": 0.007697977345855605,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.02121295697668272,
+          -0.009496409122630833
+        ],
+        "difference": -0.014523583109438926,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.0037859790827910827,
+          0.01242862835070576
+        ],
+        "difference": 0.007822326937439728,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.0017277018229166572,
+          0.015756022135416683
+        ],
+        "difference": 0.006868489583333345,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.01100234985351563,
+          0.0023865000406901055
+        ],
+        "difference": -0.004230753580729168,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0048688761393228955,
+          0.02166025797526039
+        ],
+        "difference": 0.012447102864583327,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.017779442539584665,
+          -0.006425106151582544
+        ],
+        "difference": -0.011628396021507396,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0009199632299226178,
+          0.017400773491363573
+        ],
+        "difference": 0.008506354530470167,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0014015899591726026,
+          0.007677317867852468
+        ],
+        "difference": 0.002977498455125771,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.030487874893950155,
+          -0.010918468915656395
+        ],
+        "difference": -0.019410052467475937,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.00865292703314658,
+          0.030783605272853943
+        ],
+        "difference": 0.01874222274247215,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.02673258463541669,
+          0.02885579427083331
+        ],
+        "difference": 0.0009765624999999889,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.038973108927408864,
+          0.05022267659505205
+        ],
+        "difference": 0.005008951822916665,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.005089314778645834,
+          0.013004862467447918
+        ],
+        "difference": 0.00875244140625,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.010019651663508294,
+          -0.004499627550421295
+        ],
+        "difference": -0.006928740445782164,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.005711661013439876,
+          0.027519527277454138
+        ],
+        "difference": 0.014462201973394474,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0013058098454636461,
+          0.007450804635321167
+        ],
+        "difference": 0.004416739285657667,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.011759521061894262,
+          -0.005272910950904003
+        ],
+        "difference": -0.00818370983228196,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.005933760123724051,
+          0.01825048222393135
+        ],
+        "difference": 0.011656734831436505,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.001628417968750001,
+          0.010839843750000012
+        ],
+        "difference": 0.0043945312500000165,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.0012911732991536444,
+          0.005126063028971356
+        ],
+        "difference": 0.002019246419270833,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0018227132161458127,
+          0.012060546875000005
+        ],
+        "difference": 0.006551106770833326,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.017079850345191255,
+          -0.0033296033446933433
+        ],
+        "difference": -0.010023461195308307,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.003002126380181951,
+          0.02086450401626504
+        ],
+        "difference": 0.01109237786092957,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.008617368950140416,
+          0.002945381786203617
+        ],
+        "difference": -0.0027375577889477446,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.02598425233925671,
+          -0.0032781040315283064
+        ],
+        "difference": -0.014429086131064564,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.00585314957269739,
+          0.021084926254449833
+        ],
+        "difference": 0.013012533073643074,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.01031982421875,
+          0.00921223958333334
+        ],
+        "difference": -0.0007161458333333371,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.008566614786783855,
+          0.02069633483886717
+        ],
+        "difference": 0.006627400716145826,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.005827331542968733,
+          0.0012872314453124785
+        ],
+        "difference": -0.001977539062500011,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0023825108460948444,
+          0.0002692916248456139
+        ],
+        "difference": -0.0010986564075369937,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.00845090726151412,
+          0.0006773673474487957
+        ],
+        "difference": -0.0038280685836789784,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.000125211700570447,
+          0.006787539890667516
+        ],
+        "difference": 0.0032812380601979383,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.009996928726270657,
+          -0.003320074080347827
+        ],
+        "difference": -0.006339873277156967,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.008664793504156028,
+          0.0005204035401448408
+        ],
+        "difference": -0.0038344078939967774,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.005925292968750008,
+          0.011197916666666651
+        ],
+        "difference": 0.002473958333333329,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.012220535278320309,
+          -2.8152465820314014e-05
+        ],
+        "difference": -0.00625,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0037282307942708448,
+          0.016418660481770826
+        ],
+        "difference": 0.00589599609375,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.01085651548518516,
+          0.006301932751835149
+        ],
+        "difference": -0.0016049348261990893,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.013925201932529708,
+          0.006716854192887457
+        ],
+        "difference": -0.0025860233304594027,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -3.5866999424810684e-05,
+          0.011918737015806294
+        ],
+        "difference": 0.005715056244073516,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.02041880494489278,
+          0.007666895691138068
+        ],
+        "difference": -0.004980966336411369,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0062719239118861755,
+          0.018952590293631267
+        ],
+        "difference": 0.005729689668829074,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "test/heldout_random/random",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.020801595052083326,
+          0.023210449218749984
+        ],
+        "difference": 0.001692708333333326,
+        "paired_questions": 20,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.033502807617187505,
+          0.03054428100585938
+        ],
+        "difference": -0.0016184488932291644,
+        "paired_questions": 20,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.005249023437500007,
+          0.0019536336263020894
+        ],
+        "difference": -0.001647949218750007,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0013714172956685868,
+          0.004231350793926765
+        ],
+        "difference": 0.0017960104518315273,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.012280033811065325,
+          -0.00017707256102804419
+        ],
+        "difference": -0.005518404363710511,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.022599422919714146,
+          7.405785492746572e-05
+        ],
+        "difference": -0.008267493070489108,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.03161063187874295,
+          0.008204709814827552
+        ],
+        "difference": -0.007391317058409727,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.005306691596374395,
+          0.0033007323230928513
+        ],
+        "difference": -0.001519066764672207,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.07183430989583332,
+          0.03044026692708334
+        ],
+        "difference": -0.01318359374999999,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.024878819783528645,
+          0.0670099894205729
+        ],
+        "difference": 0.026860555013020836,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.004130554199218741,
+          0.001363118489583322
+        ],
+        "difference": -0.0012003580729166713,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          3.710779297347997e-05,
+          0.00814645096793075
+        ],
+        "difference": 0.0035438983241618672,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.00015273692624304152,
+          0.013336628937001245
+        ],
+        "difference": 0.006239719930501014,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.00865310415828329,
+          0.015915123590981163
+        ],
+        "difference": 0.005025614292925883,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          0.0003355450427440238,
+          0.020036482763959737
+        ],
+        "difference": 0.008769097669359146,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.008901257295270429,
+          -0.0037368408873080187
+        ],
+        "difference": -0.0062589953559218925,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.09489746093750001,
+          0.009606933593750009
+        ],
+        "difference": -0.03320312499999999,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          0.004337565104166664,
+          0.09888470967610677
+        ],
+        "difference": 0.045588175455729164,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0014648437500000002,
+          0.0017105102539062419
+        ],
+        "difference": 0.0002034505208333287,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0010493800537373838,
+          0.004705383171924125
+        ],
+        "difference": 0.0015238378060566998,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0010980202932472656,
+          0.0049003849404841895
+        ],
+        "difference": 0.001404692352274195,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -6.432092088896055e-05,
+          0.015539904736639978
+        ],
+        "difference": 0.006543048800454351,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0005963057888398149,
+          0.012080510236519196
+        ],
+        "difference": 0.0050490859625256235,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0056228446920222885,
+          -0.0009598211006820817
+        ],
+        "difference": -0.00318336555425118,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.03808593749999997,
+          0.03515625000000003
+        ],
+        "difference": 0.001953125000000021,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.03051350911458333,
+          0.05284233093261717
+        ],
+        "difference": 0.005956013997395837,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0012817382812499933,
+          0.00293019612630209
+        ],
+        "difference": 0.0006917317708333356,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004904570766200811,
+          0.002714713244533808
+        ],
+        "difference": -0.0006317449856562214,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0008134778931488274,
+          0.012382591703705224
+        ],
+        "difference": 0.004131660229798842,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0031944273756270305,
+          0.005956160360808982
+        ],
+        "difference": 0.0004995005388218135,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.017930494989668203,
+          0.004891536511467893
+        ],
+        "difference": -0.004862515634412056,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0008349104397718016,
+          0.004408807588964567
+        ],
+        "difference": 0.001742420222263015,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.0070109049479166845,
+          0.04183349609374999
+        ],
+        "difference": 0.01611328124999999,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.05003407796223958,
+          0.018131383260091137
+        ],
+        "difference": -0.016001383463541664,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0026855468749999796,
+          0.003235371907552082
+        ],
+        "difference": 0.00020345052083333565,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0028833974953999314,
+          0.0037503247231869003
+        ],
+        "difference": 0.0006001699340325657,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0017865216836750423,
+          0.022944654062524876
+        ],
+        "difference": 0.011427699305911782,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.006174449560485545,
+          0.013880775810385082
+        ],
+        "difference": 0.0036348074374804237,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.008424352405952953,
+          0.006049643405590108
+        ],
+        "difference": -0.0006532837134975242,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.003286370131181512,
+          0.004119934812754403
+        ],
+        "difference": -0.00013353731666191498,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.06723632812500001,
+          0.027038574218749965
+        ],
+        "difference": -0.015950520833333343,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.027149073282877606,
+          0.07351786295572915
+        ],
+        "difference": 0.020960489908854168,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.002035013834635433,
+          -2.0345052083342412e-05
+        ],
+        "difference": -0.000976562500000007,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0003456298420274573,
+          0.0021770500218962446
+        ],
+        "difference": 0.0010194671008108686,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0036695875456029623,
+          0.006524926164368174
+        ],
+        "difference": 0.0006992421716087369,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0018873536236956741,
+          0.0021642785775380182
+        ],
+        "difference": 0.00012615858497214832,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0020247148182808016,
+          0.0028609299859464693
+        ],
+        "difference": 0.0006947822421080226,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.004674098482848828,
+          0.0007150615119353895
+        ],
+        "difference": -0.001879225419561717,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.017419433593750002,
+          0.010253906249999993
+        ],
+        "difference": -0.0022786458333333356,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.02063077290852864,
+          0.01284675598144531
+        ],
+        "difference": -0.0011698404947916618,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.00010172526041666453,
+          0.0020955403645833287
+        ],
+        "difference": 0.0008748372395833287,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.003373971790637246,
+          -0.0012457560547259115
+        ],
+        "difference": -0.0022582429271276855,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0002965560201257737,
+          0.008369438749875845
+        ],
+        "difference": 0.003716864501597396,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.00030398543259478096,
+          0.010835788762948407
+        ],
+        "difference": 0.004683181703749088,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.00627639761528348,
+          -0.0026862109354134603
+        ],
+        "difference": -0.004265937666809569,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0035426426575834733,
+          0.0008449431154610705
+        ],
+        "difference": -0.001205117128522483,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.019368489583333336,
+          0.02311604817708332
+        ],
+        "difference": 0.0011393229166666644,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.051180140177408844,
+          -0.003395334879557293
+        ],
+        "difference": -0.02739969889322917,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0003870646158854187,
+          0.003906250000000014
+        ],
+        "difference": 0.0016682942708333426,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.005284299147180363,
+          0.0013795564359366495
+        ],
+        "difference": -0.00165121208646709,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.00010228549245878038,
+          0.008163607227420992
+        ],
+        "difference": 0.003432418058190105,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.0030238211374082327,
+          0.004737888010350002
+        ],
+        "difference": 0.0003733419538496652,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.017649604402218577,
+          0.002797036666490151
+        ],
+        "difference": -0.005557297876520078,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0005889443404099902,
+          0.00836263708407856
+        ],
+        "difference": 0.003621645641824732,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.010929361979166684,
+          0.05615641276041664
+        ],
+        "difference": 0.018391927083333325,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.05672492980957032,
+          0.026219558715820303
+        ],
+        "difference": -0.014831542968750002,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.003662109374999986,
+          0.002401224772135412
+        ],
+        "difference": -0.0006713867187499931,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -6.35035855696395e-05,
+          0.005529116414635357
+        ],
+        "difference": 0.002858412861160251,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.00038620617259789257,
+          0.01745709670862485
+        ],
+        "difference": 0.007710834804314386,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.010213695370582412,
+          0.0090689178673888
+        ],
+        "difference": -0.0010483742662686646,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.002734514463183902,
+          0.008887178266981668
+        ],
+        "difference": 0.003612653953312045,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0028229075628233005,
+          0.005576283294685035
+        ],
+        "difference": 0.001071579811860568,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/square",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.06803792317708335,
+          0.020520019531250024
+        ],
+        "difference": -0.017089843750000007,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          0.0026678721110026094,
+          0.10502789815266927
+        ],
+        "difference": 0.04836018880208334,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.01340789794921874,
+          -0.0010569254557291562
+        ],
+        "difference": -0.006368001302083322,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.00045231481192094274,
+          0.005688367340501154
+        ],
+        "difference": 0.0027674316527530316,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.029189987782031773,
+          -0.001282107101866223
+        ],
+        "difference": -0.01262750613408243,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.04847544636330275,
+          0.005215943300796026
+        ],
+        "difference": -0.016210640321517138,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.05272695126719038,
+          0.003233307390075589
+        ],
+        "difference": -0.019939474451233702,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.01045853525139724,
+          -0.001209067076090804
+        ],
+        "difference": -0.0050453688622557336,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "I0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.14293619791666667,
+          0.10735677083333325
+        ],
+        "difference": -0.01025390625,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.020277023315429688,
+          0.0868109385172526
+        ],
+        "difference": 0.03225199381510417,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0025853474934895786,
+          0.002258300781249993
+        ],
+        "difference": -0.00010172526041666435,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.0012267961690858933,
+          0.00455452044100854
+        ],
+        "difference": 0.001508373389162157,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.003939047222187123,
+          0.021493205275990714
+        ],
+        "difference": 0.0117567745492076,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          0.0011355521649893392,
+          0.04291289893982147
+        ],
+        "difference": 0.022903979587887605,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          0.0008608750493956761,
+          0.011498110127029369
+        ],
+        "difference": 0.005453882448731423,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.008498052212311334,
+          -0.0027698182779202617
+        ],
+        "difference": -0.005599960917491487,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.04411214192708331,
+          0.04346110026041668
+        ],
+        "difference": -0.0011393229166666713,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.0014854431152343797,
+          0.06155255635579426
+        ],
+        "difference": 0.03191121419270834,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "opinion"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.002482604980468727,
+          0.004456075032552103
+        ],
+        "difference": 0.0007527669270833495,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.002307784691685059,
+          0.0024482406987662475
+        ],
+        "difference": -1.8893676293927622e-05,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          0.0016673088682383316,
+          0.015642329372434587
+        ],
+        "difference": 0.008138229670397616,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -2.5863287257720324e-06,
+          0.03070256284851029
+        ],
+        "difference": 0.015018362559623868,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.0015717317905265787,
+          0.006888633987446367
+        ],
+        "difference": 0.0023537297013405123,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.005197958049185137,
+          0.0006528659087813632
+        ],
+        "difference": -0.0022591740362500196,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A1",
+      "opinion"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.01711832682291667,
+          0.07080485026041666
+        ],
+        "difference": 0.024902343750000003,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.037487030029296875,
+          0.030941390991210918
+        ],
+        "difference": -0.0021921793619791652,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.003601074218750001,
+          0.0010172526041666505
+        ],
+        "difference": -0.0013834635416666852,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.00276019730508386,
+          0.0038491321427734163
+        ],
+        "difference": 0.001059105558333688,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.013924813870491538,
+          0.0019909579626015807
+        ],
+        "difference": -0.00589400950172788,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.02315392280895495,
+          0.002878299912522191
+        ],
+        "difference": -0.01101441951394945,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.013903294698399103,
+          0.0049373289625174325
+        ],
+        "difference": -0.002419021744829071,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0021300800402579553,
+          0.0024867937032489913
+        ],
+        "difference": 0.00032624461974502944,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.05778401692708331,
+          0.020837402343749988
+        ],
+        "difference": -0.019531249999999993,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.03564122517903645,
+          0.03630917867024739
+        ],
+        "difference": 0.003087361653645833,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0038869222005208245,
+          0.005595906575520823
+        ],
+        "difference": 0.0008748372395833287,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004536123009108901,
+          0.0015730814417047937
+        ],
+        "difference": -0.0013397090712576275,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.013254207099109041,
+          0.018484892630926206
+        ],
+        "difference": 0.0027476035048488653,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.03675725591956762,
+          0.02470633942901585
+        ],
+        "difference": -0.0042189393349515575,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.010694662349958266,
+          0.002429601061210534
+        ],
+        "difference": -0.0034500037111548938,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0015944930940371973,
+          0.0041512989981467435
+        ],
+        "difference": 0.001158834652981472,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.07992757161458333,
+          0.10011393229166665
+        ],
+        "difference": 0.011555989583333329,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.046386845906575526,
+          0.06485125223795567
+        ],
+        "difference": 0.010523478190104168,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.00417073567708333,
+          -0.0011189778645833424
+        ],
+        "difference": -0.0025431315104166713,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          0.00132658247906604,
+          0.004841759799776743
+        ],
+        "difference": 0.0029572367565214486,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.010178182826602069,
+          -0.003184895791420352
+        ],
+        "difference": -0.006561510663648386,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.021154684839598568,
+          -0.002998697483371488
+        ],
+        "difference": -0.011779521033810483,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          0.001445811724029807,
+          0.005947048958468401
+        ],
+        "difference": 0.0037226710303694204,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.004620192316314731,
+          0.001980915524942293
+        ],
+        "difference": -0.0011542865817944017,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "availability_only"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.04460042317708332,
+          0.02913411458333334
+        ],
+        "difference": -0.003417968749999986,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          0.0023495992024739573,
+          0.03296648661295574
+        ],
+        "difference": 0.018096923828125003,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "history"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          0.0005493164062499927,
+          0.003967285156250007
+        ],
+        "difference": 0.0020751953125,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.004802457861485032,
+          -0.0030299428551261746
+        ],
+        "difference": -0.0039394067740691355,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0013994562664060679,
+          0.010023379930666132
+        ],
+        "difference": 0.003926454264890293,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.009170251434660654,
+          0.009706049417921706
+        ],
+        "difference": 0.000791893645668805,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.008653872041469456,
+          -0.005414427167758544
+        ],
+        "difference": -0.006924028751994272,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          0.0006166500288857463,
+          0.0034005188703055277
+        ],
+        "difference": 0.001958504389663336,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "availability_only"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          0.017903645833333336,
+          0.09000651041666666
+        ],
+        "difference": 0.05338541666666666,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.07252197265624999,
+          -0.025902303059895833
+        ],
+        "difference": -0.048731486002604164,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A2",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0015462239583333359,
+          0.0043741861979166305
+        ],
+        "difference": 0.0011596679687499861,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -0.005480022865480247,
+          0.000921587629576631
+        ],
+        "difference": -0.0018981311981877604,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.0071678092665544086,
+          0.009271951627345683
+        ],
+        "difference": 0.0006675011619205057,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.01096146838367621,
+          0.01510166311877514
+        ],
+        "difference": 0.0007651015198610334,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.016285964379226612,
+          0.0007434949311893932
+        ],
+        "difference": -0.006141692775198491,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.0025811784118212385,
+          0.005508702814120155
+        ],
+        "difference": 0.0014805312015394312,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A2",
+      "opinion"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.07098388671874999,
+          0.04704589843749999
+        ],
+        "difference": -0.016113281250000007,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          -0.05969289143880208,
+          0.025010553995768202
+        ],
+        "difference": -0.015009562174479171,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  },
+  {
+    "first": [
+      "A0",
+      "availability_only"
+    ],
+    "metrics": {
+      "accuracy": {
+        "ci95": [
+          -0.0062464396158854124,
+          0.0035400390624999796
+        ],
+        "difference": -0.0012003580729166713,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "brier": {
+        "ci95": [
+          -7.356911051495614e-05,
+          0.00500052023935272
+        ],
+        "difference": 0.002599697702811508,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "fcba": {
+        "ci95": [
+          -0.02036182009457559,
+          0.015235117188207813
+        ],
+        "difference": -0.0011788507600414277,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "flip_accuracy": {
+        "ci95": [
+          -0.031091606102651548,
+          0.020358526124357394
+        ],
+        "difference": -0.0050108329806203625,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "nll": {
+        "ci95": [
+          -0.002481379411706898,
+          0.008082893401396207
+        ],
+        "difference": 0.003474025040839379,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "stay_accuracy": {
+        "ci95": [
+          -0.003176810580734649,
+          0.0018494664357392068
+        ],
+        "difference": -0.0007996697366818642,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    },
+    "reference": [
+      "A0",
+      "opinion"
+    ],
+    "role": "train/heldout_family/triangular",
+    "rollout_metrics": {
+      "final_accuracy": {
+        "ci95": [
+          -0.13476969401041666,
+          0.05356038411458332
+        ],
+        "difference": -0.04182942708333333,
+        "paired_questions": 16,
+        "replicates": 1000
+      },
+      "final_wasserstein": {
+        "ci95": [
+          0.005024973551432295,
+          0.11118799845377603
+        ],
+        "difference": 0.05925496419270834,
+        "paired_questions": 16,
+        "replicates": 1000
+      }
+    }
+  }
+]

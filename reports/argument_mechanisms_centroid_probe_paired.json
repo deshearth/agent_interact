@@ -1,0 +1,82 @@
+{
+  "A2/question_mean": {
+    "accuracy_change": {
+      "ci95": [
+        -0.0020449320475260414,
+        -7.069905598958383e-05
+      ],
+      "difference": -0.0010477701822916667,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll_change": {
+      "ci95": [
+        0.00010975180834094103,
+        0.002108767414815173
+      ],
+      "difference": 0.001109070137770063,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "A2/question_stance_mean": {
+    "accuracy_change": {
+      "ci95": [
+        -0.0012003580729166665,
+        0.0001019795735677081
+      ],
+      "difference": -0.00054931640625,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll_change": {
+      "ci95": [
+        1.0275864208347781e-05,
+        0.0017109284317359753
+      ],
+      "difference": 0.0008466329828301273,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "separate/question_mean": {
+    "accuracy_change": {
+      "ci95": [
+        -0.0040285746256510414,
+        -0.0005999247233072918
+      ],
+      "difference": -0.002288818359375,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll_change": {
+      "ci95": [
+        -0.0033961931532768244,
+        0.004136081845867173
+      ],
+      "difference": 0.00018216168363556956,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  },
+  "separate/question_stance_mean": {
+    "accuracy_change": {
+      "ci95": [
+        -0.0021977742513020833,
+        0.0008550008138020829
+      ],
+      "difference": -0.0006510416666666665,
+      "paired_questions": 16,
+      "replicates": 1000
+    },
+    "nll_change": {
+      "ci95": [
+        -0.005284225859279014,
+        0.0015131722925060824
+      ],
+      "difference": -0.0021552981030369027,
+      "paired_questions": 16,
+      "replicates": 1000
+    }
+  }
+}

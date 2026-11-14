@@ -1,0 +1,39 @@
+project: question_breadth_3200_v1
+output: runs/question_breadth_3200_v1
+parent: runs/question_breadth_320_v1
+target_splits: {train: 3200, validation: 800, assessment: 40}
+new_questions: {train: 2880, validation: 720}
+selection:
+  bank_seed: 32008001
+  quota_seed: 32008002
+  split_seed: 32008003
+  graph_seed: 32008004
+  unit_seed: 32008005
+  split_attempts: 2000
+  near_duplicate_cosine: 0.9
+  eligibility: original_single_rational_answer_MATH_rule
+  candidate_policy: all_fresh_eligible_deduplicated_MATH_rows
+  topic_policy: proportional_to_fresh_candidate_availability
+  ranking: pooled_32_by_8_initial_vote_entropy_within_topic_and_correct_label
+  entropy_drift_policy: report_before_collection_without_posthoc_threshold_changes
+source:
+  precision: float32
+  temperature: 0.7
+  agents: 32
+  screening_votes_per_agent: 8
+  update_votes_per_agent: 5
+  updates: 8
+  replicas: 1
+  graph_ids: [J0, J1, J2, J3, J4, J5, J6, J7]
+collection:
+  partitions: {free-gpu: 24, free-gpu32: 8}
+  worker_hours: 7.5
+  walltime_hours: 8
+  automatic_resubmission: true
+  automatic_retraining: false
+  benchmark_report: hpc3/results/benchmark_59409953/report.json
+  additional_hardware_requires_full_numerical_replay: true
+  pin_each_unit_to_its_initial_runtime: true
+assessment:
+  use_existing_reserved_40: true
+  generate: false

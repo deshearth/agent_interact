@@ -1,0 +1,156 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "words": 477,
+      "start": "Research report \u00b7 14 November 2026\n1\n Compact Models of LLM Agent Interaction\n Predictive gains, state sufficiency, and ",
+      "end": "nt responses, not solving the underlying questions\nor improving the source LLM through fine-tuning.\n"
+    },
+    {
+      "page": 2,
+      "words": 454,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n2\n3. Methods\nTask and boundary. Each primary ",
+      "end": "d conditional on the fitted models. They do not treat agents or rounds as independent observations.\n"
+    },
+    {
+      "page": 3,
+      "words": 346,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n3\n4. Results\n4.1 More parameters do not ensur",
+      "end": "n-selected training errors therefore do not establish equal\nrepresentational capacity (Appendix B).\n"
+    },
+    {
+      "page": 4,
+      "words": 594,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n4\n4.4 Arguments matter to the source, but cur",
+      "end": "rent public\navailability is unverified. No public release of the new conversations is claimed here.\n"
+    },
+    {
+      "page": 5,
+      "words": 325,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n5\nReferences\n[1] El, B., Paeng, J., Dinc, F.,",
+      "end": "ugh 14 November 2026; no new model fitting or source\ngeneration was performed to write this report.\n"
+    },
+    {
+      "page": 6,
+      "words": 534,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n6\nAppendix A. Data, state and training bounda",
+      "end": "perty, not an estimate of stable disagreement or predictor difficulty. Evidence: E01, E10,\nE13\u2013E16.\n"
+    },
+    {
+      "page": 7,
+      "words": 331,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n7\nAppendix B. Original GPT evidence and capac",
+      "end": "ining-question square/triangular roles are separately\nrecorded in the original report. Source: E01.\n"
+    },
+    {
+      "page": 8,
+      "words": 335,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n8\nAppendix B (continued). Capacity and model ",
+      "end": "ing-run diagnostic, not the\nthree-fresh-seed table or an exhaustive memorization test. Source: E15.\n"
+    },
+    {
+      "page": 9,
+      "words": 408,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n9\nAppendix C. Argument representations and tr",
+      "end": "cal prompt provenance is incomplete and rationale correctness is not\nguaranteed. Evidence: E05\u2013E09.\n"
+    },
+    {
+      "page": 10,
+      "words": 504,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n10\nAppendix D. Source interventions and error",
+      "end": "lection mainly finds uncertain agents, not necessarily stable disagreement.\nEvidence: E08, E10\u2013E11.\n"
+    },
+    {
+      "page": 11,
+      "words": 497,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n11\nAppendix E. Attempts to simplify the learn",
+      "end": "tention heatmaps alone. All results reuse\npreviously studied GPT questions. Evidence: E03\u2013E04, E12.\n"
+    },
+    {
+      "page": 12,
+      "words": 460,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n12\nAppendix F. Llama learning curves and grap",
+      "end": "alidation questions do not\nestablish new-question or new-topology transfer. Evidence: E11, E13\u2013E17.\n"
+    },
+    {
+      "page": 13,
+      "words": 471,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n13\nAppendix G. External data and in-context p",
+      "end": "parison. A separate fresh-question ICL protocol remains prepared but unexecuted. Evidence:\nE18\u2013E20.\n"
+    },
+    {
+      "page": 14,
+      "words": 392,
+      "start": "COMPACT MODELS OF LLM AGENT INTERACTION\nResearch report \u00b7 14 November 2026\n14\nAppendix H. Evidence index and reproducibi",
+      "end": "nt credibility, new-persona transfer and an\ninterpretable sufficient update law remain future work.\n"
+    }
+  ],
+  "outline": [
+    {
+      "title": "1. Introduction",
+      "page": 1
+    },
+    {
+      "title": "2. Related Work",
+      "page": 1
+    },
+    {
+      "title": "3. Methods",
+      "page": 2
+    },
+    {
+      "title": "4. Results",
+      "page": 3
+    },
+    {
+      "title": "5. Discussion and Limitations",
+      "page": 4
+    },
+    {
+      "title": "6. Conclusion",
+      "page": 4
+    },
+    {
+      "title": "References",
+      "page": 5
+    },
+    {
+      "title": "Appendix A. Data, state and training boundaries",
+      "page": 6
+    },
+    {
+      "title": "Appendix B. Original GPT evidence and capacity",
+      "page": 7
+    },
+    {
+      "title": "Appendix B (continued). Capacity and model size",
+      "page": 8
+    },
+    {
+      "title": "Appendix C. Argument representations and transfer",
+      "page": 9
+    },
+    {
+      "title": "Appendix D. Source interventions and error structure",
+      "page": 10
+    },
+    {
+      "title": "Appendix E. Attempts to simplify the learned rule",
+      "page": 11
+    },
+    {
+      "title": "Appendix F. Llama learning curves and graph transfer",
+      "page": 12
+    },
+    {
+      "title": "Appendix G. External data and in-context prediction",
+      "page": 13
+    },
+    {
+      "title": "Appendix H. Evidence index and reproducibility",
+      "page": 14
+    }
+  ],
+  "abstract_words": 198,
+  "authors_omitted": true
+}

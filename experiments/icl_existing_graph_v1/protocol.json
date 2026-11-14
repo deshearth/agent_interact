@@ -1,0 +1,23 @@
+{
+  "study": "icl_existing_graph_v1",
+  "output": "runs/icl_existing_graph_v1",
+  "parent": "runs/question_breadth_v1",
+  "graph_study": "runs/unseen_graph_v1",
+  "seed": 320820612,
+  "training_questions": 8,
+  "test_episodes": ["breadth_math_00216__Jf3__r00", "breadth_math_00622__Jf2__r00", "breadth_math_01368__Jf1__r00", "breadth_math_01585__Jf0__r00"],
+  "boundary_t": 3,
+  "agents_per_question": 32,
+  "selection": "All four complete unseen-graph conversations at the saved 2026-11-10T23:13:14.394712Z status snapshot, before displaying any test outcome. One fixed t=3 to t=4 boundary for every question. Eight original training questions ranked by SHA256(seed|demonstration|qid), all32 labeled agents at the same boundary. No selection by outcomes, errors or probabilities.",
+  "predictor": "The assistant itself, conditioned on the eight labeled training snapshots. All128 P(A) estimates are manually authored in context. No gradient fitting, other fitted predictor outputs or source log probabilities enter these estimates.",
+  "target": "Next five-vote majority opinion A, after one synchronous message exchange. This is agent behavior, not mathematical correctness.",
+  "visible_inputs": "Question/choice text,32 persona texts,current majority opinions,signed graph,t=3. Training demonstrations also include their observed next majority opinions. A deterministic table of current neighbor counts is allowed as a readable projection of the same inputs.",
+  "hidden": "Test next opinions, all other test times, raw vote counts, all message text, mathematical solutions/correct labels, source probabilities, baseline predictions and old validation episode data.",
+  "commitment": "Save all128 probabilities and freeze them before opening any test outcomes or computing any baseline outputs. Do not revise estimates, prompts or the panel after revelation.",
+  "comparison": "Compute original frozen818 transformers (seeds142/143/144, average individual-model scores), Ising19 and current-opinion persistence only after commitment, on these exact128 cases. This is separate from the original20-episode graph study, whose complete-cohort scoring gate remains unchanged.",
+  "metrics": "Equal-question accuracy,log loss,binary Brier; paired question-bootstrap descriptive intervals5000 draws. Four question groups do not support reliable broad generalization claims; no parameter/training-budget matching is claimed.",
+  "interpretation": "Existing questions on fresh graphs with uninspected new interaction outcomes. Original validation questions are familiar to prior development, so this is not an untouched-question assessment. The separate20-fresh-question ICL protocol remains pending. MATH text may occur in pretraining; prior aggregate chat findings cannot be erased.",
+  "assessment_used": false,
+  "additional_source_calls": 0,
+  "automatic_forecasts": false
+}

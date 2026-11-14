@@ -1,0 +1,65 @@
+project: question_breadth_v1
+output: runs/question_breadth_v1
+source:
+  model_provenance: runs/local_llama_intervention_v1/model_provenance.json
+  precision: float32
+  temperature: 0.7
+  top_p: 1.0
+  max_tokens: 256
+  batch_size: 4
+  n_agents: 32
+  screening_votes_per_agent: 8
+  update_votes_per_agent: 5
+  update_rounds: 8
+  replicas_per_question: 1
+  graph_ids: [J0, J1, J2, J3, J4, J5, J6, J7]
+  graph_policy: one seeded, balanced familiar graph assignment per question
+questions:
+  source_repository: qwedsacf/competition_math
+  source_revision: e839825f9ec5c6cfa585c654a59610969ec13993
+  candidate_questions_per_topic: 80
+  selected_questions_per_topic: 20
+  correct_labels_per_topic: {A: 10, B: 10}
+  eligibility: single rational numeric answer extracted from the last boxed solution expression
+  distractor: local Llama chooses among four exactly unequal rational alternatives
+  ranking: descending binary entropy of the pooled 32 by 8 pre-interaction votes
+  topic_policy: equal selected counts across all seven MATH topics
+  near_duplicate_cosine: 0.9
+  bank_seed: 314159
+  split_seed: 271828
+  graph_seed: 161803
+  splits: {train: 80, validation: 20, assessment: 40}
+models:
+  nano: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16}
+baseline: original_paper_two_stage_Ising_19_coefficients
+inputs: current opinions, signed graph, and 16-dimensional question/persona context
+encoder:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  frozen: true
+  question_pca_dimensions: 3
+  persona_pca_dimensions: 3
+  use_all_text_windows: true
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  output_penalties: [0.0, 0.001, 0.01]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 256
+  validation_every_steps: 128
+  max_steps: 8192
+  patience: 10
+  min_delta: 0.0001
+  gradient_clip: 1.0
+  torch_threads: 4
+  aggregate_minutes: 90
+evaluation:
+  primary: equal_question_mean_nll
+  secondary: [error, brier_two_class]
+  bootstrap_seed: 81944
+  bootstrap_replicates: 5000
+  assessment_policy: generate and score assessment conversations only after model freeze
+  subgroup_policy: topic, source difficulty, screening pooled and within-agent entropy, round, and observed stay/switch
+  predictor_screening_features: false

@@ -1,0 +1,42 @@
+project: question_breadth_320_train_v1
+output: runs/question_breadth_320_train_v1/predictors
+data_root: runs/question_breadth_320_v1
+parent_root: runs/question_breadth_v1
+counts: {train: 320, validation: 80, assessment: 40, new: 300, retained: 100}
+models:
+  nano: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16}
+baseline: original_paper_two_stage_Ising_19_coefficients
+inputs: current opinions, signed graph, and 16-dimensional question/persona context
+encoder:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  frozen: true
+  question_pca_dimensions: 3
+  persona_pca_dimensions: 3
+  use_all_text_windows: true
+  reuse_parent_vectors: true
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  output_penalties: [0.0, 0.001, 0.01]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 256
+  validation_every_steps: 512
+  max_steps: 32768
+  patience: 10
+  min_delta: 0.0001
+  gradient_clip: 1.0
+  torch_threads: 4
+  aggregate_minutes: 120
+  budget_policy: four times the original optimizer-step cap and validation interval, preserving data-pass budgets
+evaluation:
+  primary: equal_question_mean_nll
+  secondary: [error, brier_two_class]
+  bootstrap_seed: 81944
+  bootstrap_replicates: 5000
+  assessment_policy: no assessment generation, loading, or scoring in this experiment
+  reference_policy: score the frozen 80-question models on the same 80 validation questions, with all original preprocessing fixed
+  groups: [all_validation, retained_20, new_60]
+  uncertainty: paired question bootstrap after averaging individual-seed scores; descriptive development comparison

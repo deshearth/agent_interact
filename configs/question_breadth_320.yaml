@@ -1,0 +1,39 @@
+project: question_breadth_320_v1
+output: runs/question_breadth_320_v1
+parent: runs/question_breadth_v1
+target_splits: {train: 320, validation: 80, assessment: 40}
+new_questions: {train: 240, validation: 60}
+selection:
+  candidates_per_selected_question: 4
+  quota_seed: 320801
+  bank_seed: 320802
+  split_seed: 320803
+  graph_seed: 320804
+  split_attempts: 2000
+  near_duplicate_cosine: 0.9
+  eligibility: original_single_rational_answer_MATH_rule
+  ranking: pooled_32_by_8_initial_vote_entropy_within_topic_and_correct_label
+  minimum_new_pooled_entropy_mean_relative_to_parent: -0.02
+  minimum_new_within_agent_entropy_mean_relative_to_parent: -0.10
+source:
+  precision: float32
+  temperature: 0.7
+  agents: 32
+  screening_votes_per_agent: 8
+  update_votes_per_agent: 5
+  updates: 8
+  replicas: 1
+  graph_ids: [J0, J1, J2, J3, J4, J5, J6, J7]
+collection:
+  workers: 8
+  partition: free-gpu
+  gpu_type: A30
+  walltime_hours: 48
+  budget_hours: 47.5
+  benchmark_report: hpc3/results/benchmark_59409953/report.json
+  phases: [screen, select, collect, finalize]
+  automatic_retraining: false
+  automatic_resubmission: false
+assessment:
+  use_existing_reserved_40: true
+  generate: false

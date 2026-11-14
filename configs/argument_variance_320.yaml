@@ -1,0 +1,27 @@
+project: argument_variance_320_v1
+output: runs/argument_variance_320_v1
+reference: runs/compact_arguments_320_v1
+message_reference: runs/breadth_arguments_320_v1
+models:
+  nano_pca8: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16, text_dim: 8}
+conditions: [conclusion, arguments]
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  output_penalties: [0.0, 0.001, 0.01]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 128
+  validation_every_steps: 512
+  max_steps: 32768
+  patience: 10
+  min_delta: 0.0001
+  gradient_clip: 1.0
+  torch_threads: 4
+  aggregate_minutes: 120
+evaluation:
+  bootstrap_seed: 92641
+  bootstrap_replicates: 5000
+  assessment_policy: Do not generate, load, encode or score reserved assessment conversations.

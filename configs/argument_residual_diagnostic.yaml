@@ -1,0 +1,68 @@
+project: argument_residual_diagnostic_v1
+diagnostic:
+  fit_replicas:
+  - 0
+  - 1
+  selection_replicas:
+  - 2
+  familiar_evaluation_replicas:
+  - 3
+  scope: Exploratory development; no fresh confirmatory assessment
+question:
+  source: data/raw/upstream/data/obj/question_embeddings_choices.json
+  encoder: text-embedding-3-small
+  dimension: 1536
+  reduced_components: 3
+  variants:
+  - pca3_matched
+  - full_embedding
+  normalization: training_center_and_rms_l2
+data:
+  prepared: data/processed/train_only_pca
+  cache: data/processed/argument_response_v1
+  prior_encoder_cache: data/processed/message_features
+  encoder: sentence-transformers/all-MiniLM-L6-v2
+  encoder_revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+  encoder_dimension: 384
+  max_sequence_length: 256
+  source_revision: 62bf0e7ddb94e6be936bed6a35aefea94e8d54a9
+model:
+  d_model: 128
+  heads: 4
+  d_k: 16
+  d_v: 32
+  ffn_dim: 256
+  dropout: 0.1
+  max_parameters: 1000000
+training:
+  batch_size: 32
+  epochs: 50
+  max_steps: 5000
+  learning_rate: 0.0003
+  weight_decay: 0.001
+  gradient_clip: 1.0
+  patience: 6
+  min_delta: 0.0001
+  torch_threads: 4
+  seeds:
+  - 42
+  - 43
+  - 44
+  aggregate_minutes: 30
+evaluation:
+  bootstrap_replicates: 1000
+  bootstrap_seed: 1729
+  forecast_boundary: after_messages_before_next_opinion
+  message_offset: 0
+  autonomous: false
+residual:
+  variants:
+  - question_mean
+  - question_stance_mean
+  - individual_residual
+  question_features: runs/question_context_v1/question_features.npz
+  evaluation_roles:
+  - train
+  - familiar
+  centroid_roles:
+  - train

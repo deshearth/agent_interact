@@ -1,0 +1,9 @@
+role,conflicting,isolated,examples
+familiar,False,False,31736
+familiar,False,True,308
+familiar,True,False,264
+familiar,True,True,460
+validation,False,False,31729
+validation,False,True,313
+validation,True,False,271
+validation,True,True,455

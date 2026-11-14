@@ -1,0 +1,74 @@
+[
+  {
+    "kind": "P0",
+    "run": "runs/20261108T024518Z-P0-opinion-s42-459dbef2",
+    "state": "opinion",
+    "validation_nll": null
+  },
+  {
+    "kind": "P1",
+    "run": "runs/20261108T024518Z-P1-opinion-s42-624e4580",
+    "state": "opinion",
+    "validation_nll": 0.722109886231168
+  },
+  {
+    "kind": "I0",
+    "run": "runs/20261108T024518Z-I0-opinion-s42-8f70c578",
+    "state": "opinion",
+    "validation_nll": 0.2836787746567438
+  },
+  {
+    "kind": "A0",
+    "run": "runs/20261108T024518Z-A0-opinion-s42-fbceaa06",
+    "state": "opinion",
+    "validation_nll": 0.5744238946426776
+  },
+  {
+    "kind": "A1",
+    "run": "runs/20261108T024519Z-A1-opinion-s42-00b51480",
+    "state": "opinion",
+    "validation_nll": 0.5552793225979258
+  },
+  {
+    "kind": "A2",
+    "run": "runs/20261108T024519Z-A2-opinion-s42-d2efa1fd",
+    "state": "opinion",
+    "validation_nll": 0.5439167187396379
+  },
+  {
+    "kind": "A2",
+    "run": "runs/20261108T024519Z-A2-vote_counts-s42-11cef727",
+    "state": "vote_counts",
+    "validation_nll": 0.5379548935743514
+  },
+  {
+    "kind": "A2",
+    "run": "runs/20261108T024519Z-A2-history-s42-645e1086",
+    "state": "history",
+    "validation_nll": 0.46321557391638635
+  },
+  {
+    "kind": "A2",
+    "run": "runs/20261108T024519Z-A2-existing_messages-s42-5d4e5783",
+    "state": "existing_messages",
+    "validation_nll": 0.6403131123806816
+  },
+  {
+    "kind": "A0",
+    "run": "runs/20261108T024520Z-A0-vote_counts-s42-a74eb85f",
+    "state": "vote_counts",
+    "validation_nll": 0.5043389959755586
+  },
+  {
+    "kind": "A0",
+    "run": "runs/20261108T024520Z-A0-history-s42-4582067d",
+    "state": "history",
+    "validation_nll": 0.4647243817598792
+  },
+  {
+    "kind": "A0",
+    "run": "runs/20261108T024520Z-A0-existing_messages-s42-420eb03e",
+    "state": "existing_messages",
+    "validation_nll": 0.6091173812674242
+  }
+]
