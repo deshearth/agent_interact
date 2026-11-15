@@ -1,0 +1,20 @@
+output: runs/generalization_investigation_320_v1/distillation_v1
+state_reference: runs/generalization_investigation_320_v1/state_models_v1
+noise_reference: runs/generalization_investigation_320_v1/noise_audit_v1
+features: [order, rich, arguments]
+targets: [hard, soft]
+maximum_teacher_other_mass: 0.001
+random_seed: 173
+training:
+  max_leaf_nodes: [7, 15, 31]
+  l2_regularization: [1.0, 10.0]
+  max_iter: 1000
+  learning_rate: 0.05
+  min_samples_leaf: 256
+  n_iter_no_change: 30
+  tolerance: 0.00001
+  threads: 4
+  max_concurrent_models: 2
+evaluation:
+  bootstrap_seed: 81948
+  bootstrap_replicates: 5000

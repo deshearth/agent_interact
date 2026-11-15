@@ -1,0 +1,34 @@
+project: pair_token_attention_320_v1
+output: runs/pair_token_attention_320_v1
+compact_reference: runs/compact_arguments_320_v1
+message_reference: runs/breadth_arguments_320_v1
+models:
+  pico_pca8: {d_model: 4, heads: 4, d_k: 1, d_v: 1, ffn_dim: 8, text_dim: 8}
+  pico_full: {d_model: 4, heads: 4, d_k: 1, d_v: 1, ffn_dim: 8, text_dim: 384}
+  nano_pca8: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16, text_dim: 8}
+  nano_full: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16, text_dim: 384}
+expected_parameters: {pico_pca8: 346, pico_full: 1850, nano_pca8: 946, nano_full: 3954}
+conditions: [conclusion, arguments]
+pair_encoder: Linear(d_model+1,d_model), GELU, LayerNorm(d_model)
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  output_penalties: [0.0, 0.001, 0.01]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 128
+  validation_every_steps: 512
+  max_steps: 32768
+  patience: 10
+  min_delta: 0.0001
+  gradient_clip: 1.0
+  torch_threads: 4
+  aggregate_minutes: 120
+evaluation:
+  bootstrap_seed: 81948
+  bootstrap_replicates: 5000
+  primary: equal_question_mean_nll
+  secondary: [error, brier_two_class, switch_error, stay_error]
+  assessment_policy: Do not generate, load, encode or score the 40 reserved assessment conversations.

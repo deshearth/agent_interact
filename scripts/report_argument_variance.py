@@ -46,9 +46,12 @@ def main():
     a=axes[1,0];selected=['nano_pca8_conclusion','nano_pca8_arguments','within_pca8_conclusion','within_pca8_arguments','nano_full_arguments']
     labs=['Ordinary PCA8\nchoice only','Ordinary PCA8\narguments','Within PCA8\nchoice only','Within PCA8\narguments','Full 384\narguments']
     x=np.arange(len(selected))
-    a.plot(x,[100*(1-score(n,'train')['error']) for n in selected],'o-',color=blue,label='Training')
-    a.plot(x,[100*(1-score(n)['error']) for n in selected],'o-',color=red,label='Validation')
-    a.set_xticks(x,labs,fontsize=8);a.set_ylabel('Accuracy (%)');a.set_title('Representation change at fixed training settings',loc='left',fontweight='bold',fontsize=11)
+    training=np.array([100*(1-score(n,'train')['error']) for n in selected])
+    validation=np.array([100*(1-score(n)['error']) for n in selected])
+    a.vlines(x,validation,training,color=gray,lw=2)
+    a.plot(x,training,'o',color=blue,label='Training')
+    a.plot(x,validation,'o',color=red,label='Validation')
+    a.set_xticks(x,labs,fontsize=8);a.set_ylabel('Accuracy (%)');a.set_title('Training fit and validation performance',loc='left',fontweight='bold',fontsize=11)
     a.legend(frameon=False,fontsize=9)
     a=axes[1,1];anchors=r['anchor']['validation'];ref=100*anchors['sampling_reference_error']
     model_names=['I0','opinion_nano','nano_pca8_arguments','nano_full_arguments']
@@ -66,7 +69,7 @@ def main():
     fig.suptitle('Why are the prediction accuracies close?\n320 training and 80 validation questions',fontsize=16,fontweight='bold')
     figure=Path('reports/argument_variance_320.png');fig.savefig(figure,dpi=180);plt.close(fig)
     lines=['# Why the opinion prediction accuracies remain close','',
-        'The models share many errors, and most new argument-driven decisions correct one error while introducing another. Source sampling contributes substantial uncertainty, but a retained probability diagnostic leaves a sizeable gap beyond it. Ordinary PCA emphasizes differences between questions; the controlled follow-up below tests whether that compression choice explains the weak argument benefit.',
+        'The models share many errors, and most new argument-driven decisions correct one error while introducing another. Source sampling contributes substantial uncertainty, but a retained probability diagnostic leaves a sizeable gap beyond it. A controlled change to text compression does not produce a clear accuracy gain. It does reveal a modest improvement in probability loss from arguments on the reused validation set.',
         '',
         'The dataset contains 320 training and 80 validation MATH-based Llama-3.1-8B conversations on eight familiar signed graphs. Accuracy predicts each agent’s next majority-of-five A/B opinion, not mathematical correctness. Neural scores average three fitted seeds, not an ensemble. All analyses use the existing development corpus; the 40 assessment questions remain untouched.',
         '', '## Corrections and new errors cancel','',
@@ -119,13 +122,21 @@ def main():
         ('within_pca8_arguments','within_pca8_conclusion','Arguments versus choice under new compression'),
         ('within_pca8_arguments','opinion_nano','New argument model versus original 818')]:
         c=comparison(a,b);gain,ci=improvement(c);nll,nci=improvement(c,'nll')
-        lines.append(f'| {label} | {gain:+.3f} | [{ci[0]:+.3f}, {ci[1]:+.3f}] | {nll:+.5f} | [{nci[0]:+.5f}, {nci[1]:+.5f}] |')
+        formatted=[f'{v:+.2e}' if abs(v)<.000005 else f'{v:+.5f}' for v in nci]
+        lines.append(f'| {label} | {gain:+.3f} | [{ci[0]:+.3f}, {ci[1]:+.3f}] | {nll:+.5f} | [{formatted[0]}, {formatted[1]}] |')
+    gain,ci=improvement(comparison('within_pca8_arguments','nano_pca8_arguments'))
+    ag,aci=improvement(comparison('within_pca8_arguments','within_pca8_conclusion'))
+    ng,nci=improvement(comparison('within_pca8_arguments','within_pca8_conclusion'),'nll')
+    lines+=['',
+        f'The revised compression changes argument-model accuracy by only {gain:+.3f} percentage points, with interval [{ci[0]:+.3f}, {ci[1]:+.3f}]. Under that compression, arguments versus choice alone change accuracy by {ag:+.3f} points, interval [{aci[0]:+.3f}, {aci[1]:+.3f}]. The same comparison reduces NLL by {ng:.5f}, interval [{nci[0]:.5f}, {nci[1]:.5f}], and reduces Brier loss. Thus the probability scores show a small benefit that classification accuracy does not capture. NLL evaluates the assigned probability, even when the predicted A/B class stays unchanged.']
     did=r['diagnostics']['difference_in_differences'];ci=-100*np.asarray(did['error']['ci95'])[::-1]
     lines+=['',f'After subtracting the change in the choice-only control, the change in argument accuracy benefit is {-100*did["error"]["mean_difference"]:+.3f} points, with interval [{ci[0]:+.3f}, {ci[1]:+.3f}]. These are pointwise paired-question bootstrap intervals, conditional on the fitted models and reused validation set.',
         '',
         'This fixed-recipe experiment tests whether one specific unsupervised compression change improves transfer. It does not establish the best achievable performance after retuning or show that the retained directions encode argument validity.',
         '', '## Interpretation','',
-        'The shared-error and correction accounting explains mechanically why the reported accuracies remain close. Stronger fitting by the full-vector models, alongside worse validation performance, supports a generalization problem in the tested pipeline. The source-probability diagnostic rules against attributing the entire remaining error to vote sampling.',
+        'The shared-error and correction accounting explains mechanically why the reported accuracies remain close. For the 3890-parameter model, full arguments raise training accuracy from 84.32% to 85.47% but lower validation accuracy from 83.94% to 83.52%, supporting a generalization problem in the tested pipeline. The source-probability diagnostic rules against attributing the entire remaining error to vote sampling.',
+        '',
+        'Ordinary PCA does emphasize differences between questions. Preserving more within-question variation does not provide a clear accuracy improvement at the original training settings, so this particular compression choice is not a sufficient explanation of the accuracy gap. The new argument model improves probability loss versus its matched control and the original 818 model, while both accuracy contrasts remain uncertain. Its improvement over the original argument representation is also uncertain; the experiment does not establish that the new projection is superior.',
         '',
         'MiniLM geometry and the graph predictor may still fail to represent how a particular argument bears on a particular question and receiver. That is a hypothesis, not a demonstrated root cause. More question diversity and representations trained to predict the source response to controlled argument changes remain discriminating directions; another parameter sweep alone would not distinguish them.',
         '', '## Verification','',

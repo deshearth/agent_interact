@@ -1,0 +1,12 @@
+{
+  "maximum_difference": 1.6391277313232422e-07,
+  "passed": true,
+  "training_text_ids": [
+    3,
+    4,
+    5,
+    20706,
+    20721,
+    20783
+  ]
+}

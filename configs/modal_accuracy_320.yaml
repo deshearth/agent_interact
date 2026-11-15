@@ -1,0 +1,30 @@
+output: runs/modal_accuracy_investigation_320_v1/decision_models_v1
+distribution_reference: runs/distribution_prediction_320_v1
+screen_reference: runs/modal_accuracy_investigation_320_v1/state_screen_v1
+models:
+  nano_current_choice: {width: 8, text: conclusion, rich: false, initial: false, text_dim: 8}
+  nano_initial_choice: {width: 8, text: conclusion, rich: false, initial: true, text_dim: 8}
+  rich_choice: {width: 32, text: conclusion, rich: true, initial: true, text_dim: 40}
+  rich_arguments: {width: 32, text: arguments, rich: true, initial: true, text_dim: 40}
+conditions: [soft, mode]
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0003, 0.001]
+  output_penalties: [0.001]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 128
+  validation_every_steps: 512
+  max_steps: 32768
+  patience: 8
+  min_delta: 0.0
+  gradient_clip: 1.0
+  torch_threads: 2
+  max_concurrent_models: 4
+  aggregate_minutes: 120
+evaluation:
+  bootstrap_seed: 92741
+  bootstrap_replicates: 5000
+  target_accuracy: 0.95

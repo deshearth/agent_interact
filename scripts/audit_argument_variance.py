@@ -32,7 +32,8 @@ def audit():
         for key,value in independent.items():
             difference=abs(value-row[key]);assert difference<1e-7,(row['model'],key,difference);differences.append(difference)
         e,t=data.common['pairs'][ids].T;votes=data.common['raw_votes'][e,t+1]
-        counts=(votes==1).sum(-1);agreement=np.maximum(counts,5-counts);errors=pred!=y
+        counts=(votes==1).sum(-1);opposing=(votes==-1).sum(-1)
+        agreement=np.maximum(counts,opposing);errors=pred!=y
         for k in (3,4,5):
             mask=agreement==k
             np.testing.assert_allclose([mask.mean(),errors[:,mask].mean()],
@@ -62,6 +63,20 @@ def audit():
                 np.testing.assert_allclose([d.mean(),*np.quantile(d[draws].mean(1),[.025,.975])],
                     [record['mean_difference'],*record['ci95']],atol=1e-7)
                 contrasts+=1
+    for metric in ('error','nll','brier_two_class'):
+        vectors={}
+        for name in ('within_pca8_arguments','within_pca8_conclusion','nano_pca8_arguments','nano_pca8_conclusion'):
+            lp,y,qids=loaded['validation',name];qs=sorted(set(qids))
+            if metric=='error':loss=(lp.argmax(-1)!=y).astype(float)
+            elif metric=='nll':loss=-np.where(y,lp[...,1],lp[...,0])
+            else:loss=2*(np.exp(lp[...,1])-y)**2
+            vectors[name]=np.array([loss[:,qids==q].mean() for q in qs])
+        d=vectors['within_pca8_arguments']-vectors['within_pca8_conclusion']-vectors['nano_pca8_arguments']+vectors['nano_pca8_conclusion']
+        rng=np.random.default_rng(cfg['evaluation']['bootstrap_seed']);draws=rng.integers(0,len(qs),(cfg['evaluation']['bootstrap_replicates'],len(qs)))
+        record=summary['diagnostics']['difference_in_differences'][metric]
+        np.testing.assert_allclose([d.mean(),*np.quantile(d[draws].mean(1),[.025,.975])],
+            [record['mean_difference'],*record['ci95']],atol=1e-7)
+        contrasts+=1
     fit=np.load(root/'data/message_pca.npz',allow_pickle=False)
     train=np.flatnonzero(np.isin(data.common['episode_qids'],protocol['fold']['train_questions']))
     groups=[np.unique(ids[ids>2]) for ids in data.message_ids[train]]
@@ -80,6 +95,17 @@ def audit():
     expected=((np.asarray(data.full_vectors,dtype=np.float64)-fit['mean'])@axes.T/(float(fit['scale'])*np.sqrt(8))).astype(np.float32)
     expected[0]=0;np.testing.assert_array_equal(data.pca_vectors,expected)
     np.testing.assert_allclose((expected[all_ids]**2).mean(),1/8,atol=1e-7)
+    geometry_checks=0
+    for split in ('train','validation'):
+        episodes=np.flatnonzero(np.isin(data.common['episode_qids'],protocol['fold'][split+'_questions']))
+        ids=data.message_ids[episodes];mask=ids>0
+        for label,vectors in [('full384',data.full_vectors),('ordinary_pca8',np.load(old/'data/vectors_pca8.npy')),('within_pca8',expected)]:
+            x=np.asarray(vectors[ids],dtype=np.float64);values=x[mask];mean=values.mean(0);total=((values-mean)**2).sum()
+            between=sum(len(x[e][mask[e]])*((x[e][mask[e]].mean(0)-mean)**2).sum() for e in range(len(episodes)))
+            record=summary['representation_geometry'][split][label]
+            np.testing.assert_allclose([between/total,1-between/total],
+                [record['between_question_fraction'],record['within_question_fraction']],atol=3e-13)
+            geometry_checks+=1
     replay=[]
     for path in frozen['refits']:
         path=Path(path);m=study.read(path/'manifest.json');prior=study.read(old/'refit'/path.name/'manifest.json')
@@ -128,6 +154,7 @@ def audit():
         'paired_contrasts_recomputed':contrasts,'maximum_metric_difference':max(differences),
         'new_frozen_artifacts_verified':len(frozen['artifacts']),'prior_inputs_verified':len(protocol['inputs']),
         'training_unique_texts':len(all_ids),'pca_covariance_directly_verified':True,'source_anchor_episodes_verified':matched,
+        'representation_geometry_checks':geometry_checks,
         'model_replay':replay,'assessment_loaded':False,'source_llm_calls':0,
         'results_sha256':{str(p):digest(p) for p in (root/'results').iterdir() if p.is_file()},
         'audit_code_sha256':digest(__file__)}

@@ -1,0 +1,35 @@
+output: runs/distribution_prediction_320_v1
+state_reference: runs/generalization_investigation_320_v1/state_models_v1
+ordered_reference: runs/generalization_investigation_320_v1/ordered_transformer_v1
+probability_reference: runs/generalization_investigation_320_v1/noise_audit_v1
+architecture: {d_model: 8, heads: 4, d_k: 1, d_v: 2, ffn_dim: 16}
+models:
+  graph_opinion: {family: graph, probability_input: false, parameters: 818}
+  graph_probability: {family: graph, probability_input: true, parameters: 826}
+  ordered_choice_opinion: {family: ordered, text_input: conclusion, probability_input: false, parameters: 970}
+  ordered_choice_probability: {family: ordered, text_input: conclusion, probability_input: true, parameters: 978}
+  ordered_arguments_opinion: {family: ordered, text_input: arguments, probability_input: false, parameters: 970}
+  ordered_arguments_probability: {family: ordered, text_input: arguments, probability_input: true, parameters: 978}
+conditions: [distribution]
+training:
+  tuning_seed: 42
+  refit_seeds: [142, 143, 144]
+  learning_rates: [0.0001, 0.0003, 0.001]
+  output_penalties: [0.0, 0.001, 0.01]
+  dropout: 0.1
+  weight_decay: 0.001
+  batch_size: 32
+  evaluation_batch_size: 128
+  validation_every_steps: 512
+  max_steps: 32768
+  patience: 8
+  min_delta: 0.00005
+  gradient_clip: 1.0
+  torch_threads: 2
+  max_concurrent_models: 4
+  aggregate_minutes: 120
+evaluation:
+  primary: mean_KL_source_to_predictor
+  secondary: [probability_MAE, probability_MSE, fraction_within_0.05, modal_choice_agreement]
+  bootstrap_seed: 92147
+  bootstrap_replicates: 5000
